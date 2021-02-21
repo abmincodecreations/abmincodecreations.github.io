@@ -169,10 +169,7 @@ function animee() {
   var element = document.getElementById("animee");
   element.classList.add("animeestyle");
 }
-function Hey()
-{
-    location.reload();
-}
+
 function bg(){
   document.getElementById("myDIV").classList.add("body");
 }
