@@ -41,18 +41,18 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="#about" onClick="bg()">About me</a></li>
-          <li><a href="#resume" onClick="bg()">Resume</a></li>
-          <li><a href="#services" onClick="bg()" >Projects</a></li>
-          <li><a href="#contact" onClick="bg()">Contact</a></li>
+          <li><a href="#about" onClick="bg()" id="nav-about">About me</a></li>
+          <li><a href="#resume" onClick="bg()" id="nav-resume">Resume</a></li>
+          <li><a href="#services" onClick="bg()" id="nav-projects" >Projects</a></li>
+          <li><a href="#contact" onClick="bg()" id="nav-contact">Contact</a></li>
         </ul>
       </nav>
      
       <!-- .nav-menu -->
 
       <div class="social-links">
-        <a href="#" class="twitter"target = "_balnk" ><i class="icofont-twitter"></i></a>
-        <a href="https://www.instagram.com/abhishek.abmsan/"target = "_balnk"  class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://twitter.com/Abhishe47786701" class="twitter"target = "_balnk" ><i class="icofont-twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100013302915392"target = "_balnk"  class="facebook"><i class="icofont-facebook"></i></a>
         <a href="https://www.instagram.com/abhishek.abmsan/" target = "_balnk" class="instagram"><i class="icofont-instagram"></i></a>
         <a href="https://www.linkedin.com/in/abhishek-mishra-dev/" target = "_balnk" class="linkedin"><i class="icofont-linkedin"></i></a>
       </div>
@@ -469,8 +469,8 @@
     </div><!-- End Interests -->
 
 <div class="d-flex justify-content-center">
-  <a href="https://abmincodecreations.github.io/#resume" onClick="bg()">
-  <button class="page-btn m-2"> Next-page<i class="icofont-rounded-right"></i></button>
+  <a>
+  <button class="page-btn m-2"  onClick="gotoResume()"> Next-page<i class="icofont-rounded-right"></i></button>
   </a>
 </div>
 
@@ -543,11 +543,11 @@
 
     </div>
     <div class="d-flex justify-content-center">
-      <a href="https://abmincodecreations.github.io/#about" onClick="bg()">
-        <button class="page-btn m-2"><i class="icofont-rounded-left"></i>Previous-page </button>
+      <a>
+        <button class="page-btn m-2" onClick="gotoAboutMe()"><i class="icofont-rounded-left"></i>Previous-page </button>
       </a>
-      <a href="https://abmincodecreations.github.io/#services" onClick="bg()">
-      <button class="page-btn m-2"> Next-page<i class="icofont-rounded-right"></i></button>
+      <a>
+      <button class="page-btn m-2" onClick="gotoProjects()" > Next-page<i class="icofont-rounded-right"></i></button>
       </a>
     </div>
 
@@ -859,11 +859,11 @@
       </div>
     </div>
     <div class="d-flex justify-content-center">
-      <a href="https://abmincodecreations.github.io/#resume" onClick="bg()">
-        <button class="page-btn m-2"><i class="icofont-rounded-left"></i>Previous-page</button>
+      <a>
+        <button class="page-btn m-2" onClick="gotoResume()"><i class="icofont-rounded-left"></i>Previous-page</button>
       </a>
-      <a href="https://abmincodecreations.github.io/#contact" onClick="bg()">
-      <button class="page-btn m-2"> Next-page<i class="icofont-rounded-right"></i></button>
+      <a>
+      <button class="page-btn m-2" onClick="gotoContact()" > Next-page<i class="icofont-rounded-right"></i></button>
       </a>
     </div>
   </section>
@@ -895,8 +895,8 @@
             <i class="bx bx-share-alt"></i>
             <h3>Social Profiles</h3>
             <div class="social-links">
-              <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-              <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+              <a href="https://twitter.com/Abhishe47786701" class="twitter"><i class="icofont-twitter"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100013302915392" class="facebook"><i class="icofont-facebook"></i></a>
               <a href="https://www.instagram.com/abhishek.abmsan/" class="instagram"><i class="icofont-instagram"></i></a>
               <a href="https://www.linkedin.com/in/abhishek-mishra-dev/" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a>
             </div>
@@ -930,8 +930,8 @@
 <!-- form-space -->
 
     </div><div class="d-flex justify-content-center">
-      <a href="https://abmincodecreations.github.io/#services" onClick="bg()">
-      <button class="page-btn m-2"><i class="icofont-rounded-left"></i>Previous-page</button>
+      <a>
+      <button class="page-btn m-2" onClick="gotoProjects()" ><i class="icofont-rounded-left"></i>Previous-page</button>
       </a>
     </div>
 
@@ -942,7 +942,7 @@
   </div>
 
   <!-- Vendor JS Files -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
   <script src="https://kit.fontawesome.com/bebecab009.js" crossorigin="anonymous"></script>
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

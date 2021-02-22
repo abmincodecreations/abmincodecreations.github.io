@@ -173,3 +173,19 @@ function animee() {
 function bg(){
   document.getElementById("myDIV").classList.add("body");
 }
+
+function gotoProjects(){
+  document.getElementById("nav-projects").click();
+}
+
+function gotoContact(){
+  document.getElementById("nav-contact").click();
+}
+
+function gotoResume(){
+  document.getElementById("nav-resume").click();
+}
+
+function gotoAboutMe(){
+  document.getElementById("nav-about").click();
+}
