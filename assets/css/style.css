@@ -60,7 +60,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.page-btn{
+.page-btn{ 
+  position: relative;
+  margin-top: 50px;
   color: #fff;
   width:fit-content;
   height: fit-content;
@@ -71,12 +73,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5%;
   cursor: default;
   font-size: smaller;
-  
+  z-index: 1100000000000000;
 }
 
 @media (max-width: 992px) {
   .page-btn{
-    font-size: 10px;
+   
+    font-size: 12px;
   }
 }
 
