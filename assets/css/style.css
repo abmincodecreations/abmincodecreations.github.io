@@ -654,7 +654,7 @@ section .container {
   display: inline-block;
   width: 235px;
   padding: 0 25px;
-  height: 70px;
+  height: 75px;
   font-size: 15px;
   line-height: 40px;
   /*border-radius: 25px;*/
@@ -664,9 +664,19 @@ section .container {
   border-style:ridge;
   
 }
+.chip:active{
+  transform: scale(0.85);
+}
+.chip:focus{
+  outline: none;
+  opacity: 0.8;
+}
+.chip:hover {
+  background-color: rgb(2, 109, 10);
+}
 @media only screen and (max-width: 900px) {
   .chip {
-     margin-top: -9px;
+     margin-top: -8px;
    }
 }
 .chip .logodiv{
@@ -722,7 +732,7 @@ section .container {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   width:100%;
-  height: 25px;
+  height: 30px;
   margin-top: 35px;
  
 }
@@ -736,6 +746,7 @@ section .container {
     }
  #project-grid {
         height:30px;
+      
     }
 #projects-grid{
     margin-top:auto;
@@ -743,17 +754,19 @@ section .container {
     display: flex;
     padding-top:-200px;
     justify-content: center;
-    margin-bottom:50px;
+    margin-bottom:70px;
     margin-left: -3vw;
-    height: fit-content;
+    height:fit-content;
     left: 40px;
     background-color: #040404;
     width: 100%;
 }
 @media(max-width:650px){
     #project-grid {
-        width:98%;
-    }
+        width:75vw;
+        position: relative;
+        margin-top:auto;
+  }
 }
 
 .services .icon-box .icon {
@@ -788,7 +801,7 @@ section .container {
   transform: translateZ(-1px);
 }
 
-.icon-box h4 div p {
+.icon-box div p {
   position: relative;
   font-weight: 400;
   text-align: center;
@@ -796,7 +809,7 @@ section .container {
   opacity: 1;
 }
 
-.services .icon-box h4 a {
+.services .icon-box  a {
   color: #fff;
 }
 
