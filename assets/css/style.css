@@ -639,30 +639,36 @@ section .container {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/ 
-#services .container{
- position: relative;
- margin-bottom: 100px;
-}
-#services .container .section-title{
+
+ #projects-grid{
   position: relative;
-  margin-bottom: 0px;
- }
-.chip {  
-  margin-left:0px;
-  margin-bottom: 100px;
+  left: 0;
+  right: 0;
+  margin-top:0;
   position: relative;
-  display: inline-block;
-  width: 235px;
-  padding: 0 25px;
+  padding-top:-220px;
+  justify-content: center;
+  margin-left: -3vw;
+  height:auto;
+  background-color: #04040400;
+  width: 100%;
+  }
+  
+/*--------------------------------------------------------------
+# services new code 
+--------------------------------------------------------------*/
+.chip { 
+  z-index: 10000;
+  display: block;
+  width: 230px;
   height: 75px;
-  font-size: 15px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 15px;
   /*border-radius: 25px;*/
   background-color:rgba(17, 15, 15, 0.925);/*  rgb(0, 0, 0);*/
   border-width:4px;  
-  border-color:rgba(0, 0, 0, 0.637);
+  border-color:rgba(39, 38, 38, 0.637);
   border-style:ridge;
-  
 }
 .chip:active{
   transform: scale(0.85);
@@ -674,67 +680,29 @@ section .container {
 .chip:hover {
   background-color: rgb(2, 109, 10);
 }
-@media only screen and (max-width: 900px) {
-  .chip {
-     margin-top: -8px;
-   }
-}
 .chip .logodiv{
-
   float: left;
-  margin: 7px 5px 0 -15px;
-  height: 45px;
-  width: 45px;
+  margin: 4px 4px 0 5px;
+  height: 55px;
+  width: 55px;
   border-radius: 50%;
   background-color: white;
 }
-.dropdown-content {
-   float: left;
-   margin:0 auto;
-   text-align: center;
-   padding-top: -10px;
-   width: 260px;
-   height: 100px;  
-   display: none;
-   position: absolute;
-   color:white;
-   border-bottom: 5px solid white;
-   background-color: green;
-   box-shadow: 0px 8px 16px 0px rgba(0, 228, 68, 0.534);
-   z-index: 1;  
-}
+
 .fab{
     margin-top: 10px;
     color:  #18d26e;
-    font-size: 25px;
+    font-size: 35px;
 }
-/*
-.chip:hover .dropdown-content {
-
-    display: block;
-     animation-name:web-in;
-     animation-duration:0.4s;
-     animation-timing-function:ease-in;
-     animation-iteration-count: 1; 
-    }
- @keyframes web-in {
-  from {height:0px;}
-  to {height:100px;}
-}   
-*/
-.services .icon-box {
-  display: grid;
+.services .icon-boxx {
+  color: #fff;
+  display: block;
   text-align: center;
-  position: relative;
-  margin-bottom: 0px;
-  /*background: rgba(204, 204, 204, 0.1);*/
+  background: rgba(168, 13, 13, 0.1);/**/
   background-color: transparent;
-  padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  width:100%;
-  height: 30px;
-  margin-top: 35px;
- 
+  width:fit-content;
+  height: auto;
 }
 .nowrap{
     white-space: nowrap;
@@ -744,83 +712,22 @@ section .container {
 .getup{
         margin-top: -9px;
     }
- #project-grid {
-        height:30px;
-      
-    }
+
 #projects-grid{
-    margin-top:auto;
-    position: relative;
-    display: flex;
-    padding-top:-200px;
+    padding-top: -40px;
+    padding-bottom: 50px;
     justify-content: center;
-    margin-bottom:70px;
-    margin-left: -3vw;
-    height:fit-content;
-    left: 40px;
-    background-color: #040404;
-    width: 100%;
 }
-@media(max-width:650px){
-    #project-grid {
-        width:75vw;
-        position: relative;
-        margin-top:auto;
-  }
-}
-
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 64px;
-  height:0px;
-  background:#18d26e;
-  border-radius: 5px;
-  transition: all .3s ease-out 0s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0px;
-  transform-style: preserve-3d;
-}
-
-.services .icon-box .icon i {
-  color: #fff;
-  font-size: 5px;
-}
-
-.services .icon-box .icon::before {
-  position: absolute;
-  content: '';
-  left: 0;
-  top:  0;
-  height: 100px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 5px;
-  transition: all .3s ease-out 0s;
-  transform: translateZ(-1px);
-}
-
-.icon-box div p {
+.icon-boxx .chip p {
+  margin-left: 10px;
+  margin: 5px;
   position: relative;
   font-weight: 400;
-  text-align: center;
+  text-align:left;
   font-size: 16px;
   opacity: 1;
 }
 
-.services .icon-box  a {
-  color: #fff;
-}
-
-.services .icon-box p {
-
-
-  font-size: 16px;
-  margin-bottom: 0;
-  text-align: center;
- 
-}
 
 /*--------------------------------------------------------------
 # Contact
