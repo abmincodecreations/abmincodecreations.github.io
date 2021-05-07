@@ -64,7 +64,7 @@ for (i = 0; i < servicesData.length; i++) {
 
 function servicesTemplate(data){
   return `
-<div class="${'col-sm-12  col-md-5 m-1 '} ${data.position}" data-aos="${data.animation}" data-aos-delay=" ${data.animaeDuration}" >
+<div class="${'col-sm-12  col-md-5 m-1 '} ${data.position}" >
   <a href="${data.btnLink}" target="_blank">
     <div class="icon-boxx">
               <div class="chip">
