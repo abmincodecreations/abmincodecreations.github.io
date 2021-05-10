@@ -715,7 +715,7 @@ section .container {
 
 #projects-grid{
     padding-top: -40px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
     justify-content: center;
 }
 .icon-boxx .chip p {
