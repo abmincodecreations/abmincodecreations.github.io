@@ -42,7 +42,7 @@ let InterestsData=[
     color:' #ffa76e'
   },
   {
-    Interest: 'Learning Medical FactsBackend Development',
+    Interest: 'Learning Medical Facts',
     logoClass:'ri-hospital-line',
     position: " ",
     color:'#e361ff'
@@ -82,11 +82,11 @@ for (i = 0; i < InterestsData.length; i++) {
 function InterestsTemplate(data){
   return `
   <div class="col-lg-3 col-md-4 ${data.position}">
-    <div class="icon-box">
-      <i class="${data.logoClass}" style="color:${data.color};"></i>
-      <h3>${data.Interest}</h3>
-    </div>
+  <div class="icon-box">
+    <i class="${data.logoClass}" style="color:${data.color};"></i>
+    <h3>${data.Interest}</h3>
   </div>
+</div>
   `
 }
 document.getElementById("InterestsGenerator").innerHTML=`
