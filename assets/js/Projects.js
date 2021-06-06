@@ -1,5 +1,11 @@
 let servicesData=[
   {
+    name: '‎Pomodoro<br>Clock',
+    logoClass:'far fa-clock',
+    position: "‎‎‎‎‏‏‎ ",
+    btnLink:"https://abmincodecreations.github.io/Pomodoro-Clock/"
+  },
+  {
     name: '‎JavaScript<br>Calculator',
     logoClass:'fas fa-calculator',
     position: "‎‎‎‎‏‏‎ ",
