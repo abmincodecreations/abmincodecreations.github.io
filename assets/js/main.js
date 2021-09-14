@@ -169,23 +169,44 @@ function animee() {
   var element = document.getElementById("animee");
   element.classList.add("animeestyle");
 }
+function sliderBtnVisibility(){
+  document.getElementById("slider-btn").style.display="none";
+}
 
 function bg(){
   document.getElementById("myDIV").classList.add("body");
+  sliderBtnVisibility();
 }
 
 function gotoProjects(){
   document.getElementById("nav-projects").click();
+  sliderBtnVisibility();
 }
 
 function gotoContact(){
   document.getElementById("nav-contact").click();
+  sliderBtnVisibility();
 }
 
 function gotoResume(){
   document.getElementById("nav-resume").click();
+  sliderBtnVisibility();
 }
 
 function gotoAboutMe(){
   document.getElementById("nav-about").click();
+  sliderBtnVisibility();
 }
+function gotoUxProjects(){
+  document.getElementById("nav-ux-projects").click();
+  sliderBtnVisibility();
+}
+
+window.onload = function pageReloadUiManager(){
+  
+ var currentUrl="hii"+window.location.href;
+ var homepage="hiihttps://abmincodecreations.github.io/";
+ if(currentUrl != homepage){
+  bg();
+   }
+  }

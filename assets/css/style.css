@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -9,10 +8,10 @@ body {
   position: relative;
   background: transparent;
 }
-.body::before{
+.body::before {
   content: "";
   position: fixed;
-  background: #000000 ;
+  background: #000000;
   background-image: url("../img/bgh.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
@@ -22,11 +21,11 @@ body {
   width: 100vw;
   z-index: -1;
 }
-body::before{
+body::before {
   content: "";
   position: fixed;
   background: #000000 url("../img/bg.jpg") top right no-repeat;
-  background-size: auto 90vh ;
+  background-size: auto 90vh;
   left: 0;
   right: 0;
   top: 0;
@@ -45,8 +44,6 @@ body::before{
   }
 }
 
-
-
 a {
   color: #18d26e;
 }
@@ -56,19 +53,24 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.page-btn{ 
+.page-btn {
   position: relative;
   margin-top: 50px;
   color: #fff;
-  width:fit-content;
+  width: fit-content;
   height: fit-content;
   border-color: #000000;
-  border-width: 2px 8px ;
-   border-style: solid;
+  border-width: 2px 8px;
+  border-style: solid;
   background-color: #0c0202a8;
   border-radius: 5%;
   cursor: default;
@@ -77,25 +79,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 992px) {
-  .page-btn{
-   
+  .page-btn {
     font-size: 12px;
   }
 }
 
-
-.page-btn:hover{
+.page-btn:hover {
   opacity: 85%;
   background-color: #000000f3;
 }
-.page-btn:active{
-  transform: scale(0.90);
+.page-btn:active {
+  transform: scale(0.9);
 }
-.page-btn:focus{
+.page-btn:focus {
   outline: none;
   opacity: 0.8;
 }
 
+#slider-btn {
+  position: relative;
+  align-self: center;
+  top: 2.5rem;
+  font-size: 50px;
+}
+
+@media (min-width: 992px) {
+  #slider-btn {
+    display: block;
+    text-align: center;
+  }
+}
+
+.slider-invisible {
+  display: none;
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -107,7 +124,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   z-index: 9997;
- 
 }
 
 #header * {
@@ -123,7 +139,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header h1 a, #header h1 a:hover {
+#header h1 a,
+#header h1 a:hover {
   color: #fff;
   line-height: 1;
   display: inline-block;
@@ -133,11 +150,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.8);
   margin-top: 2px;
- 
 }
 @media (max-width: 995px) {
-  #header h2{
-    text-align : center;
+  #header h2 {
+    text-align: center;
   }
 }
 
@@ -192,6 +208,40 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
   }
 }
+@media (max-width: 340px) {
+  #header h1 {
+    font-size: 25px;
+  }
+  #header h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #header .social-links {
+    margin-top: 15px;
+  }
+  #header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 240px) {
+  #header h1 {
+    font-size: 20px;
+  }
+  #header h2 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #header .social-links {
+    margin-top: 15px;
+  }
+  #header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -234,12 +284,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+.nav-menu a:hover:before,
+.nav-menu li:hover > a:before,
+.nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #fff;
   text-decoration: none;
 }
@@ -296,7 +350,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #18d26e;
   text-decoration: none;
 }
@@ -337,7 +393,8 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.9);
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links,
+#header.header-top h2 {
   display: none;
 }
 
@@ -433,7 +490,7 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.my-img{
+.my-img {
   border-radius: 5px;
 }
 
@@ -534,7 +591,7 @@ section .container {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #18d26e;
 }
 
@@ -547,10 +604,7 @@ section .container {
   padding: 20px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
- 
 }
-
-
 
 .interests .icon-box i {
   font-size: 32px;
@@ -565,7 +619,6 @@ section .container {
   line-height: 1.5;
   font-size: 16px;
   color: #fff;
-   
 }
 
 .interests .icon-box:hover {
@@ -582,7 +635,7 @@ section .container {
   margin-bottom: 20px;
   color: #fff;
 }
-.resume .resume-title .flexer{
+.resume .resume-title .flexer {
   width: 100%;
 }
 
@@ -638,26 +691,26 @@ section .container {
 
 /*--------------------------------------------------------------
 # Services
---------------------------------------------------------------*/ 
+--------------------------------------------------------------*/
 
- #projects-grid{
+#projects-grid {
   position: relative;
   left: 0;
   right: 0;
-  margin-top:0;
+  margin-top: 0;
   position: relative;
-  padding-top:-220px;
+  padding-top: -220px;
   justify-content: center;
   margin-left: -3vw;
-  height:auto;
+  height: auto;
   background-color: #04040400;
   width: 100%;
-  }
-  
+}
+
 /*--------------------------------------------------------------
 # services new code 
 --------------------------------------------------------------*/
-.chip { 
+.chip {
   z-index: 10000;
   display: block;
   width: 230px;
@@ -665,22 +718,22 @@ section .container {
   font-size: 16px;
   line-height: 18px;
   /*border-radius: 25px;*/
-  background-color:rgba(17, 15, 15, 0.925);/*  rgb(0, 0, 0);*/
-  border-width:4px;  
-  border-color:rgba(39, 38, 38, 0.637);
-  border-style:ridge;
+  background-color: rgba(17, 15, 15, 0.925); /*  rgb(0, 0, 0);*/
+  border-width: 4px;
+  border-color: rgba(39, 38, 38, 0.637);
+  border-style: ridge;
 }
-.chip:active{
+.chip:active {
   transform: scale(0.95);
 }
-.chip:focus{
+.chip:focus {
   outline: none;
   opacity: 0.8;
 }
 .chip:hover {
   background-color: rgb(2, 109, 10);
 }
-.chip .logodiv{
+.chip .logodiv {
   float: left;
   margin: 4px 4px 0 5px;
   height: 55px;
@@ -689,34 +742,34 @@ section .container {
   background-color: white;
 }
 
-.fab{
-    margin-top: 10px;
-    color:  #18d26e;
-    font-size: 35px;
+.fab {
+  margin-top: 10px;
+  color: #18d26e;
+  font-size: 35px;
 }
 .services .icon-boxx {
   color: #fff;
   display: block;
   text-align: center;
-  background: rgba(168, 13, 13, 0.1);/**/
+  background: rgba(168, 13, 13, 0.1); /**/
   background-color: transparent;
   transition: all ease-in-out 0.3s;
-  width:fit-content;
+  width: fit-content;
   height: auto;
 }
-.nowrap{
-    white-space: nowrap;
-    font-size: 16px;
-     direction:ltr;
-    }
-.getup{
-        margin-top: -9px;
-    }
+.nowrap {
+  white-space: nowrap;
+  font-size: 16px;
+  direction: ltr;
+}
+.getup {
+  margin-top: -9px;
+}
 
-#projects-grid{
-    padding-top: -40px;
-    padding-bottom: 5px;
-    justify-content: center;
+#projects-grid {
+  padding-top: -40px;
+  padding-bottom: 5px;
+  justify-content: center;
 }
 .icon-boxx .chip p {
   margin-left: 10px;
@@ -724,30 +777,42 @@ section .container {
   padding: 3px;
   position: relative;
   font-weight: 400;
-  text-align:left;
+  text-align: left;
   font-size: 16px;
   opacity: 1;
 }
-
+/*--------------------------------------------------------------
+# UX projects 
+--------------------------------------------------------------*/
+.presentation{
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.presentation iframe {
+position: absolute;
+width: 100%;
+height: 100%;
+}
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.link-color-disable:link{
+.link-color-disable:link {
   color: #ffffff;
   text-decoration: none;
 }
 .link-color-disable:hover {
-  color:#18d26e;
+  color: #18d26e;
 }
-.checkme{
-     padding: 5px;
-     margin: auto;
-   
+.checkme {
+  padding: 5px;
+  margin: auto;
 }
-.submitinput{
-    width: 35vw;
-    margin-top: 4px;
+.submitinput {
+  width: 35vw;
+  margin-top: 4px;
 }
 .contact .info-box {
   color: #444444;
@@ -853,7 +918,8 @@ section .container {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -863,31 +929,37 @@ section .container {
   color: #fff;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   background-color: rgba(255, 255, 255, 0.11);
 }
 
-.contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
+.contact .php-email-form input::-webkit-input-placeholder,
+.contact .php-email-form textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
+.contact .php-email-form input::-moz-placeholder,
+.contact .php-email-form textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input:-ms-input-placeholder, .contact .php-email-form textarea:-ms-input-placeholder {
+.contact .php-email-form input:-ms-input-placeholder,
+.contact .php-email-form textarea:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::-ms-input-placeholder, .contact .php-email-form textarea::-ms-input-placeholder {
+.contact .php-email-form input::-ms-input-placeholder,
+.contact .php-email-form textarea::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
-.contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
+.contact .php-email-form input::placeholder,
+.contact .php-email-form textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
@@ -930,7 +1002,6 @@ section .container {
     transform: rotate(360deg);
   }
 }
-
 
 /*--------------------------------------------------------------
 # Credits
