@@ -204,9 +204,9 @@ function gotoUxProjects(){
 
 window.onload = function pageReloadUiManager(){
   
- var currentUrl="hii"+window.location.href;
- var homepage="hiihttps://abmincodecreations.github.io/";
- if(currentUrl != homepage){
-  bg();
+  var currentUrl="hii"+window.location.href;
+  var homepage="hiihttps://abmincodecreations.github.io/";
+  if(currentUrl != homepage){
+   bg();
+    }
    }
-  }

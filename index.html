@@ -38,12 +38,12 @@
      <h2 style="font-size: 30px; font-weight: 400;">Hey! I'm </h2>
       <h1 style="color:#18d26e;" ><a>Abhishek  Mishra</a></h1>
       <h2> a passionate Computer Science & <br/>
-        <span>Software Development enthusiast </span> from Rourkela,India</h2>
+        <span>Software Development enthusiast </span> from Rourkela,India.</h2>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li><a href="#about" onClick="bg()" id="nav-about">About me</a></li>
-          <li><a href="#resume" onClick="bg()" id="nav-resume">Resume</a></li>
+          <li><a href="#about" onClick="bg()" id="nav-about">About-me</a></li>
+          <li><a href="#resume" onClick="bg()" id="nav-resume">Check-my-Resume</a></li>
           <li><a href="#services" onClick="bg()" id="nav-projects">Coding-Projects</a></li>
           <li><a href="#ux-projects" onClick="bg()" id="nav-ux-projects">UX-Project</a></li>
           <li><a href="#contact" onClick="bg()" id="nav-contact">Contact</a></li>
@@ -58,7 +58,9 @@
         <a href="https://www.instagram.com/abhishek.abmsan/" target = "_balnk" class="instagram"><i class="icofont-instagram"></i></a>
         <a href="https://www.linkedin.com/in/abhishek-mishra-dev/" target = "_balnk" class="linkedin"><i class="icofont-linkedin"></i></a>
       </div>
-      <div id="slider-btn" onClick="gotoAboutMe()"><i class="icofont-scroll-down"></i></div>
+      <nav>
+      <div id="slider-btn" aria-label="Next Page Button" onClick="gotoAboutMe()"><i class="icofont-scroll-down"></i></div>
+      </nav>
     </div>
   </header> 
    <!-- End Header -->
@@ -202,10 +204,11 @@
       </div>
 
     </div><!-- End Interests -->
-
+<nav>
 <div class="d-flex justify-content-center">
-  <button class="page-btn m-2"  onClick="gotoResume()"> Next-page<i class="icofont-rounded-right"></i></button>
+  <button class="page-btn m-2" aria-label="Next Page Button" onClick="gotoResume()"> Next-page<i class="icofont-rounded-right"></i></button>
 </div>
+</nav>
 
   </section><!-- End About Section -->
 
@@ -214,13 +217,13 @@
     <div class=" container">
 
       <div class="section-title">
-        <h2>Resume:</h2>
-        <p>Check My Resume</p>
+        <h2>Check-My-Resume :</h2>
+        <p>Overview</p>
       </div>
 
       <div class="row">
         <div class="col-lg-6">
-          <h3 class="resume-title">Sumary</h3>
+          <h3 class="resume-title">Summary</h3>
           <div class="resume-item pb-0">
             <h4>Abhishek  Mishra</h4>
             <p>I am a keen learner having interest in ui-ux and software developer roles</p>
@@ -275,10 +278,13 @@
       </div>
 
     </div>
+
+    <nav>
     <div class="d-flex justify-content-center">
-        <button class="page-btn m-2" onClick="gotoAboutMe()"><i class="icofont-rounded-left"></i>Previous-page </button>
-      <button class="page-btn m-2" onClick="gotoProjects()" > Next-page<i class="icofont-rounded-right"></i></button>
+        <button class="page-btn m-2" aria-label="Previous Page Button" onClick="gotoAboutMe()"><i class="icofont-rounded-left"></i>Previous-page </button>
+      <button class="page-btn m-2" aria-label="Next Page Button" onClick="gotoProjects()" > Next-page<i class="icofont-rounded-right"></i></button>
     </div>
+    </nav>
 
   </section>
   <!-- End Resume Section -->
@@ -299,13 +305,14 @@
       </div>
     </div>
   </div>
-
-<div class="d-flex justify-content-center mt-4">
-    <button class="page-btn m-2" onClick="gotoResume()"><i class="icofont-rounded-left"></i>Previous-page</button>
-    <button class="page-btn m-2" onClick="gotoUxProjects()"> Next-page<i class="icofont-rounded-right"></i></button>
 </div>
 </div>
-</div>
+<nav>
+  <div class="d-flex justify-content-center mt-4">
+      <button class="page-btn m-2" aria-label="Previous Page Button" onClick="gotoResume()"><i class="icofont-rounded-left"></i>Previous-page</button>
+      <button class="page-btn m-2" aria-label="Next Page Button" onClick="gotoUxProjects()"> Next-page<i class="icofont-rounded-right"></i></button>
+  </div>
+  </nav>
 </section>
   </br>
   <!-- End Project Section -->
@@ -345,14 +352,17 @@
     </div>
 </div>
 <div class="presentation">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFQuDSYFrxT9DVIcly7qT1cuqMe5BSNAL0ZT3e54ej_4oSUa_XUY7qxb7D4300QSJm42-p2JGmkobC/embed?start=true&loop=true&delayms=5000" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFQuDSYFrxT9DVIcly7qT1cuqMe5BSNAL0ZT3e54ej_4oSUa_XUY7qxb7D4300QSJm42-p2JGmkobC/embed?start=true&loop=true&delayms=3000" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
-<div class="d-flex justify-content-center mt-4">
-  <button class="page-btn m-2" onClick="gotoProjects()"><i class="icofont-rounded-left"></i>Previous-page</button>
-<button class="page-btn m-2" onClick="gotoContact()" > Next-page<i class="icofont-rounded-right"></i></button>
+
 </div>
 </div>
-</div>
+<nav>
+  <div class="d-flex justify-content-center mt-4">
+    <button class="page-btn m-2" aria-label="Previous Page Button" onClick="gotoProjects()"><i class="icofont-rounded-left"></i>Previous-page</button>
+  <button class="page-btn m-2" aria-label="Next Page Button" onClick="gotoContact()" > Next-page<i class="icofont-rounded-right"></i></button>
+  </div>
+</nav>
 </section>
 </br>
 <!-- End UX Project Section -->
@@ -414,15 +424,16 @@
       </div>
 
 <!-- form-space -->
-
-    </div><div class="d-flex justify-content-center">
-      <button class="page-btn m-2" onClick="gotoUxProjects()" ><i class="icofont-rounded-left"></i>Previous-page</button>
     </div>
-
+<nav>
+    <div class="d-flex justify-content-center">
+      <button class="page-btn m-2" aria-label="Previous Page Button" onClick="gotoUxProjects()" ><i class="icofont-rounded-left"></i>Previous-page</button>
+    </div>
+</nav>
   </section><!-- End Contact Section -->
 
   <div class="credits">
-    Designed by <a href="https://www.linkedin.com/in/abhishek-mishra-dev/">Abhishek Mishra</a>
+    Designed & Develped by <a href="https://www.linkedin.com/in/abhishek-mishra-dev/">Abhishek Mishra</a>
   </div>
 
   <!-- Vendor JS Files -->
