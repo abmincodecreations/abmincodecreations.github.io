@@ -843,6 +843,29 @@ height: 100%;
     margin-top: 500px;
   }
 }
+.figma-prototype{
+ width: fit-content;
+ height: fit-content;
+ border: ridge rgb(223, 223, 223);
+ border-width: 30px 5px 25px 5px ;
+ border-radius: 5%;
+}
+.figma-prototype iframe{
+  max-width:"360";
+  max-height:"750";
+  margin-top: 0px;
+  margin-left: 2px;
+  margin-right: 1px;
+  margin-bottom: 0px;
+}
+.protoype-design-considerations{
+  list-style-type:none;
+}
+.protoype-design-considerations li i{
+  color: #18d26e;
+  font-size: large;
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
