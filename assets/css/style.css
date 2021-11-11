@@ -119,6 +119,19 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+@media (min-width: 993px) {
+  #gif-hello{
+  display: none;
+  }
+}
+@media (max-width: 450px) {
+  #gif-hello{
+  width:125px;
+  height: 125px;
+  border-radius: 5%;
+  }
+}
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -793,7 +806,6 @@ section .container {
 .presentation{
   position: relative;
   left:0%;
-  margin:0px;
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
@@ -801,10 +813,13 @@ section .container {
 }
 
 .presentation iframe {
+margin: bottom 10%;;
+padding: 2%;
 position: absolute;
 width: 100%;
 height: 100%;
 }
+
 
 .image-ux-project{
   margin-top: 200px;
@@ -850,9 +865,14 @@ height: 100%;
  border-width: 30px 5px 25px 5px ;
  border-radius: 5%;
 }
+@media only screen and (max-width: 410px) {
+ .figma-prototype{
+   display: none;
+ }
+}
 .figma-prototype iframe{
   max-width:"360";
-  max-height:"750";
+  max-height:"770";
   margin-top: 0px;
   margin-left: 2px;
   margin-right: 1px;

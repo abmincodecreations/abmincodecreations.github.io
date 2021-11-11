@@ -169,8 +169,15 @@ function animee() {
   var element = document.getElementById("animee");
   element.classList.add("animeestyle");
 }
+function slidergifVisibility(){
+  if (window.matchMedia("(max-width: 993px)").matches) {
+    document.getElementById("gif-hello").style.display="none";
+  } 
+}
+
 function sliderBtnVisibility(){
   document.getElementById("slider-btn").style.display="none";
+  slidergifVisibility();
 }
 
 function bg(){
@@ -181,25 +188,30 @@ function bg(){
 function gotoProjects(){
   document.getElementById("nav-projects").click();
   sliderBtnVisibility();
+  slidergifVisibility();
 }
 
 function gotoContact(){
   document.getElementById("nav-contact").click();
   sliderBtnVisibility();
+  slidergifVisibility();
 }
 
 function gotoResume(){
   document.getElementById("nav-resume").click();
   sliderBtnVisibility();
+  slidergifVisibility();
 }
 
 function gotoAboutMe(){
   document.getElementById("nav-about").click();
   sliderBtnVisibility();
+  slidergifVisibility();
 }
 function gotoUxProjects(){
   document.getElementById("nav-ux-projects").click();
   sliderBtnVisibility();
+  slidergifVisibility();
 }
 
 window.onload = function pageReloadUiManager(){
