@@ -172,7 +172,8 @@ function animee() {
 function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
     document.getElementById("gif-hello").style.display="none";
-  } 
+    sliderBtnVisibility();
+  }
 }
 
 function sliderBtnVisibility(){
@@ -182,7 +183,6 @@ function sliderBtnVisibility(){
 
 function bg(){
   document.getElementById("myDIV").classList.add("body");
-  sliderBtnVisibility();
 }
 
 function gotoProjects(){
@@ -213,6 +213,8 @@ function gotoUxProjects(){
   sliderBtnVisibility();
   slidergifVisibility();
 }
+
+
 
 window.onload = function pageReloadUiManager(){
   
