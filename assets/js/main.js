@@ -165,6 +165,7 @@
 
 })(jQuery);
 // services section (animee)
+var anyclickonpage= false;
 function animee() {
   var element = document.getElementById("animee");
   element.classList.add("animeestyle");
@@ -172,6 +173,7 @@ function animee() {
 function bg(){
   document.getElementById("myDIV").classList.add("body");
   sliderBtnVisibility();
+  anyclickonpage= true;
 }
 
 function slidergifVisibility(){
@@ -179,44 +181,63 @@ function slidergifVisibility(){
     document.getElementById("gif-hello").style.display="none";
     sliderBtnVisibility();
     bg();
+    anyclickonpage= true;
   }
 }
 
 function sliderBtnVisibility(){
   document.getElementById("slider-btn").style.display="none";
   slidergifVisibility();
+  anyclickonpage= true;
 }
 
 function gotoProjects(){
   document.getElementById("nav-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
+  anyclickonpage= true;
 }
 
 function gotoContact(){
   document.getElementById("nav-contact").click();
   sliderBtnVisibility();
   slidergifVisibility();
+  anyclickonpage= true;
 }
 
 function gotoResume(){
   document.getElementById("nav-resume").click();
   sliderBtnVisibility();
   slidergifVisibility();
+  anyclickonpage= true;
 }
 
 function gotoAboutMe(){
   document.getElementById("nav-about").click();
   sliderBtnVisibility();
   slidergifVisibility();
+  anyclickonpage= true;
 }
 function gotoUxProjects(){
   document.getElementById("nav-ux-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
+  anyclickonpage= true;
 }
 
 
+function WindowSizeAdjustor(){
+  var varWidth = document.documentElement.clientWidth;
+  var varHeight = document.documentElement.clientHeight;
+  if(anyclickonpage){
+    if (varWidth<993) {
+        slidergifVisibility();
+    }
+  }
+}
+
+window.addEventListener("resize", WindowSizeAdjustor);
+  
 
 window.onload = function pageReloadUiManager(){
   
@@ -224,5 +245,8 @@ window.onload = function pageReloadUiManager(){
   var homepage="hiihttps://abmincodecreations.github.io/";
   if(currentUrl != homepage){
    bg();
+   anyclickonpage= true;
     }
    }
+
+
