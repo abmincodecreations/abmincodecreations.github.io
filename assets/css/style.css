@@ -843,7 +843,7 @@ height: 100%;
     margin-top: 300px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 410px) {
   .image-ux-project{
     margin-top: 370px;
   }
@@ -855,7 +855,7 @@ height: 100%;
 }
 @media only screen and (max-width: 258px) {
   .image-ux-project{
-    margin-top: 500px;
+    margin-top: 100px;
   }
 }
 .figma-prototype{

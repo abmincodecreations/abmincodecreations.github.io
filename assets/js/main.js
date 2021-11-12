@@ -169,20 +169,22 @@ function animee() {
   var element = document.getElementById("animee");
   element.classList.add("animeestyle");
 }
+function bg(){
+  document.getElementById("myDIV").classList.add("body");
+  sliderBtnVisibility();
+}
+
 function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
     document.getElementById("gif-hello").style.display="none";
     sliderBtnVisibility();
+    bg();
   }
 }
 
 function sliderBtnVisibility(){
   document.getElementById("slider-btn").style.display="none";
   slidergifVisibility();
-}
-
-function bg(){
-  document.getElementById("myDIV").classList.add("body");
 }
 
 function gotoProjects(){
