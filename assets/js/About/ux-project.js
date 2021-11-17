@@ -33,7 +33,7 @@ let UXprojectsDatalist=[
 
 function UXprojectTemplate(data){
   return `
-<div class="col-lg-6 col-md-6 portfolio-item filter-app justify-content-center">
+<div class="col-lg-5 col-md-5 portfolio-item filter-app justify-content-center m-4 p-0">
   <div class="portfolio-wrap">
     <img src="${data.picture}" class="img-fluid" alt="">
     <div class="portfolio-info">
@@ -57,7 +57,7 @@ function linkManager(i){
   switch (i){
     case 1:
       document.getElementById("projectslink-generator").innerHTML=`
-      <div class="section-title">
+      <div class="section-title container">
         <h2>UX Project:</h2>
         <p>Check out my UX project</p>
       </div>
@@ -142,10 +142,9 @@ function linkManager(i){
     </div>
     <div id="portfolio" class="portfolio">
       <div class="container">
-  
         <div class="section-title">
-          <h2>  Explore more of</h2>
-          <p>My Works</p>
+          <h2>  Explore more</h2>
+          <p>UX Projects</p>
       <!--Start of works list-->
         </div>
         <div  id="Explore-more-project-generator" class="row portfolio-container">
@@ -161,7 +160,7 @@ function linkManager(i){
   }
   function ExploreMoreprojectTemplate(data){
     return `
-  <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item filter-app">
+  <div class="col-lg-5 col-md-5 portfolio-item filter-app justify-content-center m-3 p-0">
     <div class="portfolio-wrap">
       <img src="${data.picture}" class="img-fluid" alt="">
       <div class="portfolio-info">
@@ -180,3 +179,4 @@ function linkManager(i){
   ${UXprojectsDatalist.map( ExploreMoreprojectTemplate).join('')}
   `;
 }
+

@@ -138,6 +138,7 @@ function animee() {
   var element = document.getElementById("animee");
   element.classList.add("animeestyle");
 }
+
 function bg(){
   document.getElementById("myDIV").classList.add("body");
   sliderBtnVisibility();
