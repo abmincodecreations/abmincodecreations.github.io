@@ -4,16 +4,16 @@ let ToolsAndTechnologySkillsData=[
     percentage:'60'
   },
   {
-    Skill: ' FIGMA ',
-    percentage:'95'
-  },
-  {
     Skill: ' GIT',
     percentage:'60'
   },
   {
-    Skill: 'JIRA ',
-    percentage:'50'
+    Skill: 'Adobe XD ',
+    percentage:'80'
+  },
+  {
+    Skill: ' FIGMA ',
+    percentage:'95'
   }
 ];
 

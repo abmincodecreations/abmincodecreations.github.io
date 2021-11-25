@@ -46,14 +46,6 @@ let TopSkillsData=[
   {
     Skill: ' REACT-REDUX',
     percentage:'55'
-  },
-  {
-    Skill: ' JQUERY',
-    percentage:'100'
-  },
-  {
-    Skill: ' PHP',
-    percentage:'25'
   }
 ];
 
