@@ -217,4 +217,3 @@ window.onload = function pageReloadUiManager(){
     }
    }
 
-

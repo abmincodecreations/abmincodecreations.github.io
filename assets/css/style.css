@@ -864,6 +864,8 @@ height: 100%;
   position: relative;
   width:100vw;
   text-align: center;
+}
+.image-style-border-foodies{
   border: ridge rgb(250, 3, 3);
   border-width: 0px 0px 10px 0px ;
 }
