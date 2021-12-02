@@ -46,7 +46,6 @@ function gotoUxProjects(){
 }
 
 function linkManager(i){
-  gotoUxProjects();
   switch (i){
     case 1:
       document.getElementById("projectslink-generator").innerHTML=`
@@ -265,5 +264,6 @@ function linkManager(i){
   document.getElementById("Explore-more-project-generator").innerHTML=`
   ${UXprojectsDatalist.map( ExploreMoreprojectTemplate).join('')}
   `;
+  gotoUxProjects();
 }
 
