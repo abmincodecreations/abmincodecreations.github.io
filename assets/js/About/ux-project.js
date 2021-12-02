@@ -26,7 +26,7 @@ function UXprojectTemplate(data){
       <h4>${data.headingOneInPicture}</h4>
       <p>${data.paraInPicture}</p>
       <div class="portfolio-links">
-        <a href="#ux-projects" onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+        <a href="#ux-projects" onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details Link"><i class="bx bx-link"></i></a>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@ function linkManager(i){
         <h2>Foodies App</h2>
         <h3>Online Food ordering App</h3>
           <p class="font-italic">
-           UX-Design Lead - Abhishek Mishra
+          UX-Design Project By - Abhishek Mishra.
          </p>
         <p class="font-italic">
            This is an online food ordering app of a local restaurant helping busy life working users to save time by ordering food online & spend quality time having their foods without waiting in line for their orders.
@@ -157,26 +157,24 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/Battle-Ground-City.png" class="img-fluid my-img"  width="100%" alt="picture of users hand holding a phone and using Foodies App.">
+        <img src="assets/img/Battle-Ground-City.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Battle Grounnd City</h2>
-        <h3>Account creation Flow forGaming Web Site </h3>
+        <h3>Account Creation Flow For Gaming Web Site </h3>
           <p class="font-italic">
-           UX-Design Lead - Abhishek Mishra
+           UX-Design Project By - Abhishek Mishra.
          </p>
         <p class="font-italic">
-           This is an online food ordering app of a local restaurant helping busy life working users to save time by ordering food online & spend quality time having their foods without waiting in line for their orders.
+           This is a Web Based Gaming Website Leting users play game on their Mobile Phone, PC and Desktop Just by completing simple account creation process.
         </p>
-        <p class="font-italic">Here are some features of Foodies App:</p>
+        <p class="font-italic">Here are Some Easy Ways to Get Started:</p>
         <div class="row">
           <div class="col-lg-12">
             <ul>
-              <li><i class="icofont-rounded-right"></i> <strong>Easy to navigate menu :</strong> helps users navigate app easily & check different foods with in the App.</li>
-              <li><i class="icofont-rounded-right"></i> <strong>Customization : </strong>This feature lets users customize their order before addding to cart.</li>
-              <li><i class="icofont-rounded-right"></i> <strong>Cart checkout: </strong>This feature lets users check food items in cart & adjust it's quantity before conforming their order. </li>
-              <li><i class="icofont-rounded-right"></i> <strong>Order Tracking: </strong> This feature lets users track current & previous order and also let's them to reorder previously ordered food items.</li>
-              <li><i class="icofont-rounded-right"></i> <strong>Prepare</strong> This is a new feature That let's users to prepare food online this feature is currently supported only for one menu item.</li>
+              <li><i class="icofont-rounded-right"></i> <strong>Try For Free :</strong>New Users Can try this Game for free without signing up with their Emails for 60 mins.</li>
+              <li><i class="icofont-rounded-right"></i> <strong> Sign up:</strong>Alowing users to Sign by Setting up their Username and Veryfying Email ID with code and set their account password.Users are also provided an easy way to sign up with google or facebook to make Sign up process faster. </li>
+              <li><i class="icofont-rounded-right"></i> <strong>Sign in : </strong> Sign in with google and facebook options are provided on sign up page to make process fast at the same time letting users enter their username or Email ID and previously seted up password for their account.</li>
             </ul>
           </div>
         </div>
@@ -200,7 +198,7 @@ function linkManager(i){
   </div>
 </div>
 <div class="image-ux-project col-12">
-  <img src="assets/img/Desktop-game-view.png" alt="Image showing 5 screens of foodies App Screen Number 1 on left is cart page of Foodies App. Number 2 from left is menu page. Number 3 in center of screen is welcome page of foodies App.  Number 4 in right of screen is Prepare food online page of foodies App. Lastly Number 5 in right side on screen  is  Customization page for food items of foodies App."> </img>
+  <img src="assets/img/Desktop-game-view.png" alt="Image showing A Desktop Screen with Battle Ground City Game Screen has a picture of military soldier with a gun  and written text Battle Ground City By Game On Studios with a button to load game. Benith the button their is a text which says press tab key to turn on voice support. Screen Also Shows Game logo"> </img>
 </div>
 
   <div class="container mt-2" >
@@ -211,22 +209,25 @@ function linkManager(i){
         </div>
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
-        <h3>Live Prototype of Foodies App</h3>
+        <h3>Design Considerations While Prototyping Battle Grounds City Website</h3>
         <p class="font-italic">
-          While Designing Foodies App accessibility and usability was considered to target larger audiance to support new users coming as Next Billion Users of smartphones.
+          While Designing Battle Ground City Gaming Website's Account Creation flow Responsive Design ,accessibility and usability was considered to target larger audiance to support new users coming as Next Billion Users to use digital screens.
         </p>
-        <p class="font-italic">Listed below are Design considerations while Prototyping foodies app:</p>
+        <p>
+          Aim was to make Battle Ground City Website Design screens Simple and easy to interact with. This was acomplished by making account creation flow friendly for childrens the main target audiance  and other age group audiance.
+        </p>
+        <p class="font-italic">Listed below are Design considerations while Prototyping Battle Ground City Website:</p>
         <div class="row">
           <div class="col-lg-12">
             <ul class="protoype-design-considerations">
-              <li><i class="icofont-tick-boxed"></i> <strong>High contrast colour palettes:</strong> Helps users with disabilities and normal users to use App in various lighting and screen glare  conditions .</li>
-              <li><i class="icofont-tick-boxed"></i><strong>Key board navigation support:</strong> Tab , Backspace and  enter keys were been given primary importance while designing to make navigation simple and easyfor keyboard and switch device users.</li>
-              <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions: </strong>Simple Smoother interactions were been added keeping users informed about current state of app with respect to the interactions with the help of hover states for web App users on Phone and while pressing button states was provided for gesture by Mobile App users.</li>
+              <li><i class="icofont-tick-boxed"></i> <strong>Voice Support Feature:</strong> Helps Childrens who prefer to read less and enjoy a true Gaming Experience , users with disabilities and normal users to Create Account and navigate screens by getting and giving instructions in voice mode.</li>
+              <li><i class="icofont-tick-boxed"></i><strong>Key board navigation support:</strong> Tab , Backspace and  enter keys and other keybord keys will help keybord users to interact with the website in a simple and easy Way.</li>
+              <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions: </strong>Simple Smoother interactions were been added keeping users informed about current state of Screen with respect to the interactions with the help of hover states.</li>
             </ul>
       </div>
     </div>
     <p class="font-italic">
-      For more details: Check out Design System of Foodies App.
+      For more details: Check out Design System of Battle Ground City Website.
     </p>
   </div>
   <div id="portfolio" class="portfolio">
@@ -253,7 +254,7 @@ function linkManager(i){
         <h4>${data.headingOneInPicture}</h4>
         <p>${data.paraInPicture}</p>
         <div class="portfolio-links">
-          <a onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details"><i class="bx bx-link"></i></a>
+          <a onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details Link"><i class="bx bx-link"></i></a>
         </div>
       </div>
     </div>
