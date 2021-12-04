@@ -151,6 +151,9 @@ function slidergifVisibility(){
     sliderBtnVisibility();
     bg();
     anyclickonpage= true;
+    if (window.matchMedia("(max-width: 409px)").matches) {
+      document.getElementsByClassName("Prototype-heading-switch").innerHTML=`<h3>Design Considerations while Prototyping</h3>`;
+    }
   }
 }
 

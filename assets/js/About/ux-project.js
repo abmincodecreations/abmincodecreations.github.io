@@ -113,7 +113,9 @@ function linkManager(i){
         </div>
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
-        <h3>Live Prototype of Foodies App</h3>
+      <div class="Prototype-heading-switch">
+      <h3>Live Prototype of Foodies App</h3>
+      </div>
         <p class="font-italic">
           While Designing Foodies App accessibility and usability was considered to target larger audiance to support new users coming as Next Billion Users of smartphones.
         </p>
@@ -157,7 +159,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/Battle-Ground-City.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
+        <img src="assets/img/BGC-Picture.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Battle Grounnd City</h2>
@@ -166,15 +168,15 @@ function linkManager(i){
            UX-Design Project By - Abhishek Mishra.
          </p>
         <p class="font-italic">
-           This is a Web Based Gaming Website Leting users play game on their Mobile Phone, PC and Desktop Just by completing simple account creation process.
+           This is a Web Based Gaming Website Letting users play game on their Mobile Phone, PC and Desktop Just by completing simple account creation process.
         </p>
         <p class="font-italic">Here are Some Easy Ways to Get Started:</p>
         <div class="row">
           <div class="col-lg-12">
             <ul>
               <li><i class="icofont-rounded-right"></i> <strong>Try For Free :</strong>New Users Can try this Game for free without signing up with their Emails for 60 mins.</li>
-              <li><i class="icofont-rounded-right"></i> <strong> Sign up:</strong>Alowing users to Sign by Setting up their Username and Veryfying Email ID with code and set their account password.Users are also provided an easy way to sign up with google or facebook to make Sign up process faster. </li>
-              <li><i class="icofont-rounded-right"></i> <strong>Sign in : </strong> Sign in with google and facebook options are provided on sign up page to make process fast at the same time letting users enter their username or Email ID and previously seted up password for their account.</li>
+              <li><i class="icofont-rounded-right"></i> <strong> Sign up:</strong> Allowing users to Sign by Setting up their Username and Veryfying Email ID with code and set their account password. Users are also provided an easy way to sign up with Google or Facebook to make Sign up process faster. </li>
+              <li><i class="icofont-rounded-right"></i> <strong>Sign in : </strong> Sign in with Google and Facebook options are provided on sign up page to make process fast at the same time letting users enter their username or Email ID and previously seted up password for their account.</li>
             </ul>
           </div>
         </div>
@@ -204,9 +206,7 @@ function linkManager(i){
   <div class="container mt-2" >
     <div class="row justify-content-center">
       <div class="col-lg-5" data-aos="fade-right">
-        <div class="figma-prototype">
-<iframe  style="border: 1px solid rgba(0, 0, 0, 0.1);" width="360" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxtK8SvKTdttTBCkPkax9In%2FFoodies-(Hi-FI)%3Fpage-id%3D0%253A1%26node-id%3D301%253A81%26viewport%3D245%252C48%252C0.34%26scaling%3Dmin-zoom%26starting-point-node-id%3D25%253A860" allowfullscreen></iframe>
-        </div>
+      <img src="assets/img/Battle-Ground-City.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Design Considerations While Prototyping Battle Grounds City Website</h3>
@@ -227,7 +227,9 @@ function linkManager(i){
       </div>
     </div>
     <p class="font-italic">
-      For more details: Check out Design System of Battle Ground City Website.
+      Check out Live Prototype of foodies App:
+      <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn" >Battle Ground City PC View Prototype</button><a>
+      <a href="https://xd.adobe.com/view/6e20c04a-aa5d-4d1d-a82d-202006967406-3b73/?hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn">Battle Ground City Mobile View Prototype </button></a>
     </p>
   </div>
   <div id="portfolio" class="portfolio">
