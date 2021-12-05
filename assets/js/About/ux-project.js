@@ -228,8 +228,10 @@ function linkManager(i){
     </div>
     <p class="font-italic">
       Check out Live Prototype of foodies App:
-      <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn" >Battle Ground City PC View Prototype</button><a>
-      <a href="https://xd.adobe.com/view/6e20c04a-aa5d-4d1d-a82d-202006967406-3b73/?hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn">Battle Ground City Mobile View Prototype </button></a>
+      <br>
+      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experence designs in real time .
+      <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?fullscreen&hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn" >Battle Ground City PC/Desktop View Prototype</button><a>
+      <a href="https://xd.adobe.com/view/6e20c04a-aa5d-4d1d-a82d-202006967406-3b73/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn">Battle Ground City Mobile View Prototype </button></a>
     </p>
   </div>
   <div id="portfolio" class="portfolio">
