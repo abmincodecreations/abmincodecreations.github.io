@@ -107,14 +107,16 @@ function linkManager(i){
 
   <div class="container mt-2" >
     <div class="row justify-content-center">
-      <div class="col-lg-5" data-aos="fade-right">
+      <div class="col-lg-5" data-aos="fade-right justify-content-center">
         <div class="figma-prototype">
 <iframe  style="border: 1px solid rgba(0, 0, 0, 0.1);" width="360" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxtK8SvKTdttTBCkPkax9In%2FFoodies-(Hi-FI)%3Fpage-id%3D0%253A1%26node-id%3D301%253A81%26viewport%3D245%252C48%252C0.34%26scaling%3Dmin-zoom%26starting-point-node-id%3D25%253A860" allowfullscreen></iframe>
+       
         </div>
+        <p class="prototype-text">Live Prototype of Foodies App</p>
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
       <div class="Prototype-heading-switch">
-      <h3>Live Prototype of Foodies App</h3>
+      <h3>  Design Considerations While Prototyping Foodies App:</h3>
       </div>
         <p class="font-italic">
           While Designing Foodies App accessibility and usability was considered to target larger audiance to support new users coming as Next Billion Users of smartphones.
@@ -128,6 +130,10 @@ function linkManager(i){
               <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions: </strong>Simple Smoother interactions were been added keeping users informed about current state of app with respect to the interactions with the help of hover states for web App users on Phone and while pressing button states was provided for gesture by Mobile App users.</li>
             </ul>
       </div>
+      <p class="font-italic">
+      Check out Live Prototype of Foodies App in Full Screen:
+      <a href="https://www.figma.com/proto/xtK8SvKTdttTBCkPkax9In/Foodies-(Hi-FI)?page-id=0%3A1&node-id=301%3A81&viewport=245%2C48%2C0.23&scaling=min-zoom&starting-point-node-id=301%3A81" target="_blank" ><button class="col-12 m-1 view-prototype-btn" >Foodies App Live Prototype</button><a>
+    </p>
     </div>
     <p class="font-italic">
       For more details: Check out <a target="_blank" href="https://www.figma.com/proto/xtK8SvKTdttTBCkPkax9In/Foodies-(Hi-FI)?node-id=901%3A9287&scaling=min-zoom&page-id=890%3A5934&starting-point-node-id=963%3A6716">Design System of Foodies App</a>.
@@ -227,7 +233,7 @@ function linkManager(i){
       </div>
     </div>
     <p class="font-italic">
-      Check out Live Prototype of foodies App:
+    <Strong>Check out Live Prototype of Battle Ground City:</Strong>
       <br>
       <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experence designs in real time .
       <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?fullscreen&hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn" >Battle Ground City PC/Desktop View Prototype</button><a>
