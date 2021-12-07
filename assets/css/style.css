@@ -741,6 +741,20 @@ section .container {
   border: 2px solid #18d26e;
 }
 
+.resume-view{
+  display: block;
+}
+.resume-view iframe{
+  border: #15bb62 0px solid;
+  text-align: center;
+}
+@media only screen and (max-width: 485px) {
+  .resume-view{
+    display: none;
+  } 
+}
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
