@@ -9,15 +9,27 @@ let IndustrialSkillsData=[
   },
   {
     Skill: ' VISUAL COMMUNICATION',
-    percentage:'60'
+    percentage:'100'
   },
   {
     Skill: 'UX WRITING ',
     percentage:'99'
   },
   {
-    Skill: ' WIREFRAMING AND UI PROTOTYPING',
-    percentage:'60'
+    Skill: ' WIREFRAMING',
+    percentage:'100'
+  },
+  {
+    Skill: ' UI PROTOTYPING',
+    percentage:'100'
+  },
+  {
+    Skill: 'DESIGN SYSTEM IMPLEMENTATION',
+    percentage:'75'
+  },
+  {
+    Skill: ' INTERACTION DESIGN',
+    percentage:'85'
   },
   {
     Skill: ' OBJECT ORIENTED PROGRAMMING',
@@ -25,15 +37,11 @@ let IndustrialSkillsData=[
   },
   {
     Skill: ' COMMAND LINE',
-    percentage:'5'
+    percentage:'25'
   },
   {
     Skill: 'BROWSER DEVELOPER TOOLS ',
     percentage:'75'
-  },
-  {
-    Skill: ' INTERACTION DESIGN',
-    percentage:'50'
   },
   {
     Skill: ' RESPONSIVE WEB DESIGN',
