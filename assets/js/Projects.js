@@ -1,10 +1,10 @@
 let servicesData=[
   
   {
-    name: '‎Memories App<br>(MERN Stack)',
+    name: '‎TimeLine App<br>(MERN Stack)',
     logoClass:'fas fa-photo-video',
     position: "‎‎‎‎‏‏‎ ",
-    btnLink:"https://abm-memories-collection.netlify.app/"
+    btnLink:"https://timeline-feed.netlify.app/"
   },
   {
     name: '‎Pomodoro<br>Clock',
