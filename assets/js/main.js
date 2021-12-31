@@ -145,6 +145,12 @@ function bg(){
   anyclickonpage= true;
 }
 
+function sliderBtnVisibility(){
+  document.getElementById("slider-btn").style.display="none";
+  slidergifVisibility();
+  anyclickonpage= true;
+}
+
 function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
     document.getElementById("gif-hello").style.display="none";
@@ -157,11 +163,7 @@ function slidergifVisibility(){
   }
 }
 
-function sliderBtnVisibility(){
-  document.getElementById("slider-btn").style.display="none";
-  slidergifVisibility();
-  anyclickonpage= true;
-}
+
 
 function gotoProjects(){
   document.getElementById("nav-projects").click();
@@ -208,6 +210,7 @@ function WindowSizeAdjustor(){
   }
 }
 
+
 window.addEventListener("resize", WindowSizeAdjustor);
  
 window.onload = function pageReloadUiManager(){
@@ -218,5 +221,6 @@ window.onload = function pageReloadUiManager(){
    bg();
    anyclickonpage= true;
     }
+   
    }
 

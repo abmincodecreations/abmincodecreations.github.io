@@ -12,7 +12,15 @@ let UXprojectsDatalist=[
     headingOneInPicture:'Battle Ground City',
     paraInPicture: "Responsive Website Design",
     labelText: "Battle Groung City <br>Responsive Website<br> Account Creation Flow Design."
+  },
+  {
+    Index:3,
+    picture: 'assets/img/portfolio/portfolio-3.png',
+    headingOneInPicture:'Be-Fit',
+    paraInPicture: "Moble App & Responsive Website Design",
+    labelText: "Be-Fit <br>Online Fitness Coaching service <br> Website and mobile App Design."
   }
+
 
 ];
 
@@ -126,7 +134,7 @@ function linkManager(i){
           <div class="col-lg-12">
             <ul class="protoype-design-considerations">
               <li><i class="icofont-tick-boxed"></i> <strong>High contrast colour palettes:</strong> Helps users with disabilities and normal users to use App in various lighting and screen glare  conditions .</li>
-              <li><i class="icofont-tick-boxed"></i><strong>Key board navigation support:</strong> Tab , Backspace and  enter keys were been given primary importance while designing to make navigation simple and easyfor keyboard and switch device users.</li>
+              <li><i class="icofont-tick-boxed"></i><strong>Keyboard navigation support:</strong> Tab , Backspace and  enter keys were been given primary importance while designing to make navigation simple and easyfor keyboard and switch device users.</li>
               <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions: </strong>Simple Smoother interactions were been added keeping users informed about current state of app with respect to the interactions with the help of hover states for web App users on Phone and while pressing button states was provided for gesture by Mobile App users.</li>
             </ul>
       </div>
@@ -227,7 +235,7 @@ function linkManager(i){
           <div class="col-lg-12">
             <ul class="protoype-design-considerations">
               <li><i class="icofont-tick-boxed"></i> <strong>Voice Support Feature:</strong> Helps Childrens who prefer to read less and enjoy a true Gaming Experience , users with disabilities and normal users to Create Account and navigate screens by getting and giving instructions in voice mode.</li>
-              <li><i class="icofont-tick-boxed"></i><strong>Key board navigation support:</strong> Tab , Backspace and  enter keys and other keybord keys will help keybord users to interact with the website in a simple and easy Way.</li>
+              <li><i class="icofont-tick-boxed"></i><strong>Keyboard navigation support:</strong> Tab , Backspace and  enter keys and other keyboard keys will help keyboard users to interact with the website in a simple and easy Way.</li>
               <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions: </strong>Simple Smoother interactions were been added keeping users informed about current state of Screen with respect to the interactions with the help of hover states.</li>
             </ul>
       </div>
@@ -235,7 +243,108 @@ function linkManager(i){
     <p class="font-italic">
     <Strong>Check out Live Prototype of Battle Ground City:</Strong>
       <br>
-      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experence designs in real time .
+      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to  experience designs in real time .
+      <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?fullscreen&hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >Battle Ground City PC/Desktop View Prototype</button><a>
+      <a href="https://xd.adobe.com/view/6e20c04a-aa5d-4d1d-a82d-202006967406-3b73/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button">Battle Ground City Mobile View Prototype </button></a>
+    </p>
+  </div>
+  <div id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="section-title">
+        <h2>  Explore more</h2>
+        <p>UX Projects</p>
+      </div>
+      <div  id="Explore-more-project-generator" class="row portfolio-container">
+                 <!--Projects links generation area-->
+      </div>
+    </div>
+  </div>
+</div>
+</div>`
+      break;
+    case 3:
+      document.getElementById("projectslink-generator").innerHTML=`
+              
+      <div class="section-title container">
+      <h2>UX Project:</h2>
+      <p>Check out my UX project</p>
+    </div>
+    
+  <div class="row justify-content-center">   
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5" data-aos="fade-right">
+        <img src="assets/img/Laptop-Be-Fit.png" class="img-fluid my-img"  width="100%" alt=" Picture showing a Laptop kept on the table with Be-Fit Online Fitness coaching Website loaded.">
+      </div>
+      <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h2>Be-Fit</h2>
+        <h3>Online Fitness Coaching Service Provider</h3>
+          <p class="font-italic">
+           UX-Design Project By - Abhishek Mishra.
+         </p>
+        <p class="font-italic">
+        Be-Fit is a Online Fitness Coaching service provider brand available online as a responsive website and a native  mobile app  letting users do exercise and strengthen them self by  staying in their room following their daily routine and do exercise at their own pace according to their convenience.
+        </p>
+        <p class="font-italic">Here are Some Features Of Be-Fit App & Website:</p>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul>
+              <li><i class="icofont-rounded-right"></i> <strong> Easy to Start :</strong>Users can easily start their Fitness Journey by signing up with Google or Facebook they can even sign up or sign in manually.</li>
+              <li><i class="icofont-rounded-right"></i><strong> Easy to use Menu Design:</strong> Menu is designed to help users start their daily workout  easily allowing them to choose from exercises and various instructors available before starting their exercise.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container" >
+  <div class="row justify-content-center">
+  <div class="presentation-container">
+  <div class="presentation">
+    <h2>Design Process</h2>
+    <p>Slide deck below describes user experience design process being conducted while designing Online Be-Fit Fitness Coaching  Services :</p>
+    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ35Dtt7vlsdCQnPog9DUXIQ3ezm7sHCkUHW2JgpT60-v6ZMIetMkxI7tR830a7SmM4clIWWhJ-PSGV/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <div>
+      <p>
+        <br>
+      </p>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+<div class="image-ux-project col-12">
+  <img src="assets/img/Comited-to-be-fit.jpg" class="img-fluid my-img" alt="Image with a Apple and a Wooden Dumble and a small Black board with written text Commited to be Fit with a single peace of white chalk kept on it"> </img>
+</div>
+
+  <div class="container mt-2" >
+    <div class="row justify-content-center">
+      <div class="col-lg-5" data-aos="fade-right">
+      <img src="assets/img/Fit-be.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
+      </div>
+      <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h3>Design Considerations While Prototyping Be-Fit Web & Mobile Application</h3>
+        <p class="font-italic">
+          While Designing Be-Fit Online Fitness Coaching services it was considered Be-Fit is available as Native App & Responsive Website. Services  Design ,accessibility and usability was considered to target larger audiance to support new users coming as Next Billion Users to use digital screens.
+        </p>
+        <p>
+          Aim was to make Battle Ground City Website Design screens Simple and easy to interact with. This was acomplished by making account creation flow friendly for childrens the main target audiance  and other age group audiance.
+        </p>
+        <p class="font-italic">Listed below are Design considerations while Prototyping Be-Fit Online Services :</p>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="protoype-design-considerations">
+            <li><i class="icofont-tick-boxed"></i> <strong>Read aloud Loud:</strong> Read Out aloud button was provided on page with instructions to help users with Disability as well as normal users to hear out instructions Whenever they wanted and also allow them to hear it as many number of times they wanted to reduce confusion this will also help users to concentrate on exercise instead of reading by themselves on  Devices.</li>
+              <li><i class="icofont-tick-boxed"></i> <strong>Voice Support Feature:</strong> Helps Users to Interact with application While Doing Exercise They Can use speak "read out aloud Be-fit" to read them out instructions. they can even speak out simple instructions like "Be-Fit go back" and "Done Be-Fit" to go back to previous Page and to go to Next Page after doing one exercise.</li>
+              <li><i class="icofont-tick-boxed"></i><strong>Keyboard navigation support:</strong> Tab , Backspace and  enter keys and other keyboard keys will help keyboard users to interact with the website in a simple and easy Way.</li>
+              <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions: </strong>Simple Smoother interactions were been added keeping users informed about current state of Screen with respect to the interactions with the help of hover states.</li>
+            </ul>
+      </div>
+    </div>
+    <p class="font-italic">
+    <Strong>Check out Live Prototype of Be-Fit Fitness Coaching Services available as Native App , and Responsive WebSite:</Strong>
+      <br>
+      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experience designs in real time .
       <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?fullscreen&hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >Battle Ground City PC/Desktop View Prototype</button><a>
       <a href="https://xd.adobe.com/view/6e20c04a-aa5d-4d1d-a82d-202006967406-3b73/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button">Battle Ground City Mobile View Prototype </button></a>
     </p>
