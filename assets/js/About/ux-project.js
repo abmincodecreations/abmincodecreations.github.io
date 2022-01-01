@@ -274,7 +274,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/Laptop-Be-Fit.png" class="img-fluid my-img"  width="100%" alt=" Picture showing a Laptop kept on the table with Be-Fit Online Fitness coaching Website loaded.">
+        <img src="assets/img/Laptop-Be-Fit.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing a Laptop kept on the table with Be-Fit Online Fitness coaching Website loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Be-Fit</h2>
@@ -320,7 +320,7 @@ function linkManager(i){
   <div class="container mt-2" >
     <div class="row justify-content-center">
       <div class="col-lg-5" data-aos="fade-right">
-      <img src="assets/img/Fit-be.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
+      <img src="assets/img/Fit-be.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Design Considerations While Prototyping Be-Fit Web & Mobile Application</h3>
