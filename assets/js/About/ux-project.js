@@ -173,7 +173,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/BGC-Picture.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
+        <img src="assets/img/BGC-Picture.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Battle Grounnd City</h2>
@@ -214,13 +214,13 @@ function linkManager(i){
   </div>
 </div>
 <div class="image-ux-project col-12">
-  <img src="assets/img/Desktop-game-view.png" alt="Image showing A Desktop Screen with Battle Ground City Game Screen has a picture of military soldier with a gun  and written text Battle Ground City By Game On Studios with a button to load game. Benith the button their is a text which says press tab key to turn on voice support. Screen Also Shows Game logo"> </img>
+  <img src="assets/img/Desktop-game-view.webp" alt="Image showing A Desktop Screen with Battle Ground City Game Screen has a picture of military soldier with a gun  and written text Battle Ground City By Game On Studios with a button to load game. Benith the button their is a text which says press tab key to turn on voice support. Screen Also Shows Game logo"> </img>
 </div>
 
   <div class="container mt-2" >
     <div class="row justify-content-center">
       <div class="col-lg-5" data-aos="fade-right">
-      <img src="assets/img/Battle-Ground-City.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
+      <img src="assets/img/Battle-Ground-City.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Design Considerations While Prototyping Battle Grounds City Website</h3>
