@@ -67,7 +67,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/Foodies App.png" class="img-fluid my-img"  width="502px" alt="picture of users hand holding a phone and using Foodies App.">
+        <img src="assets/img/Foodies App.webp" class="img-fluid my-img"  width="502px" alt="picture of users hand holding a phone and using Foodies App.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Foodies App</h2>
