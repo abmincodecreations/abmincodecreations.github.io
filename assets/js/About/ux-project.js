@@ -189,7 +189,7 @@ function linkManager(i){
           <div class="col-lg-12">
             <ul>
               <li><i class="icofont-rounded-right"></i> <strong>Try For Free :</strong>New Users Can try this Game for free without signing up with their Emails for 60 mins.</li>
-              <li><i class="icofont-rounded-right"></i> <strong> Sign up:</strong> Allowing users to Sign by Setting up their Username and Veryfying Email ID with code and set their account password. Users are also provided an easy way to sign up with Google or Facebook to make Sign up process faster. </li>
+              <li><i class="icofont-rounded-right"></i> <strong> Sign up:</strong> Allowing users to Sign by Setting up their Username and Veryfying Email ID and then allowing them to set their account password. Users are also provided an easy way to sign up with Google or Facebook to make Sign up process faster. </li>
               <li><i class="icofont-rounded-right"></i> <strong>Sign in : </strong> Sign in with Google and Facebook options are provided on sign up page to make process fast at the same time letting users enter their username or Email ID and previously seted up password for their account.</li>
             </ul>
           </div>
@@ -334,7 +334,7 @@ function linkManager(i){
         <div class="row">
           <div class="col-lg-12">
             <ul class="protoype-design-considerations">
-            <li><i class="icofont-tick-boxed"></i> <strong>Read aloud Loud:</strong> Read Out aloud button was provided on page with instructions to help users with Disability as well as normal users to hear out instructions Whenever they wanted and also allow them to hear it as many number of times they wanted to reduce confusion this will also help users to concentrate on exercise instead of reading by themselves on  Devices.</li>
+            <li><i class="icofont-tick-boxed"></i> <strong>Read aloud Loud:</strong> Read Out aloud button was provided on page with instructions to help users with Disability as well as normal users to hear out instructions Whenever they wanted and also allow them to hear it as many number of times they wanted to reduce confusion. This will also help users to concentrate on exercise instead of reading by themselves on  Devices.</li>
               <li><i class="icofont-tick-boxed"></i> <strong>Voice Support Feature:</strong> Helps Users to Interact with application While Doing Exercise They Can use speak "read out aloud Be-fit" to read them out instructions. they can even speak out simple instructions like "Be-Fit go back" and "Done Be-Fit" to go back to previous Page and to go to Next Page after doing one exercise.</li>
               <li><i class="icofont-tick-boxed"></i><strong>Keyboard navigation support:</strong> Tab , Backspace and  enter keys and other keyboard keys will help keyboard users to interact with the website in a simple and easy Way.</li>
               <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions: </strong>Simple Smoother interactions were been added keeping users informed about current state of Screen with respect to the interactions with the help of hover states.</li>
