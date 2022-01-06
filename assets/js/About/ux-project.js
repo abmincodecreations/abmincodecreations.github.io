@@ -345,9 +345,9 @@ function linkManager(i){
     <Strong>Check out Live Prototype of Be-Fit Fitness Coaching Services available as Native App , and Responsive WebSite:</Strong>
       <br>
       <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experience designs in real time .
-      <a href="https://xd.adobe.com/view/a24ea793-360c-4984-9162-fa672df0f7d4-f71d/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Mobile Version Prototype</button><a>
-      <a href="https://xd.adobe.com/view/2cded204-ed0c-4228-86f9-cb6457f8b8e5-798d/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Tablet Version Prototype</button><a>
-      <a href="https://xd.adobe.com/view/c2f5739c-aa02-4f5a-b883-5b427c0377ee-97a6/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button">BE-Fit Desktop/PC Version Prototype </button></a>
+      <a href="https://xd.adobe.com/view/cc56bfbe-9f8b-47f6-b162-1ef9f023e852-9905/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Mobile Version Prototype</button><a>
+      <a href="https://xd.adobe.com/view/144ee3b7-a592-48fd-a3cd-8a9e7a60bc7c-411d/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Tablet Version Prototype</button><a>
+      <a href="https://xd.adobe.com/view/07fc4d35-678e-44fd-b47c-4b4dc5d3e71a-52af/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button">BE-Fit Desktop/PC Version Prototype </button></a>
     </p>
   </div>
   <div id="portfolio" class="portfolio">
