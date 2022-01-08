@@ -12,6 +12,12 @@ let InterestsData=[
     color:'#ffbb2c'
   },
   {
+    Interest: 'AR-VR Design',
+    logoClass:'fas fab-1 fa-vr-cardboard',
+    position: " ",
+    color:'#29cc61'
+  },
+  {
     Interest: 'Software Development',
     logoClass:'ri-bar-chart-box-line',
     position: " ",
@@ -64,12 +70,6 @@ let InterestsData=[
     logoClass:' ri-disc-line ',
     position: " ",
     color:' #b20969'
-  },
-  {
-    Interest: 'AR-VR Design',
-    logoClass:'fas fab-1 fa-vr-cardboard',
-    position: " ",
-    color:'#29cc61'
   }
 
 ];
