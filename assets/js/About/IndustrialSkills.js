@@ -8,7 +8,7 @@ let IndustrialSkillsData=[
     percentage:'97'
   },
   {
-    Skill: ' VISUAL COMMUNICATION',
+    Skill: ' VISUAL DESIGN',
     percentage:'100'
   },
   {
@@ -20,16 +20,24 @@ let IndustrialSkillsData=[
     percentage:'100'
   },
   {
+    Skill: ' ACCESSIBILITY CONSIDERATION',
+    percentage:'90'
+  },
+  {
     Skill: ' UI PROTOTYPING',
     percentage:'100'
   },
   {
     Skill: 'DESIGN SYSTEM IMPLEMENTATION',
-    percentage:'75'
+    percentage:'85'
   },
   {
     Skill: ' INTERACTION DESIGN',
     percentage:'85'
+  },
+  {
+    Skill: ' USABILITY TESTING',
+    percentage:'100'
   },
   {
     Skill: ' OBJECT ORIENTED PROGRAMMING',
