@@ -66,8 +66,8 @@ let InterestsData=[
     color:' #b20969'
   },
   {
-    Interest: 'Open Source',
-    logoClass:'ri-open-source-line',
+    Interest: 'AR-VR Design',
+    logoClass:'fas fab-1 fa-vr-cardboard',
     position: " ",
     color:'#29cc61'
   }

@@ -807,6 +807,10 @@ section .container {
   border-radius: 50%;
   background-color: white;
 }
+.fab-1 {
+  color: #18d26e;
+  font-size: 35px;
+}
 
 .fab {
   margin-top: 10px;
