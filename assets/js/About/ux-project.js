@@ -17,8 +17,8 @@ let UXprojectsDatalist=[
     Index:3,
     picture: 'assets/img/portfolio/portfolio-3.png',
     headingOneInPicture:'Be-Fit',
-    paraInPicture: "Moble App & Responsive Website Design",
-    labelText: "Be-Fit <br>Online Fitness Coaching service <br> Website and mobile App Design."
+    paraInPicture: "Mobile App & Responsive Website Design",
+    labelText: "Be-Fit <br>Online Fitness Coaching service <br> Website & Mobile App Design."
   }
 
 
@@ -325,10 +325,10 @@ function linkManager(i){
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Design Considerations While Prototyping Be-Fit Web & Mobile Application</h3>
         <p class="font-italic">
-          While Designing Be-Fit Online Fitness Coaching services it was considered Be-Fit is available as Native App & Responsive Website. Services  Design ,accessibility and usability was considered to target larger audiance to support new users coming as Next Billion Users to use digital screens.
+          While Designing Be-Fit Online Fitness Coaching services it was considered Be-Fit is available as Native App & Responsive Website. Services were been designed considering ,accessibility and usability and it was aimed to target larger audience to support new users coming as Next Billion Users to use digital screens along with users with  disabilities.
         </p>
         <p>
-          Aim was to make Battle Ground City Website Design screens Simple and easy to interact with. This was acomplished by making account creation flow friendly for childrens the main target audiance  and other age group audiance.
+          Aim was to make Be-Fit Design screens Simple and easy to interact with. This was acomplished by making account creation flow friendly for childrens the main target audience  and other age group audience.
         </p>
         <p class="font-italic">Listed below are Design considerations while Prototyping Be-Fit Online Services :</p>
         <div class="row">
@@ -344,7 +344,7 @@ function linkManager(i){
     <p class="font-italic">
     <Strong>Check out Live Prototype of Be-Fit Fitness Coaching Services available as Native App , and Responsive WebSite:</Strong>
       <br>
-      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experience designs in real time .
+      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experience designs in  real time getting into full-screen mode .
       <a href="https://xd.adobe.com/view/cc56bfbe-9f8b-47f6-b162-1ef9f023e852-9905/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Mobile Version Prototype</button><a>
       <a href="https://xd.adobe.com/view/144ee3b7-a592-48fd-a3cd-8a9e7a60bc7c-411d/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Tablet Version Prototype</button><a>
       <a href="https://xd.adobe.com/view/07fc4d35-678e-44fd-b47c-4b4dc5d3e71a-52af/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button">BE-Fit Desktop/PC Version Prototype </button></a>
