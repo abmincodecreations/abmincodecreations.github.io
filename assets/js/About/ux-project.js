@@ -140,7 +140,9 @@ function linkManager(i){
       </div>
       <p class="font-italic">
       Check out Live Prototype of Foodies App in Full Screen:
-      <a href="https://www.figma.com/proto/xtK8SvKTdttTBCkPkax9In/Foodies-(Hi-FI)?page-id=0%3A1&node-id=301%3A81&viewport=245%2C48%2C0.23&scaling=min-zoom&starting-point-node-id=301%3A81" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >Foodies App Live Prototype</button><a>
+      <a href="https://www.figma.com/proto/xtK8SvKTdttTBCkPkax9In/Foodies-(Hi-FI)?page-id=0%3A1&node-id=301%3A81&viewport=245%2C48%2C0.23&scaling=min-zoom&starting-point-node-id=301%3A81" target="_blank" >
+      <button class="col-12 m-1 view-prototype-btn" aria-label="View Mobile Version Prototype Button.">Foodies App Live Prototype</button>
+      <a>
     </p>
     </div>
     <p class="font-italic">
@@ -225,10 +227,10 @@ function linkManager(i){
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Design Considerations While Prototyping Battle Grounds City Website</h3>
         <p class="font-italic">
-          While Designing Battle Ground City Gaming Website's Account Creation flow Responsive Design ,accessibility and usability was considered to target larger audiance to support new users coming as Next Billion Users to use digital screens.
+          While Designing Battle Ground City Gaming Website's Account Creation flow Responsive Design ,accessibility and usability was considered to target larger audience to support new users coming as Next Billion Users to use digital screens.
         </p>
         <p>
-          Aim was to make Battle Ground City Website Design screens Simple and easy to interact with. This was acomplished by making account creation flow friendly for childrens the main target audiance  and other age group audiance.
+          Aim was to make Battle Ground City Website Design screens Simple and easy to interact with. This was acomplished by making account creation flow friendly for childrens the main target audience  and other age group audience.
         </p>
         <p class="font-italic">Listed below are Design considerations while Prototyping Battle Ground City Website:</p>
         <div class="row">
@@ -243,9 +245,13 @@ function linkManager(i){
     <p class="font-italic">
     <Strong>Check out Live Prototype of Battle Ground City:</Strong>
       <br>
-      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to  experience designs in real time .
-      <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?fullscreen&hints=off" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >Battle Ground City PC/Desktop View Prototype</button><a>
-      <a href="https://xd.adobe.com/view/6e20c04a-aa5d-4d1d-a82d-202006967406-3b73/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button">Battle Ground City Mobile View Prototype </button></a>
+      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to  experience designs in real time by entering in full-screen mode .
+      <a href="https://xd.adobe.com/view/12a8f8be-6e6d-4b0a-9d17-dbfc15dffd43-47fb/?fullscreen&hints=off" target="_blank" >
+            <button class="col-12 m-1 view-prototype-btn" aria-label="View  PC/Desktop Version Prototype Button." >Battle Ground City PC/Desktop View Prototype</button>
+      <a>
+      <a href="https://xd.adobe.com/view/6e20c04a-aa5d-4d1d-a82d-202006967406-3b73/?fullscreen" target="_blank" >
+          <button class="col-12 m-1 view-prototype-btn" aria-label="View Mobile Version Prototype Button.">Battle Ground City Mobile View Prototype </button>
+      </a>
     </p>
   </div>
   <div id="portfolio" class="portfolio">
@@ -344,10 +350,16 @@ function linkManager(i){
     <p class="font-italic">
     <Strong>Check out Live Prototype of Be-Fit Fitness Coaching Services available as Native App , and Responsive WebSite:</Strong>
       <br>
-      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experience designs in  real time getting into full-screen mode .
-      <a href="https://xd.adobe.com/view/cc56bfbe-9f8b-47f6-b162-1ef9f023e852-9905/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Mobile Version Prototype</button><a>
-      <a href="https://xd.adobe.com/view/144ee3b7-a592-48fd-a3cd-8a9e7a60bc7c-411d/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button" >BE-Fit Tablet Version Prototype</button><a>
-      <a href="https://xd.adobe.com/view/07fc4d35-678e-44fd-b47c-4b4dc5d3e71a-52af/?fullscreen" target="_blank" ><button class="col-12 m-1 view-prototype-btn" aria-label="Button">BE-Fit Desktop/PC Version Prototype </button></a>
+      <Strong>Note:</Strong> Please wait for links to Load ,Press F11 while viewing Prototype on PC or Desktop as soon as link loads to experience designs in  real-time by viewing designs in full-screen mode .
+      <a href="https://xd.adobe.com/view/cc56bfbe-9f8b-47f6-b162-1ef9f023e852-9905/?fullscreen" target="_blank" >
+            <button class="col-12 m-1 view-prototype-btn" aria-label="View BE-Fit Mobile Version Prototype Button." >BE-Fit Mobile Version Prototype</button>
+      <a>
+      <a href="https://xd.adobe.com/view/144ee3b7-a592-48fd-a3cd-8a9e7a60bc7c-411d/?fullscreen" target="_blank" >
+            <button class="col-12 m-1 view-prototype-btn" aria-label="View BE-Fit Tablet Version Prototype Button.">BE-Fit Tablet Version Prototype</button>
+      <a>
+      <a href="https://xd.adobe.com/view/07fc4d35-678e-44fd-b47c-4b4dc5d3e71a-52af/?fullscreen" target="_blank" >
+            <button class="col-12 m-1 view-prototype-btn" aria-label="View BE-Fit Desktop/PC Version Prototype Button.">BE-Fit Desktop/PC Version Prototype </button>
+      </a>
     </p>
   </div>
   <div id="portfolio" class="portfolio">
