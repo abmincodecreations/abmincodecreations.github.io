@@ -869,12 +869,29 @@ section .container {
 
 .presentation iframe {
 margin: bottom 10%;;
-padding: 2%;
+padding: 1%;
 position: absolute;
 width: 100%;
 height: 100%;
 }
+@media only screen and (max-width: 900px) {
+  .presentation{
+    position: relative;
+    left:0%;
+    width: 100%;
+    height: 0;
+    padding-bottom: 66.25%;
+    position: relative;
+  }
 
+  .presentation iframe {
+    margin: bottom 0%;;
+    padding: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    }
+}
 
 .image-ux-project{
   margin-top: 200px;
@@ -883,6 +900,8 @@ height: 100%;
   width:100vw;
   text-align: center;
 }
+
+
 .image-style-border-foodies{
   border: ridge rgb(250, 3, 3);
   border-width: 0px 0px 10px 0px ;
@@ -897,17 +916,17 @@ height: 100%;
 }
 @media only screen and (max-width: 900px) {
   .image-ux-project{
-    margin-top: 300px;
+    margin-top: 400px;
   }
 }
 @media only screen and (max-width: 410px) {
   .image-ux-project{
-    margin-top: 300px;
+    margin-top: 400px;
   }
 }
 @media only screen and (max-width: 355px) {
   .image-ux-project{
-    margin-top: 400px;
+    margin-top: 500px;
   }
 }
 @media only screen and (max-width: 258px) {
