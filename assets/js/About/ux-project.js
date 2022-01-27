@@ -11,14 +11,14 @@ let UXprojectsDatalist=[
     picture: 'assets/img/portfolio/portfolio-2.png',
     headingOneInPicture:'Battle Ground City',
     paraInPicture: "Responsive Website Design",
-    labelText: "Battle Groung City <br>Responsive Website<br> Account Creation Flow Design."
+    labelText: "Battle Groung City<br>Responsive Website<br> Account Creation Flow Design."
   },
   {
     Index:3,
     picture: 'assets/img/portfolio/portfolio-3.png',
     headingOneInPicture:'Be-Fit',
     paraInPicture: "Mobile App & Responsive Website Design",
-    labelText: "Be-Fit <br>Online Fitness Coaching service <br> Website & Mobile App Design."
+    labelText: "Be-Fit <br>Online Fitness Coaching <br> Website & Mobile App Design."
   }
 
 

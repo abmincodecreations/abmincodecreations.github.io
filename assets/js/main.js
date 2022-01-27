@@ -214,7 +214,7 @@ function WindowSizeAdjustor(){
 window.addEventListener("resize", WindowSizeAdjustor);
  
 window.onload = function pageReloadUiManager(){
-  
+  document.getElementsByTagName('h1')[0].focus();
   var currentUrl="hii"+window.location.href;
   var homepage="hiihttps://abmincodecreations.github.io/";
   if(currentUrl != homepage){
