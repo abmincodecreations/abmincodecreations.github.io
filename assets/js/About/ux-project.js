@@ -29,6 +29,7 @@ function UXprojectTemplate(data){
   return `
 <div class="col-lg-5 col-md-5 portfolio-item filter-app justify-content-center m-3 p-0">
   <div class="portfolio-wrap">
+  <a href="#ux-projects" onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details Link">
     <img src="${data.picture}" class="img-fluid" alt="">
     <div class="portfolio-info">
       <h4>${data.headingOneInPicture}</h4>
@@ -37,6 +38,7 @@ function UXprojectTemplate(data){
         <a href="#ux-projects" onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details Link"><i class="bx bx-link"></i></a>
       </div>
     </div>
+    </a>
   </div>
   <h6 class="label-UXproject">${data.labelText}</h6>
 </div>
@@ -98,7 +100,7 @@ function linkManager(i){
   <div class="presentation-container">
   <div class="presentation">
     <h2>Design Process</h2>
-    <p>Slide deck below describes user experience design process being conducted while designing foodies App :</p>
+    <p>Slide deck below describes Full User Experience design process conducted while designing Foodies App:</p>
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFQuDSYFrxT9DVIcly7qT1cuqMe5BSNAL0ZT3e54ej_4oSUa_XUY7qxb7D4300QSJm42-p2JGmkobC/embed?start=true&loop=true&delayms=3000" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     <div>
       <p>
@@ -178,7 +180,7 @@ function linkManager(i){
         <img src="assets/img/BGC-Picture.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
-        <h2>Battle Grounnd City</h2>
+        <h2>Battle Ground City</h2>
         <h3>Account Creation Flow For Gaming Web Site </h3>
           <p class="font-italic">
            UX-Design Project By - Abhishek Mishra.
@@ -204,7 +206,7 @@ function linkManager(i){
   <div class="presentation-container">
   <div class="presentation">
     <h2>Design Process</h2>
-    <p>Slide deck below describes user experience design process being conducted while designing foodies App :</p>
+    <p>Slide deck below describes Full User experience design process conducted while designing Responsive website for Battle Ground City Account Creation flow :</p>
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTivwtgBzMKYsC1Vuh1kiF-Z4NVnYpnP1spL9ryLw4C7pwiHZGQ1KN8MExTIEuOhmwTY_ZfhkidYHMS/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     <div>
       <p>
@@ -308,7 +310,7 @@ function linkManager(i){
   <div class="presentation-container">
   <div class="presentation">
     <h2>Design Process</h2>
-    <p>Slide deck below describes user experience design process being conducted while designing Online Be-Fit Fitness Coaching  Services :</p>
+    <p>Slide deck below describes User Experience design process being conducted while designing Online Be-Fit Fitness Coaching  Services :</p>
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ35Dtt7vlsdCQnPog9DUXIQ3ezm7sHCkUHW2JgpT60-v6ZMIetMkxI7tR830a7SmM4clIWWhJ-PSGV/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     <div>
       <p>
@@ -381,6 +383,7 @@ function linkManager(i){
     return `
   <div class="col-lg-5 col-md-5 portfolio-item filter-app justify-content-center m-3 p-0">
     <div class="portfolio-wrap">
+    <a href="#ux-projects" onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details Link">
       <img src="${data.picture}" class="img-fluid" alt="">
       <div class="portfolio-info">
         <h4>${data.headingOneInPicture}</h4>
@@ -389,6 +392,7 @@ function linkManager(i){
           <a onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details Link"><i class="bx bx-link"></i></a>
         </div>
       </div>
+      </a>
     </div>
     <h5 class="label-UXproject">${data.labelText}</h5>
   </div>
