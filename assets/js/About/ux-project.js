@@ -474,6 +474,7 @@ function linkManager(i){
 </div>
 </div>`
       break;
+ /*
       case 4:
         document.getElementById("projectslink-generator").innerHTML=`
                 
@@ -603,7 +604,8 @@ function linkManager(i){
   </div>
   </div>`
         break;
-/*
+        */
+
         case 5:
           document.getElementById("projectslink-generator").innerHTML=`
                   
@@ -739,7 +741,7 @@ Users of Foodies Website will be happy and Will Never leave Out Their User Journ
     </div>
     </div>`
           break;
-          */
+       
   }
   function ExploreMoreprojectTemplate(data){
     return `
