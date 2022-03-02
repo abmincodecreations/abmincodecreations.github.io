@@ -533,7 +533,7 @@ function linkManager(i){
     <div class="container mt-2" >
       <div class="row justify-content-center">
         <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/classroom-users.png" class="img-fluid my-img"  width="100%" alt="Hey! I’m Nobita, I’m a student studying in remote mode in this lockdown , Classroom app has really helped me in managing my Online Classroom Experience in this lockdown ,  I can save my Time now , i can take rest in free time by sleeping & enjoy my life by playing games. Before Using This app my life was so exaustinng. Thanks to classroom app for making my life easy.
+        <img src="assets/img/classroom-users.webp" class="img-fluid my-img"  width="100%" alt="Hey! I’m Nobita, I’m a student studying in remote mode in this lockdown , Classroom app has really helped me in managing my Online Classroom Experience in this lockdown ,  I can save my Time now , i can take rest in free time by sleeping & enjoy my life by playing games. Before Using This app my life was so exaustinng. Thanks to classroom app for making my life easy.
 
         Hey! I’m Sensei, I’m Nobita’s teacher , i completly agree with Nobita’s thought about classroom app. It has really help me too in sheduling my classes online, I like how students can ask for attendence points by submitting assignments and best part of it is students can get study resorses in a well Organized way. At the end all i want is Online learning should be able to give students knowledge. 
         ">
@@ -664,7 +664,7 @@ function linkManager(i){
       <div class="container mt-2" >
         <div class="row justify-content-center">
           <div class="col-lg-5" data-aos="fade-right">
-          <img src="assets/img/Foodies-Desktop-Ram-Prasad.png" class="img-fluid my-img"  width="100%" alt="Hey! I’m Ram Prasad, I use Foodies Desktop website to get my Food delivered to my home. I can now get my food delivered to my home without visiting a Restaurant and waiting In line for my orders to get prepared. It’s just done with my Online Order Via Foodies Website..  ">
+          <img src="assets/img/Foodies-Desktop-Ram-Prasad.webp" class="img-fluid my-img"  width="100%" alt="Hey! I’m Ram Prasad, I use Foodies Desktop website to get my Food delivered to my home. I can now get my food delivered to my home without visiting a Restaurant and waiting In line for my orders to get prepared. It’s just done with my Online Order Via Foodies Website..  ">
           </div>
           <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Design Considerations While Prototyping Classroom Mobile App</h3>
