@@ -213,14 +213,15 @@ function WindowSizeAdjustor(){
 
 
 function SetLodingPageModeOff(){
-  setTimeout(() => { document.getElementById("loading-box").style.display="none";}, 4000);
+ document.getElementById("loading-box").style.display="none";
  
 }
 
 window.addEventListener("resize", WindowSizeAdjustor);
  
+
+
 window.onload = function pageReloadUiManager(){
-  SetLodingPageModeOff();
   document.getElementsByTagName('h1')[0].focus();
   var currentUrl="hii"+window.location.href;
   var homepage="hiihttps://abmincodecreations.github.io/";
