@@ -159,9 +159,7 @@ Loading Page Style
   width: 100vw;
   height: 100vh;
 }
-#loading-box * {
-  transition: ease-in-out 0.2s;
-}
+
 
 #loading-wrapper {
   transition: ease-in-out 5.2s;
