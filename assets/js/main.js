@@ -153,6 +153,7 @@ function sliderBtnVisibility(){
 
 function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
+    SetLodingPageModeOff();
     document.getElementById("gif-hello").style.display="none";
     sliderBtnVisibility();
     bg();
@@ -211,9 +212,14 @@ function WindowSizeAdjustor(){
 }
 
 
+function SetLodingPageModeOff(){
+  document.getElementById("loading-box").style.display="none";
+}
+
 window.addEventListener("resize", WindowSizeAdjustor);
  
 window.onload = function pageReloadUiManager(){
+  SetLodingPageModeOff();
   document.getElementsByTagName('h1')[0].focus();
   var currentUrl="hii"+window.location.href;
   var homepage="hiihttps://abmincodecreations.github.io/";
