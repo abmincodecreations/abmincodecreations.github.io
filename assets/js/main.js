@@ -213,7 +213,8 @@ function WindowSizeAdjustor(){
 
 
 function SetLodingPageModeOff(){
-  document.getElementById("loading-box").style.display="none";
+  setTimeout(() => { document.getElementById("loading-box").style.display="none";}, 4000);
+ 
 }
 
 window.addEventListener("resize", WindowSizeAdjustor);
