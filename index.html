@@ -14,13 +14,6 @@
   <meta content="Abhishek Mishra" name="Abhishek Mishra">
   <meta content="Software developer" name="Rourkela">
 
-   <div id="loading-box">
-    <div id="loading-wrapper">
-      <div id="loading-text">LOADING</div>
-      <div id="loading-content"></div>
-    </div>
-    </div>
- 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -36,7 +29,13 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body id="myDIV" class="" onload="SetLodingPageModeOff()">
+<body id="myDIV" class="">
+  <div id="loading-box">
+    <div id="loading-wrapper">
+      <div id="loading-text">LOADING</div>
+      <div id="loading-content"></div>
+    </div>
+    </div>
  <div id="bg-toogle">  
    <!-- ======= Header ======= -->   
  <header id="header" class="header-tops" >
@@ -73,7 +72,7 @@
        
       </div>
       <nav>
-      <div  id="slider-btn" class="slider-btn-motion" aria-label="Next Page Button" onClick="gotoAboutMe()"><i class="icofont-scroll-down"></i></div>
+      <div  onload="SetLodingPageModeOff()" id="slider-btn" class="slider-btn-motion" aria-label="Next Page Button" onClick="gotoAboutMe()"><i class="icofont-scroll-down"></i></div>
       </nav>
     </div>
   </header> 
