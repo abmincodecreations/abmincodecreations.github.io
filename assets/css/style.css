@@ -154,6 +154,7 @@ Loading Page Style
 --------------------------------------------------------------------*/
 
 #loading-box{
+  position: fixed;
   z-index: 2147483647;
   background-color: #000000;
   width: 100vw;
