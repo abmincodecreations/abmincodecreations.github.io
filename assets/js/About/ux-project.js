@@ -2,8 +2,8 @@ let UXprojectsDatalist=[
   {
     Index:5,
     picture: 'assets/img/portfolio/portfolio-5.png',
-    headingOneInPicture:'Foodies Desktop',
-    paraInPicture: "App Design",
+    headingOneInPicture:'Foodies',
+    paraInPicture: "Desktop Website Design",
     labelText: "Foodies <br> Online Food Ordering <br> Desktop Website Design  <br> Considering 60+ aged User Group"
   },
   {
