@@ -27,7 +27,7 @@ let UXprojectsDatalist=[
     paraInPicture: "Mobile App & Responsive Website Design",
     labelText: "Be-Fit <br>Online Fitness Coaching <br> Website & Mobile App Design."
   }
-  /*,
+  ,
   {
     Index:4,
     picture: 'assets/img/portfolio/portfolio-4.png',
@@ -35,7 +35,6 @@ let UXprojectsDatalist=[
     paraInPicture: "Mobile App Design",
     labelText: "Smart Online Classroom App <br> Experience design for Students & Teachers in this Lockdown "
   }
-  */
 ];
 
 
@@ -474,7 +473,7 @@ function linkManager(i){
 </div>
 </div>`
       break;
- /*
+
       case 4:
         document.getElementById("projectslink-generator").innerHTML=`
                 
@@ -510,8 +509,23 @@ function linkManager(i){
         </div>
       </div>
   </div>
+  
+  
+
   <div class="container" >
     <div class="row justify-content-center">
+    <!-- Classroom App Video -->
+    <div class="container" >
+      <div class="row justify-content-center">
+      <div class="content">
+        <div class="iframe-container">
+
+      <iframe width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div>
+        </div>
+      </div>
+    <!-- Classroom App Video-->
     <div class="presentation-container">
     <div class="presentation">
       <h2>Design Process</h2>
@@ -604,7 +618,7 @@ function linkManager(i){
   </div>
   </div>`
         break;
-        */
+        
 
         case 5:
           document.getElementById("projectslink-generator").innerHTML=`
