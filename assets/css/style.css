@@ -302,16 +302,16 @@ Loading Page Style
 }
 @media (max-width: 992px) {
   #gif-hello{
-    width:100px;
-    height: 100px;
+    width:95px;
+    height: 95px;
     border-radius: 5%;
     }
 }
 
 @media (max-width: 450px) {
   #gif-hello{
-  width:100px;
-  height: 100px;
+  width:95px;
+  height: 95px;
   border-radius: 5%;
   }
 }
