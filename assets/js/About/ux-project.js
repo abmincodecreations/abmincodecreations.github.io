@@ -513,7 +513,7 @@ function linkManager(i){
   
 
   <div class="container" >
-    <div class="row justify-content-center">
+  <div class="row justify-content-center">
     <!-- Classroom App Video -->
     <div class="container" >
       <div class="row justify-content-center">
