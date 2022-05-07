@@ -509,23 +509,22 @@ function linkManager(i){
         </div>
       </div>
   </div>
-  
+  <!-- Classroom App Video -->
+  <div class="container" >
+    <div class="row justify-content-center">
+    <div class="content">
+      <div class="iframe-container">
+
+    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      <div>
+      </div>
+    </div>
+  <!-- Classroom App Video-->
   
 
   <div class="container" >
   <div class="row justify-content-center">
-    <!-- Classroom App Video -->
-    <div class="container" >
-      <div class="row justify-content-center">
-      <div class="content">
-        <div class="iframe-container">
-
-      <iframe width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <div>
-        </div>
-      </div>
-    <!-- Classroom App Video-->
     <div class="presentation-container">
     <div class="presentation">
       <h2>Design Process</h2>
@@ -539,7 +538,7 @@ function linkManager(i){
     </div>
     </div>
     </div>
-  </div>
+    </div>
   <div class="image-ux-project col-12">
     <img src="assets/img/classroom-app-in-lockdown.png" alt="Image showing a mobile screen kept on a mask on table with classrom app loaded. With other things such as pens tand with pens in it & sanitizer bottle kept on the table too."> </img>
   </div>
