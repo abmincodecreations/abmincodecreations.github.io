@@ -537,11 +537,12 @@ function linkManager(i){
       </div>
     </div>
     </div>
-    </div>
-    </div>
-  <div class="image-ux-project col-12">
+    <div class="image-ux-project col-12">
     <img src="assets/img/classroom-app-in-lockdown.png" alt="Image showing a mobile screen kept on a mask on table with classrom app loaded. With other things such as pens tand with pens in it & sanitizer bottle kept on the table too."> </img>
   </div>
+    </div>
+    </div>
+ 
   
     <div class="container mt-2" >
       <div class="row justify-content-center">
