@@ -15,6 +15,16 @@ let ToolsAndTechnologySkillsData=[
     Skill: ' FIGMA ',
     percentage:'95'
   }
+  ,
+  {
+    Skill: ' JIRA',
+    percentage:'95'
+  }
+  ,
+  {
+    Skill: ' Microsoft Azure',
+    percentage:'95'
+  }
 ];
 
 var ToolsAndTechnologySkillsDataOne= [];

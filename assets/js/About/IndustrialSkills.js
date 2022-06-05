@@ -20,7 +20,7 @@ let IndustrialSkillsData=[
     percentage:'100'
   },
   {
-    Skill: ' ACCESSIBILITY CONSIDERATION',
+    Skill: ' ACCESSIBILITY (A11Y)',
     percentage:'90'
   },
   {
