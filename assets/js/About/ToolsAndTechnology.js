@@ -22,7 +22,7 @@ let ToolsAndTechnologySkillsData=[
   }
   ,
   {
-    Skill: ' Microsoft Azure',
+    Skill: ' Microsoft Azure DevOps',
     percentage:'95'
   }
 ];
