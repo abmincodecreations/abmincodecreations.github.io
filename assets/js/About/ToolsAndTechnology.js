@@ -1,29 +1,35 @@
 let ToolsAndTechnologySkillsData=[
   {
     Skill: ' GITHUB ',
-    percentage:'60'
+    percentage:'60',
+    icon:'fa-brands fa-github'
   },
   {
     Skill: ' GIT',
-    percentage:'60'
+    percentage:'60',
+    icon:'fa-brands fa-git-alt'
   },
   {
     Skill: 'Adobe XD ',
-    percentage:'80'
+    percentage:'80',
+    icon:' ri-briefcase-4-fill '
   },
   {
     Skill: ' FIGMA ',
-    percentage:'95'
+    percentage:'95',
+    icon:'fa-brands fa-figma'
   }
   ,
   {
     Skill: ' JIRA',
-    percentage:'95'
+    percentage:'95',
+    icon:' fa-brands fa-jira '
   }
   ,
   {
     Skill: ' Microsoft Azure DevOps',
-    percentage:'95'
+    percentage:'95',
+    icon:' fa-brands fa-microsoft '
   }
 ];
 
@@ -43,9 +49,10 @@ var ToolsAndTechnologySkillsDataTwo=[];
   function ToolsAndTechnologySkillsTemplate(data){
     return `
     <div class="progress">
-        <span class="skill">${data.Skill} <i class="val">${data.percentage}${"%"}</i></span>
-          <div class="progress-bar-wrap">
-              <div 
+        <span class="skill"><i class="fab ${data.icon} "></i>${data.Skill} <!--<i class="val">${data.percentage}${"%"}</i>--!></span>
+        <!--
+        <div class="progress-bar-wrap">
+            <div 
               class="progress-bar" 
               role="progressbar" 
               aria-valuenow="${data.percentage}" 
@@ -53,6 +60,7 @@ var ToolsAndTechnologySkillsDataTwo=[];
               aria-valuemax="100">
               </div>
             </div>
+            --!>
           </div>`
   }
 document.getElementById("ToolsAndTechnologySkillsGeneratorOne").innerHTML=`
