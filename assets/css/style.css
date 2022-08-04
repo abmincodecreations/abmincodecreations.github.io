@@ -303,6 +303,7 @@ Loading Page Style
 }
 @media (max-width: 993px) {
   .avatar{
+    display: none;
     width:30px;
     height: 30px;
   }
