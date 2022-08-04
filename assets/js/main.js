@@ -155,10 +155,6 @@ function logogifVisibility(){
   document.getElementById("logo-link").style.display="block";
   bg();
 }
-function logogifVisibilityOff(){
-  document.getElementById("logo-link").style.display="none";
-  bg();
-}
 
 function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
@@ -237,7 +233,6 @@ window.addEventListener("resize", WindowSizeAdjustor);
  
 window.onload = function pageReloadUiManager(){
   SetLodingPageModeOff();
-  logogifVisibilityOff();
   document.getElementsByTagName('h1')[0].focus();
   var currentUrl="hii"+window.location.href;
   var homepage="hiihttps://abmincodecreations.github.io/";

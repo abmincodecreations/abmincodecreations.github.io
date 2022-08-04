@@ -295,7 +295,7 @@ Loading Page Style
 Loading Page Style
 --------------------------------------------------------------------*/
 #logo-link{
-  display: block;
+  display: none;
 }
 .logo-link{
   display: inline-flex;
