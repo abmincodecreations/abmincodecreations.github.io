@@ -295,9 +295,29 @@ Loading Page Style
 Loading Page Style
 --------------------------------------------------------------------*/
 
+@media (max-width: 993px) {
+  .avatar{
+    width:45px;
+    height: 45px;
+  }
+}
+@media (min-width: 993px) {
+  .avatar{
+    width:96px;
+    height: 96px;
+  }
+}
 @media (min-width: 993px) {
   #gif-hello{
   display: none;
+
+  }
+}
+
+@media (min-width: 993px) {
+  #gif-hello{
+  display: none;
+
   }
 }
 @media (max-width: 992px) {
