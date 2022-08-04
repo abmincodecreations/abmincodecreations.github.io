@@ -151,17 +151,11 @@ function sliderBtnVisibility(){
   anyclickonpage= true;
 }
 
-function logogifVisibility(){
-  document.getElementById("logo-link").style.display="block";
-  bg();
-}
-
 function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
     SetLodingPageModeOff();
     document.getElementById("gif-hello").style.display="none";
     sliderBtnVisibility();
-    document.getElementById("logo-link").style.display="block";
     bg();
     anyclickonpage= true;
     if (window.matchMedia("(max-width: 409px)").matches) {
@@ -176,7 +170,6 @@ function gotoProjects(){
   document.getElementById("nav-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
-  logogifVisibility();
   anyclickonpage= true;
 }
 
@@ -184,7 +177,6 @@ function gotoContact(){
   document.getElementById("nav-contact").click();
   sliderBtnVisibility();
   slidergifVisibility();
-  logogifVisibility();
   anyclickonpage= true;
 }
 
@@ -192,7 +184,6 @@ function gotoResume(){
   document.getElementById("nav-resume").click();
   sliderBtnVisibility();
   slidergifVisibility();
-  logogifVisibility();
   anyclickonpage= true;
 }
 
@@ -200,14 +191,12 @@ function gotoAboutMe(){
   document.getElementById("nav-about").click();
   sliderBtnVisibility();
   slidergifVisibility();
-  logogifVisibility();
   anyclickonpage= true;
 }
 function gotoUxProjects(){
   document.getElementById("nav-ux-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
-  logogifVisibility();
   anyclickonpage= true;
 }
 
@@ -218,7 +207,6 @@ function WindowSizeAdjustor(){
   if(anyclickonpage){
     if (varWidth<993) {
         slidergifVisibility();
-        
     }
   }
 }
