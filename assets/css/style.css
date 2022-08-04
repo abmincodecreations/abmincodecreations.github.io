@@ -294,18 +294,9 @@ Loading Page Style
 /* -------------------------------------------------------------
 Loading Page Style
 --------------------------------------------------------------------*/
-@media (min-width: 993px) {
 #logo-link{
-  display: none;
+  display: block;
 }
-}
-@media (max-width: 993px) {
-  #logo-link{
-    display: none;
-  }
-}
-
-
 .logo-link{
   display: inline-flex;
   align-items: flex-start;

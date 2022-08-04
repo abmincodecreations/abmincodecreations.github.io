@@ -155,7 +155,6 @@ function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
     SetLodingPageModeOff();
     document.getElementById("gif-hello").style.display="none";
-    document.getElementById("logo-link").style.display="block";
     sliderBtnVisibility();
     bg();
     anyclickonpage= true;
