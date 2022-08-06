@@ -342,8 +342,8 @@ Loading Page Style
   flex-direction: row;
 }
 .rabbit-logo-img{
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 @media (max-width: 995px) {
   .rabbit-logo-img{
