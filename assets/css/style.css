@@ -1444,6 +1444,23 @@ height: 100%;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact-Bunny-container{
+  text-align: center;
+  height: fit-content;
+  position: relative;
+}
+.contact-Bunny{
+  height: fit-content;
+  position: relative;
+  width:100%;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .contact-Bunny{
+    width:40%;
+    text-align: center;
+  }
+}
 .link-color-disable:link {
   color: #ffffff;
   text-decoration: none;
