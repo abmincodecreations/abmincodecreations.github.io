@@ -140,7 +140,6 @@ function animee() {
 }
 
 function bg(){
-  document.getElementById("Gentleman-buuny").style.display="none";
   document.getElementById("myDIV").classList.add("body");
   sliderBtnVisibility();
   anyclickonpage= true;
