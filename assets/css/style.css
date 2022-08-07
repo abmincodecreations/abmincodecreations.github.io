@@ -32,6 +32,20 @@ body::before {
   height: 100vh;
   z-index: -2;
 }
+.Gentleman-buuny{
+  display: none;
+}
+@media (max-width: 995px) {
+  .Gentleman-buuny{
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30vh;
+    z-index: -5;
+  }
+}
 
 @media (max-width: 995px) {
   body::before {

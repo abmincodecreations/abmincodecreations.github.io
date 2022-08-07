@@ -140,6 +140,7 @@ function animee() {
 }
 
 function bg(){
+  document.getElementById("Gentleman-buuny").style.display="none";
   document.getElementById("myDIV").classList.add("body");
   sliderBtnVisibility();
   anyclickonpage= true;
@@ -223,7 +224,7 @@ window.onload = function pageReloadUiManager(){
   SetLodingPageModeOff();
   document.getElementsByTagName('h1')[0].focus();
   var currentUrl="hii"+window.location.href;
-  var homepage="hiihttps://abmincodecreations.github.io/";
+  var homepage="hiihttp://127.0.0.1:5501/index.html";
   if(currentUrl != homepage){
    bg();
    anyclickonpage= true;
