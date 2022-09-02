@@ -2,43 +2,43 @@ let servicesData=[
   
   {
     name: '‎TimeLine App<br>(MERN Stack)',
-    logoClass:'fas fa-photo-video',
+    logoClass:'far ri-image-2-line ',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://timeline-feed.netlify.app/"
   },
   {
     name: '‎Pomodoro<br>Clock',
-    logoClass:'far fa-clock',
+    logoClass:'far ri-time-line',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://abmincodecreations.github.io/Pomodoro-Clock/"
   },
   {
     name: '‎JavaScript<br>Calculator',
-    logoClass:'fas fa-calculator',
+    logoClass:'fas ri-calculator-line ',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://abmincodecreations.github.io/Calculator/"
   },
   {
     name: 'Markdown <br>Live Previewer‏‏‎‎‏‏‎',
-    logoClass:'fas fa-file-code',
+    logoClass:'fas ri-markdown-fill',
     position: " ",
     btnLink:"https://abmincodecreations.github.io/Markdown-Live-Previewer/"
   },
   {
     name: '‎Drum-Machine',
-    logoClass:'fas fa-drum',
+    logoClass:'fas  ri-sound-module-fill',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://abmincodecreations.github.io/Drum-Machine/"
   },
   {
     name: 'Random Quote<br>Machine',
-    logoClass:'fas fa-quote-right',
+    logoClass:'fas ri-chat-quote-fill',
     position: " ",
     btnLink:"https://abmincodecreations.github.io/random_quote_generator-/"
   },
   {
     name: '‎Personal Portfolio<br>(CodePen Project)',
-    logoClass:'fas fa fa-user',
+    logoClass:'ri-user-heart-fill',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://codepen.io/abhishek_mishra_codecreations/full/mdeLNRG"
   },
@@ -81,7 +81,7 @@ function servicesTemplate(data){
   <a href="${data.btnLink}" target="_blank">
     <div class="icon-boxx">
               <div class="chip">
-                  <div class="logodiv"><i class="${data.logoClass}${' fab'}"></i></div>
+                  <div class="logodiv"><i class="${data.logoClass} ${' fab'}"></i></div>
                   <p class="nowrap">${data.name}</p>  
               </div>
      </div>

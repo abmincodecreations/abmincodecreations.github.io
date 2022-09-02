@@ -53,7 +53,7 @@ function UXprojectTemplate(data){
     </div>
     </a>
   </div>
-  <h6 class="label-UXproject">${data.labelText}</h6>
+  <h6 class="label-UXproject"><em>${data.labelText}</em></h6>
 </div>
   `
 }
