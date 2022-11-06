@@ -1698,3 +1698,86 @@ height: 100%;
 .credits a:hover {
   color: #fff;
 }
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-detail {
+  padding: 30px 0 60px 0;
+}
+
+.portfolio-detail .portfolio-details-container {
+  position: relative;
+}
+
+.portfolio-detail .portfolio-details-carousel {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-detail .portfolio-details-carousel .owl-nav, .portfolio-detail .portfolio-details-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.portfolio-detail .portfolio-details-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.portfolio-detail .portfolio-details-carousel .owl-dot.active {
+  background-color: #18d26e !important;
+}
+
+.portfolio-detail .portfolio-info {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.portfolio-detail .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-detail .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-detail .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-detail .portfolio-description {
+  padding-top: 50px;
+}
+
+.portfolio-detail .portfolio-description h2 {
+  width: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-detail .portfolio-description p {
+  padding: 0 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .portfolio-detail .portfolio-info {
+    position: static;
+    margin-top: 30px;
+  }
+}
