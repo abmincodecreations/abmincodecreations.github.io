@@ -302,7 +302,7 @@ function linkManager(i){
     <h3>For Acessability with Voice Support with keyboard input in Battle Ground City Account Creation Flow</h3>
     <p></p>
     <div class="iframe-container">
-    <iframe width="100%" height="900px" src="https://www.youtube-nocookie.com/embed/pGSVybbkXZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="900px" src="https://www.youtube-nocookie.com/embed/pGSVybbkXZE?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div>
     </div>
   </div>
@@ -515,7 +515,7 @@ function linkManager(i){
     <div class="content">
       <div class="iframe-container">
 
-    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       <div>
       </div>
