@@ -154,15 +154,44 @@ h6 {
 /* -------------------------------------------------------------
 Loading Page Style
 --------------------------------------------------------------------*/
+.css-selector {
+  background: linear-gradient(308deg, #155d00, #18003f, #000000);
+  background-size: 600% 600%;
 
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 22%}
+  50%{background-position:100% 79%}
+  100%{background-position:0% 22%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 22%}
+  50%{background-position:100% 79%}
+  100%{background-position:0% 22%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 22%}
+  50%{background-position:100% 79%}
+  100%{background-position:0% 22%}
+}
 
 #loading-box{
   position: fixed;
   z-index: 2147483647;
-  background-color: #000000;
+	height: 100vh;
   width: 100vw;
   height: 100vh;
+  background: linear-gradient(180deg, #000000, #2d2835,#000000,#232f31, #000000,#3d233f, #000000,#0f2b17, #000000);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite;
 }
+
 
 
 #loading-wrapper {
