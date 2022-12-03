@@ -178,7 +178,7 @@ Loading Page Style
 	height: 100vh;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(180deg, #000000, #2d2835,#000000,#232f31, #000000,#3d233f, #000000,#0f2b17, #000000);
+  background: linear-gradient(90deg, #000000, #2d2835,#000000,#232f31, #000000,#3d233f, #000000,#0f2b17, #000000);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 14s ease infinite;
   -moz-animation: AnimationName 14s ease infinite;
