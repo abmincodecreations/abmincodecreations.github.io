@@ -158,18 +158,18 @@ Loading Page Style
 
 @-webkit-keyframes AnimationName {
   0%{background-position:0% 22%}
-  50%{background-position:100% 79%}
-  100%{background-position:0% 22%}
+  50%{background-position:50% 79%}
+  100%{background-position:100% 22%}
 }
 @-moz-keyframes AnimationName {
   0%{background-position:0% 22%}
-  50%{background-position:100% 79%}
-  100%{background-position:0% 22%}
+  50%{background-position:50% 79%}
+  100%{background-position:100% 22%}
 }
 @keyframes AnimationName {
   0%{background-position:0% 22%}
-  50%{background-position:100% 79%}
-  100%{background-position:0% 22%}
+  50%{background-position:50% 79%}
+  100%{background-position:100% 22%}
 }
 
 #loading-box{
@@ -181,8 +181,8 @@ Loading Page Style
   background: linear-gradient(90deg, #000000, #2d2835,#000000,#232f31, #000000,#3d233f, #000000,#0f2b17, #000000);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 13s ease-in-out infinite;
-  -moz-animation: AnimationName 13s ease infinite;
-  animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease-in-out  infinite;
+  animation: AnimationName 13s ease-in-out  infinite;
 }
 
 
