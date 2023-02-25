@@ -8,6 +8,9 @@ body {
   position: relative;
   background: transparent;
 }
+.brighter{
+  filter: brightness(110%);
+}
 .body::before {
   content: "";
   position: fixed;
