@@ -8,9 +8,7 @@ body {
   position: relative;
   background: transparent;
 }
-.brighter{
-  filter: brightness(110%);
-}
+
 .body::before {
   content: "";
   position: fixed;
@@ -462,7 +460,7 @@ Loading Page Style
 
 @media (max-width: 992px) {
   #header h1 {
-    font-size: 34px;
+    font-size: 25px;
   }
   #header h2 {
     font-size: 20px;
@@ -479,7 +477,7 @@ Loading Page Style
 }
 @media (max-width: 340px) {
   #header h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
   #header h2 {
     font-size: 20px;
