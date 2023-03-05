@@ -1,6 +1,6 @@
 let IndustrialSkillsData=[
   {
-    Skill: ' USER-CENTERED DESIGN PROCESS ',
+    Skill: ' USER-CENTERED DESIGN ',
     percentage:'100',
     icon:' ri-user-heart-fill '
   },
@@ -35,7 +35,7 @@ let IndustrialSkillsData=[
     icon:'ri-window-fill'
   },
   {
-    Skill: 'DESIGN SYSTEM IMPLEMENTATION',
+    Skill: 'DESIGN SYSTEMS',
     percentage:'85',
     icon:'ri-folder-settings-fill'
   },
