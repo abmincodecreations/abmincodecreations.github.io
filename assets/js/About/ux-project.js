@@ -5,21 +5,21 @@ let UXprojectsDatalist=[
     picture: 'assets/img/portfolio/portfolio-1.png',
     headingOneInPicture:'Foodies',
     paraInPicture: "App Design",
-    labelText: "Foodies  <br> Online Food Ordering App"
+    labelText: "<b>Foodies</b>  <br>A Online Food Ordering App"
   },
   {
     Index:2,
     picture: 'assets/img/portfolio/portfolio-2.png',
     headingOneInPicture:'Battle Ground City',
     paraInPicture: "Responsive Website Design",
-    labelText: "Battle Groung City<br>Responsive Website<br> Account Creation Flow Design."
+    labelText: "<b>Battle Groung City</b><br>A Responsive Website<br> Account Creation Flow Design<br> for a web based online Game "
   },
   {
     Index:3,
     picture: 'assets/img/portfolio/portfolio-3.png',
     headingOneInPicture:'Be-Fit',
     paraInPicture: "Mobile App & Responsive Website Design",
-    labelText: "Be-Fit <br>Online Fitness Coaching <br> Website & Mobile App Design."
+    labelText: "<b>Be-Fit</b><br>A Online Fitness Coaching <br> Website & Mobile App Design."
   }
   ,
   {
@@ -27,7 +27,7 @@ let UXprojectsDatalist=[
     picture: 'assets/img/portfolio/portfolio-4.png',
     headingOneInPicture:'Classroom',
     paraInPicture: "Mobile App Design",
-    labelText: " Classroom <br>Mobile App design for <br>  Students & Teachers in this Lockdown "
+    labelText: "<b> Classroom </b> <br>A Mobile App design for <br>  Students & Teachers in this Lockdown "
   }
   ,
   {
@@ -35,14 +35,14 @@ let UXprojectsDatalist=[
     picture: 'assets/img/portfolio/portfolio-5.png',
     headingOneInPicture:'Foodies',
     paraInPicture: "Desktop Website Design",
-    labelText: "Foodies <br> Online Food Ordering <br> Desktop Website Design  <br> Considering 60+ aged User Group"
+    labelText: "<b>Foodies </b> <br> A Online Food Ordering <br> Desktop Website Design  <br> Considering 60+ aged User Group"
   },
   {
     Index:6,
     picture: 'assets/img/portfolio/MintWise-Website.png',
     headingOneInPicture:'MintWise',
     paraInPicture: "Responsive Website Design",
-    labelText: "MintWise  <br> Responsive Website Design <br>For Fintech Mobile App  "
+    labelText: "<b>MintWise </b> <br> A Responsive Website Design <br>For Fintech Mobile App  "
   }
 ];
 
@@ -91,7 +91,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/Foodies App.webp" class="img-fluid my-img"  width="502px" alt="picture of users hand holding a phone and using Foodies App.">
+        <img src="assets/img/Foodies App-min.png" class="img-fluid my-img"  width="502px" alt="picture of users hand holding a phone and using Foodies App.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Foodies App</h2>
@@ -185,7 +185,7 @@ function linkManager(i){
    <h2>What I learned?</h2>
    <h3></h3>
    <p>
-   Throughout this project I learned to Design  a product  from start to finish starting by drawing paper wireframes,conducting UX research and discovering importance of user feedback and UX Design process, I Learned to make accessible products and to prototype digital products in both high as well as low fedality prototype to bring ideas to life designs to be tested with users to iterate on Existing design by testing designs with real users , and realised value of iterating on design process and testing with real users can improve usability and user satisfaction.
+   A Mobile First Design Approch was been Followed. Throughout this project I learned to Design  a product  from start to finish starting by drawing paper wireframes,conducting UX research and discovering importance of user feedback and UX Design process, I Learned to make accessible products and to prototype digital products in both high as well as low fedality prototype to bring ideas to life designs to be tested with users to iterate on Existing design by testing designs with real users , and realised value of iterating on design process and testing with real users can improve usability and user satisfaction.
    <Br>
    </p>
    <p>

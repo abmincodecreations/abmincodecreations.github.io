@@ -846,15 +846,16 @@ section .container {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  margin:15px;
+  margin:20px;
+  margin-left: 10px;
   padding-left: 5px;
-  border: #18d26e;
+  border: rgb(39, 39, 39) /* #18d26e*/;
   border-style: groove;
-  border-radius: 10px;
+  border-radius: 2px;
   border-width: 0.2px;
   height: 60px;
   display: block;
-  background: rgba(255, 255, 255, 0.08);
+  background:rgba(255, 255, 255, 0.08);
 }
 
 .skills .progress .skill {
