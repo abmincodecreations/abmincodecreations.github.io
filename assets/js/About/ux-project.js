@@ -91,7 +91,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/Foodies App-min.png" class="img-fluid my-img"  width="502px" alt="picture of users hand holding a phone and using Foodies App.">
+        <img src="assets/img/Foodies App-min.png" loading="lazy" class="img-fluid my-img"  width="502px" alt="picture of users hand holding a phone and using Foodies App.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Foodies App</h2>
@@ -123,7 +123,7 @@ function linkManager(i){
   <div class="presentation">
     <h2>Design Process</h2>
     <p>Slide deck below describes Full User Experience design process conducted while designing Foodies App:</p>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFQuDSYFrxT9DVIcly7qT1cuqMe5BSNAL0ZT3e54ej_4oSUa_XUY7qxb7D4300QSJm42-p2JGmkobC/embed?start=true&loop=true&delayms=3000" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe loading="lazy" src="https://docs.google.com/presentation/d/e/2PACX-1vSFQuDSYFrxT9DVIcly7qT1cuqMe5BSNAL0ZT3e54ej_4oSUa_XUY7qxb7D4300QSJm42-p2JGmkobC/embed?start=true&loop=true&delayms=3000" frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     <div>
       <p>
         <br>
@@ -134,14 +134,14 @@ function linkManager(i){
   </div>
 </div>
 <div class="image-ux-project image-style-border-foodies col-12">
-  <img src="assets/img/Frame 9.png" alt="Image showing 5 screens of foodies App Screen Number 1 on left is cart page of Foodies App. Number 2 from left is menu page. Number 3 in center of screen is welcome page of foodies App.  Number 4 in right of screen is Prepare food online page of foodies App. Lastly Number 5 in right side on screen  is  Customization page for food items of foodies App."> </img>
+  <img src="assets/img/Frame 9.png" alt="Image showing 5 screens of foodies App Screen Number 1 on left is cart page of Foodies App. Number 2 from left is menu page. Number 3 in center of screen is welcome page of foodies App.  Number 4 in right of screen is Prepare food online page of foodies App. Lastly Number 5 in right side on screen  is  Customization page for food items of foodies App." loading="lazy" > </img>
 </div>
 
   <div class="container mt-2" >
     <div class="row justify-content-center">
       <div class="col-lg-5" data-aos="fade-right justify-content-center">
         <div class="figma-prototype">
-<iframe  style="border: 1px solid rgba(0, 0, 0, 0.1);" width="360" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxtK8SvKTdttTBCkPkax9In%2FFoodies-(Hi-FI)%3Fpage-id%3D0%253A1%26node-id%3D301%253A81%26viewport%3D245%252C48%252C0.34%26scaling%3Dmin-zoom%26starting-point-node-id%3D25%253A860" allowfullscreen></iframe>
+<iframe loading="lazy" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="360" height="750" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxtK8SvKTdttTBCkPkax9In%2FFoodies-(Hi-FI)%3Fpage-id%3D0%253A1%26node-id%3D301%253A81%26viewport%3D245%252C48%252C0.34%26scaling%3Dmin-zoom%26starting-point-node-id%3D25%253A860" allowfullscreen></iframe>
        
         </div>
         <p class="prototype-text">Live Prototype of Foodies App.</p>
@@ -224,7 +224,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/BGC-Picture.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
+        <img src="assets/img/BGC-Picture.webp" class="img-fluid my-img" loading="lazy" width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Battle Ground City</h2>
@@ -254,7 +254,7 @@ function linkManager(i){
   <div class="presentation">
     <h2>Design Process</h2>
     <p>Slide deck below describes Full User experience design process conducted while designing Responsive website for Battle Ground City Account Creation flow :</p>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTivwtgBzMKYsC1Vuh1kiF-Z4NVnYpnP1spL9ryLw4C7pwiHZGQ1KN8MExTIEuOhmwTY_ZfhkidYHMS/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe loading="lazy" src="https://docs.google.com/presentation/d/e/2PACX-1vTivwtgBzMKYsC1Vuh1kiF-Z4NVnYpnP1spL9ryLw4C7pwiHZGQ1KN8MExTIEuOhmwTY_ZfhkidYHMS/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     <div>
       <p>
         <br>
@@ -265,13 +265,13 @@ function linkManager(i){
   </div>
 </div>
 <div class="image-ux-project col-12">
-  <img src="assets/img/Desktop-game-view.webp" alt="Image showing A Desktop Screen with Battle Ground City Game Screen has a picture of military soldier with a gun  and written text Battle Ground City By Game On Studios with a button to load game. Benith the button their is a text which says press tab key to turn on voice support. Screen Also Shows Game logo"> </img>
+  <img src="assets/img/Desktop-game-view.webp" loading="lazy" alt="Image showing A Desktop Screen with Battle Ground City Game Screen has a picture of military soldier with a gun  and written text Battle Ground City By Game On Studios with a button to load game. Benith the button their is a text which says press tab key to turn on voice support. Screen Also Shows Game logo"> </img>
 </div>
 
   <div class="container mt-2" >
     <div class="row justify-content-center">
       <div class="col-lg-5" data-aos="fade-right">
-      <img src="assets/img/Battle-Ground-City.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
+      <img src="assets/img/Battle-Ground-City.webp" class="img-fluid my-img" loading="lazy" width="100%" alt=" Picture showing Desktop and Mobile Screens with Battle Ground City gaming website Loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Design Considerations While Prototyping Battle Grounds City Website</h3>
@@ -311,7 +311,7 @@ function linkManager(i){
     <h3>For Acessability with Voice Support with keyboard input in Battle Ground City Account Creation Flow</h3>
     <p></p>
     <div class="iframe-container">
-    <iframe width="100%" height="900px" src="https://www.youtube-nocookie.com/embed/pGSVybbkXZE?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe loading="lazy" width="100%" height="900px" src="https://www.youtube-nocookie.com/embed/pGSVybbkXZE?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <div>
     </div>
   </div>
@@ -367,7 +367,7 @@ function linkManager(i){
   <div class="container">
     <div class="row">
       <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/Laptop-Be-Fit.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing a Laptop kept on the table with Be-Fit Online Fitness coaching Website loaded.">
+        <img src="assets/img/Laptop-Be-Fit.webp" class="img-fluid my-img" loading="lazy" width="100%" alt=" Picture showing a Laptop kept on the table with Be-Fit Online Fitness coaching Website loaded.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h2>Be-Fit</h2>
@@ -396,7 +396,7 @@ function linkManager(i){
   <div class="presentation">
     <h2>Design Process</h2>
     <p>Slide deck below describes User Experience design process being conducted while designing Online Be-Fit Fitness Coaching  Services :</p>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ35Dtt7vlsdCQnPog9DUXIQ3ezm7sHCkUHW2JgpT60-v6ZMIetMkxI7tR830a7SmM4clIWWhJ-PSGV/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe loading="lazy" src="https://docs.google.com/presentation/d/e/2PACX-1vQ35Dtt7vlsdCQnPog9DUXIQ3ezm7sHCkUHW2JgpT60-v6ZMIetMkxI7tR830a7SmM4clIWWhJ-PSGV/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     <div>
       <p>
         <br>
@@ -407,13 +407,13 @@ function linkManager(i){
   </div>
 </div>
 <div class="image-ux-project col-12">
-  <img src="assets/img/Comited-to-be-fit.jpg" class="img-fluid my-img" alt="Image with a Apple and a Wooden Dumble and a small Black board with written text Commited to be Fit with a single peace of white chalk kept on it"> </img>
+  <img src="assets/img/Comited-to-be-fit.jpg" class="img-fluid my-img" loading="lazy" alt="Image with a Apple and a Wooden Dumble and a small Black board with written text Commited to be Fit with a single peace of white chalk kept on it"> </img>
 </div>
 
   <div class="container mt-2" >
     <div class="row justify-content-center">
       <div class="col-lg-5" data-aos="fade-right">
-      <img src="assets/img/Fit-be.webp" class="img-fluid my-img"  width="100%" alt=" Picture showing Desktop and Mobile Screens with Be-FIT  Application Loaded and aother pictures showing users doing exercise by using be-fit on their phone and laptop.">
+      <img src="assets/img/Fit-be.webp" class="img-fluid my-img" loading="lazy" width="100%" alt=" Picture showing Desktop and Mobile Screens with Be-FIT  Application Loaded and aother pictures showing users doing exercise by using be-fit on their phone and laptop.">
       </div>
       <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Design Considerations While Prototyping Be-Fit Web & Mobile Application</h3>
@@ -495,7 +495,7 @@ function linkManager(i){
     <div class="container">
       <div class="row">
         <div class="col-lg-5" data-aos="fade-right">
-          <img src="assets/img/Classroom-App.gif" class="img-fluid my-img"  width="100%" alt=" Picture showing Classroom App loaded on a Mobile phone">
+          <img src="assets/img/Classroom-App.gif" class="img-fluid my-img" loading="lazy" width="100%" alt=" Picture showing Classroom App loaded on a Mobile phone">
         </div>
         <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
           <h2>Classroom Mobile App</h2>
@@ -524,7 +524,7 @@ function linkManager(i){
     <div class="content">
       <div class="iframe-container">
 
-    <iframe width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe loading="lazy" width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       <div>
       </div>
@@ -538,7 +538,7 @@ function linkManager(i){
     <div class="presentation">
       <h2>Design Process</h2>
       <p>Slide deck below describes Full User experience design process conducted while designing Classroom Mobile App:</p>
-      <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFO6_cWxBJAfewNTr67g8N_y5djqelWXI9Maq-Ug-mDB8zCyq3S0kHEwo70v0qyWHwwskoj87uXePA/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      <iframe loading="lazy" src="https://docs.google.com/presentation/d/e/2PACX-1vSFO6_cWxBJAfewNTr67g8N_y5djqelWXI9Maq-Ug-mDB8zCyq3S0kHEwo70v0qyWHwwskoj87uXePA/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       <div>
         <p>
           <br>
@@ -547,7 +547,7 @@ function linkManager(i){
     </div>
     </div>
     <div class="image-ux-project col-12">
-    <img src="assets/img/classroom-app-in-lockdown.png" alt="Image showing a mobile screen kept on a mask on table with classrom app loaded. With other things such as pens tand with pens in it & sanitizer bottle kept on the table too."> </img>
+    <img loading="lazy" src="assets/img/classroom-app-in-lockdown.png" alt="Image showing a mobile screen kept on a mask on table with classrom app loaded. With other things such as pens tand with pens in it & sanitizer bottle kept on the table too."> </img>
   </div>
     </div>
     </div>
@@ -556,7 +556,7 @@ function linkManager(i){
     <div class="container mt-2" >
       <div class="row justify-content-center">
         <div class="col-lg-5" data-aos="fade-right">
-        <img src="assets/img/classroom-users.webp" class="img-fluid my-img"  width="100%" alt="Hey! I’m Nobita, I’m a student studying in remote mode in this lockdown , Classroom app has really helped me in managing my Online Classroom Experience in this lockdown ,  I can save my Time now , i can take rest in free time by sleeping & enjoy my life by playing games. Before Using This app my life was so exaustinng. Thanks to classroom app for making my life easy.
+        <img src="assets/img/classroom-users.webp" class="img-fluid my-img" loading="lazy" width="100%" alt="Hey! I’m Nobita, I’m a student studying in remote mode in this lockdown , Classroom app has really helped me in managing my Online Classroom Experience in this lockdown ,  I can save my Time now , i can take rest in free time by sleeping & enjoy my life by playing games. Before Using This app my life was so exaustinng. Thanks to classroom app for making my life easy.
 
         Hey! I’m Sensei, I’m Nobita’s teacher , i completly agree with Nobita’s thought about classroom app. It has really help me too in sheduling my classes online, I like how students can ask for attendence points by submitting assignments and best part of it is students can get study resorses in a well Organized way. At the end all i want is Online learning should be able to give students knowledge. 
         ">
@@ -641,7 +641,7 @@ function linkManager(i){
       <div class="container">
         <div class="row">
           <div class="col-lg-5" data-aos="fade-right">
-            <img src="assets/img/Foodies-Desktop.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Foodies Website Loaded On Laptop">
+            <img src="assets/img/Foodies-Desktop.png" loading="lazy" class="img-fluid my-img"  width="100%" alt=" Picture showing Foodies Website Loaded On Laptop">
           </div>
           <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h2> Foodies</h2>
@@ -670,7 +670,7 @@ function linkManager(i){
       <div class="presentation">
         <h2>Design Process</h2>
         <p>Slide deck below describes Full User experience design process conducted while designing Foodies Website:</p>
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ7OeHG8owZF4omTl5sUSI-cqDXMJ0oRpXrWIURd4ENTp93bhoQJjcQd8NP3wWxLfLUDhTmCuU6hxYb/embed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe loading="lazy" src="https://docs.google.com/presentation/d/e/2PACX-1vQ7OeHG8owZF4omTl5sUSI-cqDXMJ0oRpXrWIURd4ENTp93bhoQJjcQd8NP3wWxLfLUDhTmCuU6hxYb/embed?start=true&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         <div>
           <p>
             <br>
@@ -681,13 +681,13 @@ function linkManager(i){
       </div>
     </div>
     <div class="image-ux-project col-12">
-      <img src="assets/img/Food-Delivery.png" alt="Image showing a Delivery man taking Order From Foodies Desktop user to Foodies customer Ram Prasd's home address "> </img>
+      <img src="assets/img/Food-Delivery.png" loading="lazy" alt="Image showing a Delivery man taking Order From Foodies Desktop user to Foodies customer Ram Prasd's home address "> </img>
     </div>
     
       <div class="container mt-2" >
         <div class="row justify-content-center">
           <div class="col-lg-5" data-aos="fade-right">
-          <img src="assets/img/Foodies-Desktop-Ram-Prasad.webp" class="img-fluid my-img"  width="100%" alt="Hey! I’m Ram Prasad, I use Foodies Desktop website to get my Food delivered to my home. I can now get my food delivered to my home without visiting a Restaurant and waiting In line for my orders to get prepared. It’s just done with my Online Order Via Foodies Website..  ">
+          <img src="assets/img/Foodies-Desktop-Ram-Prasad.webp" loading="lazy" class="img-fluid my-img"  width="100%" alt="Hey! I’m Ram Prasad, I use Foodies Desktop website to get my Food delivered to my home. I can now get my food delivered to my home without visiting a Restaurant and waiting In line for my orders to get prepared. It’s just done with my Online Order Via Foodies Website..  ">
           </div>
           <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Design Considerations While Prototyping Classroom Mobile App</h3>
@@ -776,7 +776,7 @@ Users of Foodies Website will be happy and Will Never leave Out Their User Journ
         <div class="container">
           <div class="row">
             <div class="col-lg-5" data-aos="fade-right">
-              <img src="assets/img/Mintwise-1.png" class="img-fluid my-img"  width="100%" alt=" Picture showing Mintwise Website loaded on a Mobile phone & a laptop.">
+              <img src="assets/img/Mintwise-1.png" loading="lazy" class="img-fluid my-img"  width="100%" alt=" Picture showing Mintwise Website loaded on a Mobile phone & a laptop.">
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h2>MintWise</h2>
@@ -810,7 +810,7 @@ Users of Foodies Website will be happy and Will Never leave Out Their User Journ
         <div class="content">
           <div class="iframe-container">
     
-        <iframe width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe loading="lazy" width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
           <div>
           </div>
@@ -825,7 +825,7 @@ Users of Foodies Website will be happy and Will Never leave Out Their User Journ
         <div class="presentation">
           <h2>Design Process</h2>
           <p>Slide deck below describes Full User experience design process conducted while designing Mintwise Responsive Website:</p>
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vToyU-KvmpUDM0ffHLYhFx3Qaa6oYoS9KJd6VKsu2e_AoESfw6zZQ_PyDErxBYkqyNuoVjFwc9bgy4i/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          <iframe loading="lazy" src="https://docs.google.com/presentation/d/e/2PACX-1vToyU-KvmpUDM0ffHLYhFx3Qaa6oYoS9KJd6VKsu2e_AoESfw6zZQ_PyDErxBYkqyNuoVjFwc9bgy4i/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
           <div>
             <p>
               <br>
@@ -834,7 +834,7 @@ Users of Foodies Website will be happy and Will Never leave Out Their User Journ
         </div>
         </div>
         <div class="image-ux-project col-12">
-        <img src="assets/img/Mintwise-website.png" alt="Image showing Mintwise Website Loaded on a Desktop computer and a Mobile Phone."> </img>
+        <img loading="lazy" src="assets/img/Mintwise-website.png" alt="Image showing Mintwise Website Loaded on a Desktop computer and a Mobile Phone."> </img>
       </div>
         </div>
         </div>
@@ -843,7 +843,7 @@ Users of Foodies Website will be happy and Will Never leave Out Their User Journ
         <div class="container mt-2" >
           <div class="row justify-content-center">
             <div class="col-lg-5" data-aos="fade-right">
-            <img src="assets/img/MintWise-user.png" class="img-fluid my-img"  width="100%" alt="a picture showing Mintwise User taking financial decision about their money 
+            <img src="assets/img/MintWise-user.png" class="img-fluid my-img" loading="lazy" width="100%" alt="a picture showing Mintwise User taking financial decision about their money 
             ">
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
@@ -920,7 +920,7 @@ A simple easy to navigate and informative responsive website was been designed f
   <div class="col-lg-5 col-md-5 portfolio-item filter-app justify-content-center m-3 p-0">
     <div class="portfolio-wrap">
     <a href="#ux-projects" onClick="linkManager(${data.Index})" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Project Details Link">
-      <img src="${data.picture}" class="img-fluid" alt="">
+      <img src="${data.picture}" class="img-fluid" alt="" loading="lazy" >
       <div class="portfolio-info">
         <h4>${data.headingOneInPicture}</h4>
         <p>${data.paraInPicture}</p>
