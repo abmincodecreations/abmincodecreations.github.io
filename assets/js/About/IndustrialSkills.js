@@ -88,17 +88,6 @@ let IndustrialSkillsData=[
     Skill: ' a/b testing',
     percentage:'100',
     icon:' ri-a-b '
-  },
-  {
-    Skill: 'Angular JS',
-    percentage:'30',
-    icon:' fa-brands fa-angular '
-  }
-  ,
-  {
-    Skill: 'D3.JS',
-    percentage:'30',
-    icon:'icofont-data '
   }
 ];
 
