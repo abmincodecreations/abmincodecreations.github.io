@@ -24,7 +24,7 @@ let InterestsData=[
     color:'#5578ff'
   },
   {
-    Interest: 'Cloud Computing',
+    Interest: 'AI & Cloud Computing',
     logoClass:'ri-cloud-line',
     position: " ",
     color:' #e80368'
