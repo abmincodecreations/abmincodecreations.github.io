@@ -104,7 +104,7 @@ var IndustrialSkillsDataTwo=[];
     }
   }
 
-  function IndustrialSkillsTemplate(data){
+function IndustrialSkillsTemplate(data){
     return `
     <div class="progress">
         <span class="skill"> <i class="fab fas ${data.icon}"></i>${data.Skill}  <!-- <i class="val">${data.percentage}${"%"}</i>--!></span>
