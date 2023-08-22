@@ -196,34 +196,34 @@ async function slidergifVisibility(){
 
 
 
-async function gotoProjects(){
+ function gotoProjects(){
   document.getElementById("nav-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
 
-async function gotoContact(){
+ function gotoContact(){
   document.getElementById("nav-contact").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
 
-async function gotoResume(){
+ function gotoResume(){
   document.getElementById("nav-resume").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
 
-async function gotoAboutMe(){
+ function gotoAboutMe(){
   document.getElementById("nav-about").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
-async function gotoUxProjects(){
+ function gotoUxProjects(){
   document.getElementById("nav-ux-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
