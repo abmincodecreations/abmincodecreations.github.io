@@ -164,24 +164,24 @@ $(".testimonials-carousel").owlCarousel({
 
 // services section (animee)
 var anyclickonpage= false;
-async function animee() {
+function animee() {
   var element = document.getElementById("animee");
   element.classList.add("animeestyle");
 }
 
-async function bg(){
+function bg(){
   document.getElementById("myDIV").classList.add("body");
   sliderBtnVisibility();
   anyclickonpage= true;
 }
 
-async function sliderBtnVisibility(){
+function sliderBtnVisibility(){
   document.getElementById("slider-btn").style.display="none";
   slidergifVisibility();
   anyclickonpage= true;
 }
 
-async function slidergifVisibility(){
+function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
     SetLodingPageModeOff();
     document.getElementById("gif-hello").style.display="none";
@@ -196,34 +196,34 @@ async function slidergifVisibility(){
 
 
 
- function gotoProjects(){
+function gotoProjects(){
   document.getElementById("nav-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
 
- function gotoContact(){
+function gotoContact(){
   document.getElementById("nav-contact").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
 
- function gotoResume(){
+function gotoResume(){
   document.getElementById("nav-resume").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
 
- function gotoAboutMe(){
+function gotoAboutMe(){
   document.getElementById("nav-about").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
- function gotoUxProjects(){
+function gotoUxProjects(){
   document.getElementById("nav-ux-projects").click();
   sliderBtnVisibility();
   slidergifVisibility();
@@ -231,7 +231,7 @@ async function slidergifVisibility(){
 }
 
 
-async function WindowSizeAdjustor(){
+function WindowSizeAdjustor(){
   var varWidth = document.documentElement.clientWidth;
   var varHeight = document.documentElement.clientHeight;
   if(anyclickonpage){
@@ -242,7 +242,7 @@ async function WindowSizeAdjustor(){
 }
 
 
-async function SetLodingPageModeOff(){
+function SetLodingPageModeOff(){
  document.getElementById("loading-box").style.display="none";
  
 }
