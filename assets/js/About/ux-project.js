@@ -1,5 +1,20 @@
 let UXprojectsDatalist=[
-  
+  /*
+  {
+    Index:7,
+    picture: 'assets/img/portfolio/portfolio-7.png',
+    headingOneInPicture:'MingleWise',
+    paraInPicture: "Mobile App Design",
+    labelText: "<b>MintWise </b> <br> A Responsive Website Design <br>For Fintech Mobile App  "
+  },
+  {
+    Index:7,
+    picture: 'assets/img/portfolio/portfolio-8.png',
+    headingOneInPicture:'MintWise',
+    paraInPicture: "Responsive Website Design",
+    labelText: "<b>MintWise </b> <br> A Responsive Website Design <br>For Fintech Mobile App  "
+  },
+*/
   {
     Index:1,
     picture: 'assets/img/portfolio/portfolio-1.png',
@@ -63,6 +78,11 @@ function UXprojectTemplate(data){
     </a>
   </div>
   <h6 class="label-UXproject"><em>${data.labelText}</em></h6>
+  <div Class="Buttons-container" >
+  <Button onClick="linkManager(${data.Index})" Class="Case-Study-Btns" ;> 
+  View Case Study 
+  </Button>
+  </div>
 </div>
   `
 }
@@ -913,6 +933,155 @@ A simple easy to navigate and informative responsive website was been designed f
       </div>
       </div>`
             break;
+            case 7:
+              document.getElementById("projectslink-generator").innerHTML=`
+                      
+              <div class="section-title container">
+              <h2>UX Project:</h2>
+              <p>Check out my UX Works</p>
+            </div>
+            
+          <div class="row justify-content-center">   
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5" data-aos="fade-right">
+                <img src="assets/img/MingleWise.png" loading="lazy" class="img-fluid my-img"  width="100%" alt=" Picture showing MingleWise Mobile App Loaded On a Mobile with a boy and a girl clinking glasses.">
+              </div>
+              <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <h2>MingleWise</h2>
+                <h3>Mobile App Design </h3>
+                  <p class="font-italic">
+                  By - Abhishek Mishra -  A UI/UX-Designer
+                 </p>
+                <p class="font-italic">
+                Mintwise website is designed to support Mintwise fintech Mobile app's existing users & to attract  new users to join using mintwise to help them with their financial management 
+                </p>
+                <p class="font-italic">Some Quick use case of Mintwise Website:</p>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <ul>
+                      <li><i class="icofont-rounded-right"></i> <strong>To Support Existing Mintwise users :</strong> Website is designed to support existing users with required support and help to reduce pannic and misstrust with customers and to improve user perception of Mintwise fintech application
+                      </li>
+                      <li><i class="icofont-rounded-right"></i><strong> To Attract new users:</strong>All the product benefits and information was been given on the Mintwise Website to convense users to download the app by joining the waitlist to try it first.
+                      </li>
+                      <li><i class="icofont-rounded-right"><strong></i> To attract Potential Clients and Investors:</strong> It was also considered that potential clients, Investors and venders can get relevent information about mintwise from MintWise website.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- Classroom App Video -->
+        <!-- 
+        <div class="container" >
+          <div class="row justify-content-center">
+          <div class="content">
+            <div class="iframe-container">
+      
+          <iframe loading="lazy" width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+            <div>
+            </div>
+          </div>
+          -->
+        <!-- Classroom App Video-->
+        
+      
+        <div class="container" >
+        <div class="row justify-content-center">
+          <div class="presentation-container">
+          <div class="presentation">
+            <h2>Design Process</h2>
+            <p>Slide deck below describes Full User experience design process conducted while designing Mintwise Responsive Website:</p>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTEC36L-LSDZvHnA5zoQ8HRaaji_v-zkECWJqo6KuAYdpZpiGBBa2fhlLfE2wW1EpV56gclIUCjZlgu/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <div>
+              <p>
+                <br>
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="image-ux-project col-12">
+          <img loading="lazy" src="assets/img/Mintwise-website.png" alt="Image showing Mintwise Website Loaded on a Desktop computer and a Mobile Phone."> </img>
+        </div>
+          </div>
+          </div>
+       
+        
+          <div class="container mt-2" >
+            <div class="row justify-content-center">
+              <div class="col-lg-5" data-aos="fade-right">
+              <img src="assets/img/MintWise-user.png" class="img-fluid my-img" loading="lazy" width="100%" alt="a picture showing Mintwise User taking financial decision about their money 
+              ">
+              </div>
+              <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
+                <h3>Design Considerations While Designing Mintwise Website</h3>
+                <p class="font-italic">
+  It was ensured that the website is simple and easy to use. Continuous iterations were been done to reduce cognitive and visual stress and a simplified website was been designed with less text and easy to read and more visually  engaging content to improve user engagement with the content on the website.
+                </p>
+                
+                <p class="font-italic">Listed below are Design considerations been addapted to comeup with final designs</p>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <ul class="protoype-design-considerations">
+                      <li><i class="icofont-tick-boxed"></i> <strong> MintWise Design System Was been used to follow consistent Design language</strong></li>
+                      <li><i class="icofont-tick-boxed"></i><strong>Use Of 3D & 2D Icons and Imagery for better Visual Communication</strong> </li>
+                      <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions and proper  web accessibility standards were been followed</strong></li>
+                    </ul>
+              </div>
+            </div>
+            <!--
+            <p class="font-italic">
+            <Strong>Check out Live Prototype of Classroom App:</Strong>
+              <br>
+              <Strong>Note:</Strong> 
+              <a href="https://www.figma.com/proto/wkMS4XuXR3dpdTCLVlrNhR/Classroom?page-id=40%3A178&node-id=40%3A179&viewport=277%2C48%2C1.21&scaling=min-zoom&starting-point-node-id=40%3A179" target="_blank" >
+                    <button class="col-12 m-1 view-prototype-btn" aria-label="View  Classroom App Prototype Button." >View Classroom App Prototype</button>
+              <a>
+              <a href="https://www.figma.com/proto/wkMS4XuXR3dpdTCLVlrNhR/Classroom?page-id=40%3A191&node-id=40%3A195&viewport=277%2C48%2C0.36&scaling=min-zoom&starting-point-node-id=40%3A195" target="_blank" >
+                  <button class="col-12 m-1 view-prototype-btn" aria-label="View Design Systems file of Classroom App Button">View Design Systems file of Classroom App</button>
+              </a>
+            </p>
+            -->
+          </div>
+      
+      <div class="container" >
+       <div class="row justify-content-center">
+       <div class="content">
+         <h2>Conclusion</h2>
+         <h3></h3>
+         <p>
+        
+  A simple easy to navigate and informative responsive website was been designed for Mintwise Fitech mobile app with less read and scroll time.
+  
+         </p>
+         <h2>What I learned?</h2>
+         <h3></h3>
+         <p>
+         While Working On this Project I got an opportunity to work on real world product were I designed a responsive website under guidance of senior designer on the team who guided me on how to simplify designs and how to improve visual design of web based products by conducting usability testing and feedback generation from the team to iterate on product’s design. 
+  
+        
+         </p>
+        
+         </div>
+       </div>
+      </div>
+      
+          <div id="portfolio" class="portfolio">
+            <div class="container">
+              <div class="section-title">
+                <h2>  Explore more</h2>
+                <p>UX Projects</p>
+              </div>
+              <div  id="Explore-more-project-generator" class="row portfolio-container">
+                         <!--Projects links generation area-->
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>`
+            break;
        
   }
   function ExploreMoreprojectTemplate(data){
@@ -931,6 +1100,9 @@ A simple easy to navigate and informative responsive website was been designed f
       </a>
     </div>
     <h5 class="label-UXproject">${data.labelText}</h5>
+    <div Class="Buttons-container" >
+      <Button onClick="linkManager(${data.Index})" Class="Case-Study-Btns" ;> View Case Study </Button>
+    </div>
   </div>
     `
   }
