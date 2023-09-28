@@ -68,17 +68,25 @@ h6 {
 .page-btn {
   position: relative;
   margin: auto;
-  color: #fff;
+  color: #2c2c2c;
   width: fit-content;
   height: auto;
   border-color: #000000;
   border-width: 2px 8px;
   border-style: solid;
-  background-color: #1f1e1e88;
-  border-radius: 10%;
+  background: var(--Skylight, linear-gradient(180deg, #F4FAFC 0%, rgba(191, 235, 254, 0.71) 100%));
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
+   margin-top:0;
   cursor: default;
   font-size: smaller;
   z-index: 1100000000000000;
+  /* Large Text Bold */
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 140% */
+border-radius: 15px;
 }
 
 @media (max-width: 992px) {
@@ -1027,6 +1035,7 @@ section .container {
   height: max-content;
 }
 .Case-Study-Btns{
+
  margin-top:0;
  margin-bottom: 20px;
  width: fit-content;
@@ -1036,7 +1045,6 @@ section .container {
  border-radius: 10px;
  background: var(--Dove, #FFF);
  color: var(--Dark-Blue, #2A3852);
-
 /* Large Text Bold */
 font-family: Open Sans;
 font-size: 20px;
@@ -1046,30 +1054,9 @@ line-height: 28px; /* 140% */
 
 border-width: 0;
 }
+
 .Case-Study-Btns:hover{
 
- background: var(--Skylight, linear-gradient(180deg, #F4FAFC 0%, rgba(191, 235, 254, 0.71) 100%));
- box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
-  margin-top:0;
- margin-bottom: 20px;
- width: fit-content;
- padding-left: 15px;
- padding-right: 15px;
- height: 50px;
- border-radius: 10px;
-
-/* Large Text Bold */
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px; /* 140% */
-
- }
- .Case-Study-Btns:active{
-  padding-left:15px;
-  padding-right: 15px;
-  height: 29px;
   background: var(--Skylight, linear-gradient(180deg, #F4FAFC 0%, rgba(191, 235, 254, 0.71) 100%));
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
    margin-top:0;
@@ -1086,7 +1073,48 @@ line-height: 28px; /* 140% */
  font-style: normal;
  font-weight: 700;
  line-height: 28px; /* 140% */
- }
+ 
+  }
+
+  .Case-Study-Btns:active{
+    padding-left:15px;
+    padding-right: 15px;
+    height: 29px;
+    background: var(--Skylight, linear-gradient(180deg, #F4FAFC 0%, rgba(191, 235, 254, 0.71) 100%));
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
+     margin-top:0;
+    margin-bottom: 20px;
+    width: fit-content;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 50px;
+    border-radius: 10px;
+   
+   /* Large Text Bold */
+   font-family: Open Sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px; /* 140% */
+   }
+
+@media only screen and (max-width: 366px) {
+  .Case-Study-Btns{
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    padding: 10px;
+  }
+  .Case-Study-Btns:hover{
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    padding: 10px;
+  }
+  }
+
+
+
 
 .btn-logo-svg{
   width: 29px;

@@ -5,36 +5,35 @@ let UXprojectsDatalist=[
     picture: 'assets/img/portfolio/portfolio-7.png',
     headingOneInPicture:'MingleWise',
     paraInPicture: "Mobile App Design",
-    labelText: "<b>MintWise </b> <br> A Responsive Website Design <br>For Fintech Mobile App  "
+    labelText: "<b>Designing a Lifestlye based <br> Mobile App </b> For Global Users to increase daily active usge and to build user Trust for MingleWise Mobile App "
   },
   {
     Index:7,
     picture: 'assets/img/portfolio/portfolio-8.png',
     headingOneInPicture:'MintWise',
     paraInPicture: "Responsive Website Design",
-    labelText: "<b>MintWise </b> <br> A Responsive Website Design <br>For Fintech Mobile App  "
-  },
-*/
+    labelText: "<b>Setting Up a scalable Design System <br> & Designing a Fintech <br> Mobile app & It's Product Landing </b>  Responsive Website Design <br> to build a brand for UK Users"
+  },*/
   {
     Index:1,
     picture: 'assets/img/portfolio/portfolio-1.png',
     headingOneInPicture:'Foodies',
     paraInPicture: "App Design",
-    labelText: "<b>Foodies</b>  <br>A Online Food Ordering App"
+    labelText: "<b>Designing a Online Food Ordering Mobile App </b>for a local  resturants based in Munich,Germany"
   },
   {
     Index:2,
     picture: 'assets/img/portfolio/portfolio-2.png',
     headingOneInPicture:'Battle Ground City',
     paraInPicture: "Responsive Website Design",
-    labelText: "<b>Battle Groung City</b><br>A Responsive Website<br> Account Creation Flow Design<br> for a web based online Game "
+    labelText: "<b>Designing a Account Creation & sign in flow </b> for a Responsive Gaming Website Goal was to enhance experience <br> for new users"
   },
   {
     Index:3,
     picture: 'assets/img/portfolio/portfolio-3.png',
     headingOneInPicture:'Be-Fit',
     paraInPicture: "Mobile App & Responsive Website Design",
-    labelText: "<b>Be-Fit</b><br>A Online Fitness Coaching <br> Website & Mobile App Design."
+    labelText: "<b>Designing a Fitness Coaching Progresive web Application </b> for Global users considering <br> users with Limited motar abilities."
   }
   ,
   {
@@ -42,7 +41,7 @@ let UXprojectsDatalist=[
     picture: 'assets/img/portfolio/portfolio-4.png',
     headingOneInPicture:'Classroom',
     paraInPicture: "Mobile App Design",
-    labelText: "<b> Classroom </b> <br>A Mobile App design for <br>  Students & Teachers in this Lockdown "
+    labelText: "<b> Designing a Edtech Mobile App for <br>Students & Teachers in Lockdown to Reduce Screen time <br></b> to Regain Productivty and Focus on life"
   }
   ,
   {
@@ -50,14 +49,14 @@ let UXprojectsDatalist=[
     picture: 'assets/img/portfolio/portfolio-5.png',
     headingOneInPicture:'Foodies',
     paraInPicture: "Desktop Website Design",
-    labelText: "<b>Foodies </b> <br> A Online Food Ordering <br> Desktop Website Design  <br> Considering 60+ aged User Group"
+    labelText: "<b>Designing a Online Food Ordering Desktop Website experience <br> For 60+ Aged Indian Users </b>  <br> By Simplifying experience <br> over Automated Phone calls and chats"
   },
   {
     Index:6,
     picture: 'assets/img/portfolio/MintWise-Website.png',
     headingOneInPicture:'MintWise',
     paraInPicture: "Responsive Website Design",
-    labelText: "<b>MintWise </b> <br> A Responsive Website Design <br>For Fintech Mobile App  "
+    labelText: "<b> Designing a Fintech Mobile app's <br> Product Landing </b>  Responsive Website Design  to  build a brand for  <br> Mintwise Users based in United Kingdom"
   }
 ];
 
