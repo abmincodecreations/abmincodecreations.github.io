@@ -1010,7 +1010,7 @@ A simple easy to navigate and informative responsive website was been designed f
           <div class="container mt-2" >
             <div class="row justify-content-center">
               <div class="col-lg-5" data-aos="fade-right">
-              <img src="assets/img/MingleWise-Addvert.png" class="img-fluid my-img" loading="lazy" width="100%" alt="a picture showing MingleWise User taking financial decision about their money 
+              <img src="assets/img/MingleWise-Addvert.png" class="img-fluid my-img MinglewisemImage" loading="lazy" width="100%" alt="a picture showing MingleWise User taking financial decision about their money 
               ">
               </div>
               <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
