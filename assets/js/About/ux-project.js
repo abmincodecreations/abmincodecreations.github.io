@@ -958,11 +958,11 @@ A simple easy to navigate and informative responsive website was been designed f
                 <div class="row">
                   <div class="col-lg-12">
                     <ul>
-                      <li><i class="icofont-rounded-right"></i> <strong>To increase Daily Active usage :</strong> Website is designed to support existing users with required support and help to reduce pannic and misstrust with customers and to improve user perception of Mintwise fintech application
+                      <li><i class="icofont-rounded-right"></i> <strong>To increase Daily Active usage :</strong> A proper UX research and user behaviour analysis was been done to be able to increase Daily Active usage of MingleWise Mobile App.
                       </li>
-                      <li><i class="icofont-rounded-right"></i><strong> To improve profiles and user trust:</strong>All the product benefits and information was been given on the Mintwise Website to convense users to download the app by joining the waitlist to try it first.
+                      <li><i class="icofont-rounded-right"></i><strong> To improve profiles and user trust:</strong> User Profile on the mobile App was been improved with required details and profile varification process was been included to improve trustable user profiles to increase user trust on the mobile app.
                       </li>
-                      <li><i class="icofont-rounded-right"><strong></i> To help users get active users as matches:</strong> It was also considered that potential clients, Investors and venders can get relevent information about mintwise from MintWise website.</li>
+                      <li><i class="icofont-rounded-right"><strong></i> To help users get active users as matches:</strong> User Inactivity was been influenced by inactive users so to improve user interactivity on the mobile application inactive profiles were made inactive and last seen of the users on the application was been included. </li>
                     </ul>
                   </div>
                 </div>
@@ -1001,7 +1001,7 @@ A simple easy to navigate and informative responsive website was been designed f
           </div>
           </div>
           <div class="image-ux-project col-12">
-          <img class="MinglewisemImage" loading="lazy" src="assets/img/Minglewise/Minglewise2.png" alt="Image showing Mintwise Website Loaded on a Desktop computer and a Mobile Phone."> </img>
+          <img class="MinglewisemImage" loading="lazy" src="assets/img/Minglewise/Minglewise2.png" alt="Image showing Miglewise App Loaded on a Mobile Phone."> </img>
         </div>
           </div>
           </div>
@@ -1014,7 +1014,7 @@ A simple easy to navigate and informative responsive website was been designed f
               ">
               </div>
               <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>Design Considerations While Designing Mintwise Website</h3>
+                <h3>Design Considerations While Designing MingleWise Mobile App</h3>
                 <p class="font-italic">
   It was ensured that the website is simple and easy to use. Continuous iterations were been done to reduce cognitive and visual stress and a simplified website was been designed with less text and easy to read and more visually  engaging content to improve user engagement with the content on the website.
                 </p>
@@ -1023,7 +1023,7 @@ A simple easy to navigate and informative responsive website was been designed f
                 <div class="row">
                   <div class="col-lg-12">
                     <ul class="protoype-design-considerations">
-                      <li><i class="icofont-tick-boxed"></i> <strong> MintWise Design System Was been used to follow consistent Design language</strong></li>
+                      <li><i class="icofont-tick-boxed"></i> <strong> Minglewise Design System Was been used to follow consistent Design language</strong></li>
                       <li><i class="icofont-tick-boxed"></i><strong>Use Of 3D & 2D Icons and Imagery for better Visual Communication</strong> </li>
                       <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions and proper  web accessibility standards were been followed</strong></li>
                     </ul>
