@@ -1001,7 +1001,7 @@ A simple easy to navigate and informative responsive website was been designed f
           </div>
           </div>
           <div class="image-ux-project col-12">
-          <img loading="lazy" src="assets/img/Mintwise-website.png" alt="Image showing Mintwise Website Loaded on a Desktop computer and a Mobile Phone."> </img>
+          <img class="MinglewisemImage" loading="lazy" src="assets/img/Minglewise/Minglewise2.png" alt="Image showing Mintwise Website Loaded on a Desktop computer and a Mobile Phone."> </img>
         </div>
           </div>
           </div>
@@ -1010,7 +1010,7 @@ A simple easy to navigate and informative responsive website was been designed f
           <div class="container mt-2" >
             <div class="row justify-content-center">
               <div class="col-lg-5" data-aos="fade-right">
-              <img src="assets/img/MintWise-user.png" class="img-fluid my-img" loading="lazy" width="100%" alt="a picture showing Mintwise User taking financial decision about their money 
+              <img src="assets/img/MingleWise-Addvert.png" class="img-fluid my-img" loading="lazy" width="100%" alt="a picture showing MingleWise User taking financial decision about their money 
               ">
               </div>
               <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
@@ -1029,41 +1029,30 @@ A simple easy to navigate and informative responsive website was been designed f
                     </ul>
               </div>
             </div>
-            <!--
-            <p class="font-italic">
-            <Strong>Check out Live Prototype of Classroom App:</Strong>
-              <br>
-              <Strong>Note:</Strong> 
-              <a href="https://www.figma.com/proto/wkMS4XuXR3dpdTCLVlrNhR/Classroom?page-id=40%3A178&node-id=40%3A179&viewport=277%2C48%2C1.21&scaling=min-zoom&starting-point-node-id=40%3A179" target="_blank" >
-                    <button class="col-12 m-1 view-prototype-btn" aria-label="View  Classroom App Prototype Button." >View Classroom App Prototype</button>
-              <a>
-              <a href="https://www.figma.com/proto/wkMS4XuXR3dpdTCLVlrNhR/Classroom?page-id=40%3A191&node-id=40%3A195&viewport=277%2C48%2C0.36&scaling=min-zoom&starting-point-node-id=40%3A195" target="_blank" >
-                  <button class="col-12 m-1 view-prototype-btn" aria-label="View Design Systems file of Classroom App Button">View Design Systems file of Classroom App</button>
-              </a>
-            </p>
-            -->
+            <div class="container" >
+            <div class="row justify-content-center">
+            <div class="content">
+              <h2>Conclusion</h2>
+              <h3></h3>
+              <p>
+             
+       A simple easy to navigate and informative responsive website was been designed for Mintwise Fitech mobile app with less read and scroll time.
+       
+              </p>
+              <h2>What I learned?</h2>
+              <h3></h3>
+              <p>
+              While Working On this Project I got an opportunity to work on real world product were I designed  new features and Improved Existing App's Experience by adding new design changes. While Working on this product i also got an oportunity to improve my visual design skills & got a chance to implementat targeted user research by conducting both qualitative and quantitative research via user surveys and user interviews.
+             
+              </p>
+             
+              </div>
+            </div>
+           </div>
+            
           </div>
       
-      <div class="container" >
-       <div class="row justify-content-center">
-       <div class="content">
-         <h2>Conclusion</h2>
-         <h3></h3>
-         <p>
-        
-  A simple easy to navigate and informative responsive website was been designed for Mintwise Fitech mobile app with less read and scroll time.
-  
-         </p>
-         <h2>What I learned?</h2>
-         <h3></h3>
-         <p>
-         While Working On this Project I got an opportunity to work on real world product were I designed  new features and Improved Existing App's Experience by adding new design changes. While Working on this product i also got an oportunity to improve my visual design skills & got a chance to implementat targeted user research by conducting both qualitative and quantitative research via user surveys and user interviews.
-        
-         </p>
-        
-         </div>
-       </div>
-      </div>
+
       
           <div id="portfolio" class="portfolio">
             <div class="container">

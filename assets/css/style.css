@@ -1384,6 +1384,10 @@ height: 100%;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.MinglewisemImage{
+  border: 0px solid red;
+  border-radius: 50px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
