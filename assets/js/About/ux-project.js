@@ -954,7 +954,7 @@ A simple easy to navigate and informative responsive website was been designed f
                 <p class="font-italic">
                 MingleWise Is a Lifestyle app with users world-wide were people can find their dates, network with professionals. With majority of users from Asia , United Kingdom and other Continents.
                 </p>
-                <p class="font-italic">Some Quick use case of Mintwise Website:</p>
+                <p class="font-italic">Some Quick Points which were covered while designing MingleWise Mobile App:</p>
                 <div class="row">
                   <div class="col-lg-12">
                     <ul>
@@ -1036,14 +1036,13 @@ A simple easy to navigate and informative responsive website was been designed f
               <h3></h3>
               <p>
              
-       A simple easy to navigate and informative responsive website was been designed for Mintwise Fitech mobile app with less read and scroll time.
+       With new design and optimization an Increase in User Activity was been achieved with 4 times increase in number of the daily active users on the live application. 
        
               </p>
               <h2>What I learned?</h2>
               <h3></h3>
               <p>
-              While Working On this Project I got an opportunity to work on real world product were I designed  new features and Improved Existing App's Experience by adding new design changes. While Working on this product i also got an oportunity to improve my visual design skills & got a chance to implementat targeted user research by conducting both qualitative and quantitative research via user surveys and user interviews.
-             
+              While Working On this Project I got an opportunity to work on real world product were I designed  new features and Improved Existing App's Experience by adding new design changes. While Working on this product i also got an oportunity to improve my visual design skills & got a chance to implement targeted user research by conducting both qualitative and quantitative research via user surveys and user interviews.
               </p>
              
               </div>
@@ -1089,7 +1088,7 @@ A simple easy to navigate and informative responsive website was been designed f
                   By - Abhishek Mishra -  A UI/UX-Designer
                  </p>
                 <p class="font-italic">
-                MingleWise Is a Lifestyle app with users world-wide were people can find their dates, network with professionals. With majority of users from Asia , United Kingdom and other Continents.
+                Mintwise Mobile App is a fintech mobile app designed to act as a one place application to help users track , save and invest money  & a responsive landing page  website is designed for the product to help users get information about the product and resolve user queries and issues  online.
                 </p>
                 <p class="font-italic">Some Quick use case of Mintwise Website:</p>
                 <div class="row">
