@@ -1090,7 +1090,7 @@ A simple easy to navigate and informative responsive website was been designed f
                 <p class="font-italic">
                 Mintwise Mobile App is a fintech mobile app designed to act as a one place application to help users track , save and invest money  & a responsive landing page  website is designed for the product to help users get information about the product and resolve user queries and issues  online.
                 </p>
-                <p class="font-italic">Some Quick use case of Mintwise Website:</p>
+                <p class="font-italic">Some Quick Design Considerations while deigning Mintwise Application:</p>
                 <div class="row">
                   <div class="col-lg-12">
                     <ul>
@@ -1167,19 +1167,7 @@ A simple easy to navigate and informative responsive website was been designed f
                     </ul>
               </div>
             </div>
-            <!--
-            <p class="font-italic">
-            <Strong>Check out Live Prototype of Classroom App:</Strong>
-              <br>
-              <Strong>Note:</Strong> 
-              <a href="https://www.figma.com/proto/wkMS4XuXR3dpdTCLVlrNhR/Classroom?page-id=40%3A178&node-id=40%3A179&viewport=277%2C48%2C1.21&scaling=min-zoom&starting-point-node-id=40%3A179" target="_blank" >
-                    <button class="col-12 m-1 view-prototype-btn" aria-label="View  Classroom App Prototype Button." >View Classroom App Prototype</button>
-              <a>
-              <a href="https://www.figma.com/proto/wkMS4XuXR3dpdTCLVlrNhR/Classroom?page-id=40%3A191&node-id=40%3A195&viewport=277%2C48%2C0.36&scaling=min-zoom&starting-point-node-id=40%3A195" target="_blank" >
-                  <button class="col-12 m-1 view-prototype-btn" aria-label="View Design Systems file of Classroom App Button">View Design Systems file of Classroom App</button>
-              </a>
-            </p>
-            -->
+
           </div>
       
       <div class="container" >
