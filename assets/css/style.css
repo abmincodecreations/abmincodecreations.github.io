@@ -178,8 +178,95 @@ border-radius: 15px;
 /* -------------------------------------------------------------
 Loading Page Style
 --------------------------------------------------------------------*/
+.card{
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  color: #0f2b17;
+  display: flex;
+  flex-direction: row;
+}
+
+.card .content {
+  text-align: left;
+  align-content: center;
+  width: 50%;
+  margin: 10px;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+}
+
+.card .image {
+  color: #0f2b17;
+  
+}
+.card .image img{
+  width: 500px;
+  color: #0f2b17;
+  border: solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card{
+    width: 100%;
+    background: #fff;
+    color: #0f2b17;
+    display: flex;
+    flex-direction: column;
+  }
+  .card .content {
+    width: 50%;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #3d3d3d;
+  }
+  .card .image img{
+    width: 95%;
+    color: #0f2b17;
+    border: solid rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .desktop-img{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .mobile-img{
+    display: none;
+  }
+}
+
+.abhishekImage{
+  width: 600px;
+}
 
 
+.Cta-Btn{
+  margin-left: 0px;
+  display: inline-flex;
+  border: solid rgb(255, 255, 255);
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.Cta-Btn i{
+  margin-top: 5px;
+  margin-left: 15px;
+}
 @-webkit-keyframes AnimationName {
   0%{background-position:0% 22%}
   50%{background-position:50% 79%}
@@ -236,6 +323,74 @@ Loading Page Style
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('https://ggayane.github.io/css-experiments/Inconsolata-VF.ttf');
+  font-weight: 275 900;
+  font-stretch: 20% 200%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+main h1 {
+  color: var(--text-color);
+  font-family: Inconsolata;
+  text-align: center;
+  font-size: 3em;
+  font-variation-settings: "wght"175, "wdth"50;
+}
+@media only screen and (max-width: 600px) {
+  main h1 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 300px) {
+  main h1 {
+    font-size: 1.5em;
+  }
+}
+
+.right {
+  animation: swapthings 3s infinite both cubic-bezier(0.17, 0.04, 0.04, 0.99);
+}
+
+.left {
+  animation: swapthings2 3s infinite both cubic-bezier(0.17, 0.04, 0.04, 0.99);
+}
+
+
+@keyframes swapthings {
+  0% {
+    font-variation-settings: "wght"275, "wdth"50;
+  }
+
+  50% {
+    font-variation-settings: "wght"1000, "wdth"100;
+  }
+
+  100% {
+    font-variation-settings: "wght"275, "wdth"50;
+  }
+}
+
+@keyframes swapthings2 {
+  0% {
+    font-variation-settings: "wght"900, "wdth"200;
+  }
+
+  50% {
+    font-variation-settings: "wght"275, "wdth"50;
+  }
+
+  100% {
+    font-variation-settings: "wght"900, "wdth"200;
+  }
+}
 
 
 #loading-content {
