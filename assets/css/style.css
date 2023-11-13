@@ -241,8 +241,8 @@ Loading Page Style
   }
   .card .content {
     width: 100%;
-    margin: 30px;
-    font-size: 24px;
+    margin: 10px;
+    font-size: 18px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     color: #3d3d3d;
@@ -257,9 +257,10 @@ Loading Page Style
     display: none;
   }
   .card .Cta-Btn{
+   width: fit-content;
    padding-left: -100px;
    display: inline-flex;
-   font-size: 16px;
+   font-size: 14px;
   }
 }
 @media only screen and (max-width: 1000px) {
