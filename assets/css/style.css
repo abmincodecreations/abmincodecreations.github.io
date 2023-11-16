@@ -199,9 +199,24 @@ Loading Page Style
   color: #3d3d3d;
 }
 
+
+
 .card .image {
   color: #0f2b17;
   
+}
+
+.content button .fa-whatsapp {
+  color: #18d26e;
+  margin: 5px;
+  width:40px;
+  height:fit-content;
+}
+.content button p {
+  margin-top: 5px;
+}
+.content em{
+  color:#18d26e ;
 }
 .card .image img{
   width: 500px;
@@ -527,6 +542,9 @@ Loading Page Style
 
   }
 }
+
+
+
 
 @media (min-width: 993px) {
   #gif-hello{
