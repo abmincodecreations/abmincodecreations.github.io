@@ -277,6 +277,13 @@ Loading Page Style
    display: inline-flex;
    font-size: 14px;
   }
+  .content button p {
+    margin-top: 6px;
+  }
+  .content button .fa-whatsapp {
+    color: #18d26e;
+    margin-right: 5px;
+  }
 }
 @media only screen and (max-width: 1000px) {
   .card .content {
