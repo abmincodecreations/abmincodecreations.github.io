@@ -213,11 +213,20 @@ Loading Page Style
   color: #18d26e;
   margin-right: 5px;
 }
+.content button .fa-square-behance {
+  margin-right: 5px;
+}
+
+
+
 .content button p {
   margin-top: 5px;
 }
-.content em{
+.content em .whatsappText{
   color:#18d26e ;
+}
+.behance-text-select em{
+  color: #0057FF;
 }
 .card .image img{
   width: 500px;
