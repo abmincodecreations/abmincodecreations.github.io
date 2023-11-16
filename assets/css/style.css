@@ -205,12 +205,13 @@ Loading Page Style
   color: #0f2b17;
   
 }
+.content button {
+  max-height: 80px;
+}
 
 .content button .fa-whatsapp {
   color: #18d26e;
-  margin: 5px;
-  width:40px;
-  height:fit-content;
+  margin-right: 5px;
 }
 .content button p {
   margin-top: 5px;
