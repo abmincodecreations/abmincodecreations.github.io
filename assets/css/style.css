@@ -222,7 +222,7 @@ Loading Page Style
 .content button p {
   margin-top: 5px;
 }
-.content em .whatsappText{
+.content em {
   color:#18d26e ;
 }
 .behance-text-select em{
