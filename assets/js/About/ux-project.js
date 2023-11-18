@@ -78,7 +78,7 @@ function UXprojectTemplate(data){
   <h6 class="label-UXproject"><em>${data.labelText}</em></h6>
   <div Class="Buttons-container" >
   <Button onClick="linkManager(${data.Index})" Class="Case-Study-Btns" ;> 
-  View Case Study 
+  View this work 
   </Button>
   </div>
 </div>
@@ -1224,7 +1224,7 @@ A simple easy to navigate and informative responsive website was been designed f
     </div>
     <h5 class="label-UXproject">${data.labelText}</h5>
     <div Class="Buttons-container" >
-      <Button onClick="linkManager(${data.Index})" Class="Case-Study-Btns" ;> View Case Study </Button>
+      <Button onClick="linkManager(${data.Index})" Class="Case-Study-Btns" ;> View Work </Button>
     </div>
   </div>
     `
