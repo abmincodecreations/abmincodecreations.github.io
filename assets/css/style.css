@@ -202,7 +202,9 @@ Loading Page Style
  width: 100%;
 }
 
-
+.nowrap-dev{
+  white-space: nowrap;
+}
 
 .card .image {
   color: #0f2b17;
