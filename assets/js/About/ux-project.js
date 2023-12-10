@@ -949,10 +949,10 @@ A simple easy to navigate and informative responsive website was been designed f
                 <h2>MingleWise</h2>
                 <h3>Mobile App Design </h3>
                   <p class="font-italic">
-                  By - Abhishek Mishra -  A UI/UX-Designer
+                  By - Abhishek Mishra - UI/UX-Designer at MingleWise Team
                  </p>
                 <p class="font-italic">
-                MingleWise Is a Lifestyle app with users world-wide were people can find their dates, network with professionals. With majority of users from Asia , United Kingdom and other Continents.
+                MingleWise Is a Lifestyle app with users world-wide were people can find their dates, network with professionals and Attend Events online as well as Offline. With majority of users from Asia , United Kingdom and other Continents.
                 </p>
                 <p class="font-italic">Some Quick Points which were covered while designing MingleWise Mobile App:</p>
                 <div class="row">
@@ -960,31 +960,17 @@ A simple easy to navigate and informative responsive website was been designed f
                     <ul>
                       <li><i class="icofont-rounded-right"></i> <strong>To increase Daily Active usage :</strong> A proper UX research and user behaviour analysis was been done to be able to increase Daily Active usage of MingleWise Mobile App.
                       </li>
-                      <li><i class="icofont-rounded-right"></i><strong> To improve profiles and user trust:</strong> User Profile on the mobile App was been improved with required details and profile varification process was been included to improve trustable user profiles to increase user trust on the mobile app.
+                      <li><i class="icofont-rounded-right"></i><strong> To improve User profiles and user trust:</strong> User Profile on the mobile App was been improved with required details and profile varification process was been included to improve trustable user profiles to increase user trust on the mobile app.
                       </li>
                       <li><i class="icofont-rounded-right"><strong></i> To help users get active users as matches:</strong> User Inactivity was been influenced by inactive users so to improve user interactivity on the mobile application inactive profiles were made inactive and last seen of the users on the application was been included. </li>
+                      <li><i class="icofont-rounded-right"><strong></i> Real world Sending Gifts Experence:</strong> Users Were Alllowed to send and receive virtual and real Gifts by keeping  their personal details private if they want & can also add a personal note with their gift </li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
         </div>
-        
-        <!-- Classroom App Video -->
-        <!-- 
-        <div class="container" >
-          <div class="row justify-content-center">
-          <div class="content">
-            <div class="iframe-container">
-      
-          <iframe loading="lazy" width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-            <div>
-            </div>
-          </div>
-          -->
-        <!-- Classroom App Video-->
-        
+
       
         <div class="container" >
         <div class="row justify-content-center">
@@ -1016,7 +1002,7 @@ A simple easy to navigate and informative responsive website was been designed f
               <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Design Considerations While Designing MingleWise Mobile App</h3>
                 <p class="font-italic">
-  It was ensured that the website is simple and easy to use. Continuous iterations were been done to reduce cognitive and visual stress and a simplified website was been designed with less text and easy to read and more visually  engaging content to improve user engagement with the content on the website.
+                   Design of the Mobile Application was been refined and new solutions were designed to Increase Daily Active Usage of the MingleWise Mobile App.  Proper User Research was been conducted which included User Interviews and User Surveys to understand user problems in the Application, User's on the MingleWise Application were given In App purchases and assets a reward for participating in the user interview and survey.
                 </p>
                 
                 <p class="font-italic">Listed below are Design considerations been addapted to comeup with final designs</p>
@@ -1024,8 +1010,9 @@ A simple easy to navigate and informative responsive website was been designed f
                   <div class="col-lg-12">
                     <ul class="protoype-design-considerations">
                       <li><i class="icofont-tick-boxed"></i> <strong> Minglewise Design System Was been used to follow consistent Design language</strong></li>
-                      <li><i class="icofont-tick-boxed"></i><strong>Use Of 3D & 2D Icons and Imagery for better Visual Communication</strong> </li>
-                      <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions and proper  web accessibility standards were been followed</strong></li>
+                      <li><i class="icofont-tick-boxed"></i><strong>Implementation of IOS and Android Mobile App Guidelines and Design Language</strong> </li>
+                      <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions and proper  accessibility standards were been followed to make Mobile App Acessable to everyone</strong></li>
+                      <li><i class="icofont-tick-boxed"></i> <strong>Gamification of the mobile app was done with introduction of LeaderBoards and Profile Rankings</strong></li>
                     </ul>
               </div>
             </div>
@@ -1079,25 +1066,26 @@ A simple easy to navigate and informative responsive website was been designed f
           <div class="container">
             <div class="row">
               <div class="col-lg-5" data-aos="fade-right">
-                <img src="assets/img/MintWise.png" loading="lazy" class="img-fluid my-img"  width="100%" alt=" Picture showing MingleWise Mobile App Loaded On a Mobile with a boy and a girl clinking glasses.">
+                <img src="assets/img/MintWise.png" loading="lazy" class="img-fluid my-img"  width="100%" alt=" Picture showing Mintwise Mobile App Loaded On a Mobile Device">
               </div>
               <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h2>Mintwise</h2>
                 <h3>Mobile App Design </h3>
                   <p class="font-italic">
-                  By - Abhishek Mishra -  A UI/UX-Designer
+                  By - Abhishek Mishra - UI/UX-Designer on Mintwise Team
                  </p>
                 <p class="font-italic">
                 Mintwise Mobile App is a fintech mobile app designed to act as a one place application to help users track , save and invest money  & a responsive landing page  website is designed for the product to help users get information about the product and resolve user queries and issues  online.
                 </p>
-                <p class="font-italic">Some Quick Design Considerations while deigning Mintwise Application:</p>
+                <p class="font-italic">Some Quick Design Considerations while designing Mintwise Application:</p>
                 <div class="row">
                   <div class="col-lg-12">
                     <ul>
-                      <li><i class="icofont-rounded-right"></i> <strong>To increase Daily Active usage :</strong> Website is designed to support existing users with required support and help to reduce pannic and misstrust with customers and to improve user perception of Mintwise fintech application
+                      <li><i class="icofont-rounded-right"></i> <strong>To Layout Design Language for MVP Launch:</strong> A proper Design System was been Designed to ensure consistency
                       </li>
-                      <li><i class="icofont-rounded-right"></i><strong> To improve profiles and user trust:</strong>All the product benefits and information was been given on the Mintwise Website to convense users to download the app by joining the waitlist to try it first.
+                      <li><i class="icofont-rounded-right"></i><strong> To Design Mintwise Brand:</strong> To ensure App and Website Follows a consistent design language and is percieved and belived a trusted fintech mobile app.
                       </li>
+                      <li><i class="icofont-rounded-right"><strong></i> Allowing Scalablity and Flexibiliy During Design System Specification:</strong>To ensure Design System should be scalabe and should be adaptive with  future design requiremtns a design system was been designed in a very structured be considering flexiblity and growth of the products design.</li>
                       <li><i class="icofont-rounded-right"><strong></i> To help users get active users as matches:</strong> It was also considered that potential clients, Investors and venders can get relevent information about mintwise from MintWise website.</li>
                     </ul>
                   </div>
@@ -1127,7 +1115,7 @@ A simple easy to navigate and informative responsive website was been designed f
           <div class="presentation-container">
           <div class="presentation">
             <h2>Design System Setup For the Minimum Viable Product Design</h2>
-            <p>Slide deck below describes Full User experience design process conducted while designing MingleWise Mobile App:</p>
+            <p>Slide deck below describes Full User experience design process conducted while designing MintWise Mobile App:</p>
             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTp8EEGTogwHdxPSXf8sL0pUZK8J53UBZmqEdxdSxCbOB1Ls-jKkAbEwfQpOnpvCQYzfl1uFjo6jvh3/embed?start=true&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <div>
                 <br>
