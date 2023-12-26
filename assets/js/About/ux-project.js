@@ -1094,20 +1094,7 @@ A simple easy to navigate and informative responsive website was been designed f
             </div>
         </div>
         
-        <!-- Classroom App Video -->
-        <!-- 
-        <div class="container" >
-          <div class="row justify-content-center">
-          <div class="content">
-            <div class="iframe-container">
-      
-          <iframe loading="lazy" width="100%" height="900px" src="https://www.youtube.com/embed/nwbfsy_82g0?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-            <div>
-            </div>
-          </div>
-          -->
-        <!-- Classroom App Video-->
+ 
         
       
         <div class="container" >
@@ -1140,7 +1127,7 @@ A simple easy to navigate and informative responsive website was been designed f
               ">
               </div>
               <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>Design Considerations While Designing Mintwise Website</h3>
+                <h3>Design Considerations While Designing Mintwise Mobile App & Website</h3>
                 <p class="font-italic">
   It was ensured that the website is simple and easy to use. Continuous iterations were been done to reduce cognitive and visual stress and a simplified website was been designed with less text and easy to read and more visually  engaging content to improve user engagement with the content on the website.
                 </p>
@@ -1149,8 +1136,8 @@ A simple easy to navigate and informative responsive website was been designed f
                 <div class="row">
                   <div class="col-lg-12">
                     <ul class="protoype-design-considerations">
-                      <li><i class="icofont-tick-boxed"></i> <strong> MintWise Design System Was been used to follow consistent Design language</strong></li>
-                      <li><i class="icofont-tick-boxed"></i><strong>Use Of 3D & 2D Icons and Imagery for better Visual Communication</strong> </li>
+                      <li><i class="icofont-tick-boxed"></i> <strong> MintWise Design System Was designed to follow consistent Design language</strong></li>
+                      <li><i class="icofont-tick-boxed"></i><strong>Use Of 3D & 2D Icons and Imagery for better Visual Communication with constant visual consistency</strong> </li>
                       <li><i class="icofont-tick-boxed"></i> <strong>Smoother interactions and proper  web accessibility standards were been followed</strong></li>
                     </ul>
               </div>
@@ -1164,7 +1151,7 @@ A simple easy to navigate and informative responsive website was been designed f
          <h2>Conclusion</h2>
          <h3></h3>
          <p>
-        
+  A  Scalable and Flexibe Design System was been Setted up for Mintwise Fintech Mobile App with 
   A simple easy to navigate and informative responsive website was been designed for Mintwise Fitech mobile app with less read and scroll time.
   
          </p>
