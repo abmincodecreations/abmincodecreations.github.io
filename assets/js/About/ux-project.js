@@ -14,6 +14,20 @@ let UXprojectsDatalist=[
     labelText: "<b>Setting Up a scalable Design System <br> & Designing a Fintech <br> Mobile app  </b> <br> to build a brand for UK Users"
   },
   {
+    Index:9,
+    picture: 'assets/img/portfolio/portfolio-9.png',
+    headingOneInPicture:'ShopDeal',
+    paraInPicture: "Responsive Website Design",
+    labelText: "<b> Designing For a E-Commerce Platform </b> <br> To regain Coustomer Trust"
+  },
+  {
+    Index:10,
+    picture: 'assets/img/portfolio/portfolio-10.png',
+    headingOneInPicture:'UniqueWorks',
+    paraInPicture: "Responsive Website Design",
+    labelText: "<b>Designing a NFT Marketplace </b> <br>  For Selling and Buying   Unique Art works online via NFTs "
+  },
+  {
     Index:1,
     picture: 'assets/img/portfolio/portfolio-1.png',
     headingOneInPicture:'Foodies',
@@ -1180,6 +1194,12 @@ A simple easy to navigate and informative responsive website was been designed f
         </div>
         </div>`
             break;
+      case 10:
+        window.open('https://docs.google.com/presentation/d/e/2PACX-1vTSBRdBnNzLZcR581TVxENYghgdfPY5aA3mDPcz76flmHMngIFc3BMRrKx5twoxaZsZETkTGmGknECd/pub?start=true&loop=true&delayms=60000&slide=id.g2a8d62f8f4a_1_17', '_blank');
+        break;
+      case 9:
+        window.open('https://docs.google.com/presentation/d/e/2PACX-1vTci9Gd6WDi7w2DoI6gqwgbkFZHgHQr5Qvvla_BtG7_t0tXJzjVQ1iH49QDF-IV19Z4q3EiIR1Ojtuc/pub?start=true&loop=true&delayms=60000&slide=id.p', '_blank');
+        break;
        
   }
   function ExploreMoreprojectTemplate(data){
