@@ -328,6 +328,16 @@ Loading Page Style
     font-family: "Poppins", sans-serif;
     color: #3d3d3d;
   }
+  .card-1 .qoutes {
+    text-align: center;
+    text-wrap: balance;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #3d3d3d;
+  }
+
  
 }
 
@@ -336,6 +346,7 @@ Loading Page Style
   .mobile-img{
     display: none;
   }
+
 }
 
 .abhishekImage{
