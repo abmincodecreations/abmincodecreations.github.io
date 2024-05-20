@@ -187,7 +187,26 @@ Loading Page Style
   flex-direction: row;
 }
 
+.card-1 {
+  text-align: center;
+  width: fit-content;
+  margin: 25px;
+  background: #fff;
+  color: #0f2b17;
+  display: flex;
+  flex-direction: row;
+}
+.card-1 .qoutes {
+  text-align: center;
+  text-wrap: balance;
+  margin: 10px;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #3d3d3d;
+}
 .card .content {
+  text-wrap: balance;
   text-align: left;
   align-content: center;
   width: 50%;
@@ -302,7 +321,7 @@ Loading Page Style
 }
 @media only screen and (max-width: 1000px) {
   .card .content {
-    width: 50%;
+    width: 100%;
     margin: 30px;
     font-size: 30px;
     font-weight: 700;
