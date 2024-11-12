@@ -259,6 +259,7 @@ function SetLodingPageModeOff(){
     function typeText(elementId, text, typingSpeed = 50) {
       return new Promise((resolve) => {
         const typingElement = document.getElementById(elementId);
+        
         let index = 0;
 
         function type() {
@@ -279,6 +280,11 @@ function SetLodingPageModeOff(){
 
     // Function to repeat the animation a specified number of times for both elements
     async function startAnimations() {
+        document.getElementById("typing-text-1").textContent = "";
+        document.getElementById("typing-text-2").textContent = "";
+        document.getElementById("typing-text-3").textContent = "";
+        document.getElementById("typing-text-4").textContent = "";
+        document.getElementById("typing-text-5").textContent = "";
       for (let i = 0; i < maxRepeats; i++) {
         // Repeat both text animations one after another
         await typeText("typing-text-1", text1);
@@ -295,6 +301,7 @@ function SetLodingPageModeOff(){
           document.getElementById("typing-text-4").textContent = "";
           document.getElementById("typing-text-5").textContent = "";
         }
+        
       }
     }
 
