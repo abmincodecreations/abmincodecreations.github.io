@@ -247,6 +247,63 @@ function SetLodingPageModeOff(){
  
 }
 
+
+    const text1 = "Hello,👋I'm";
+    const text2 = "Abhishek";
+    const text3 = "Mishra";
+    const text4 = "I Design Digital Products Experiences";
+    const text5 = "by bringing Users closer to digital interfaces.";
+    const maxRepeats = 1; // Set the number of times each animation should repeat
+
+    // Function to handle typing animation
+    function typeText(elementId, text, typingSpeed = 50) {
+      return new Promise((resolve) => {
+        const typingElement = document.getElementById(elementId);
+        let index = 0;
+
+        function type() {
+          if (index < text.length) {
+            typingElement.textContent += text.charAt(index);
+            typingElement.classList.add('typing-cursor');
+            index++;
+            setTimeout(type, typingSpeed);
+          } else {
+            typingElement.classList.remove('typing-cursor');
+            resolve(); // Resolve when the animation is complete
+          }
+        }
+
+        type();
+      });
+    }
+
+    // Function to repeat the animation a specified number of times for both elements
+    async function startAnimations() {
+      for (let i = 0; i < maxRepeats; i++) {
+        // Repeat both text animations one after another
+        await typeText("typing-text-1", text1);
+        await typeText("typing-text-2", text2);
+        await typeText("typing-text-3", text3);
+        await typeText("typing-text-4", text4);
+        await typeText("typing-text-5", text5);
+        
+        // Clear the text after each complete round if more repeats remain
+        if (i < maxRepeats - 1) {
+          document.getElementById("typing-text-1").textContent = "";
+          document.getElementById("typing-text-2").textContent = "";
+          document.getElementById("typing-text-3").textContent = "";
+          document.getElementById("typing-text-4").textContent = "";
+          document.getElementById("typing-text-5").textContent = "";
+        }
+      }
+    }
+
+    
+
+    startAnimations(); 
+
+
+
 window.addEventListener("resize", WindowSizeAdjustor);
  
 window.onload = function pageReloadUiManager(){
@@ -256,6 +313,7 @@ window.onload = function pageReloadUiManager(){
   var homepage="hiihttps://abmincodecreations.github.io/";
   if(currentUrl != homepage){
    bg();
+   
    anyclickonpage= true;
     }
    

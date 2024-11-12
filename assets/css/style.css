@@ -2168,3 +2168,17 @@ height: 100%;
     margin-top: 30px;
   }
 }
+
+.typing-cursor{
+  border-right: 2px solid #fff;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink{
+  0% , 100%{
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
