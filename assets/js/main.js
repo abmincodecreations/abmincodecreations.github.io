@@ -251,8 +251,8 @@ function SetLodingPageModeOff(){
     const text1 = "Hello,👋I'm";
     const text2 = "Abhishek";
     const text3 = "Mishra";
-    const text4 = "I Design Digital Products Experiences";
-    const text5 = "by bringing Users closer to digital interfaces.";
+    const text4 = "I Design Product Experiences";
+    const text5 = "By bringing Users closer to Digital Interfaces.";
     const maxRepeats = 1; // Set the number of times each animation should repeat
 
     // Function to handle typing animation
