@@ -1414,6 +1414,29 @@ border-width: 0;
   color: #ffffff;
   font-size: 30px;
 }
+.custom-fab-fix {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.custom-fab {
+
+  color: #ffffff;
+  font-size: 30px;
+  font-size: 30px;
+  margin-top: 10px; /* Avoid excessive spacing */
+  vertical-align: middle;
+  color: #ffffff;
+}
+.progress {
+  display: flex;
+  align-items: center;
+  padding: 10px 0; /* Add spacing inside the box */
+}
+
+
+
+
 .services .icon-boxx {
   color: #fff;
   display: block;

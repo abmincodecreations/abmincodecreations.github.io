@@ -2,43 +2,43 @@ let servicesData=[
   
   {
     name: '‎TimeLine App<br>(MERN Stack)',
-    logoClass:'far ri-image-2-line ',
+    logoClass:'custom-fab-fix fa-solid fa-image',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://timeline-feed.netlify.app/"
   },
   {
     name: '‎Pomodoro<br>Clock',
-    logoClass:'far ri-time-line',
+    logoClass:'custom-fab-fix fa-regular fa-clock',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://abmincodecreations.github.io/Pomodoro-Clock/"
   },
   {
     name: '‎JavaScript<br>Calculator',
-    logoClass:'fas ri-calculator-line ',
+    logoClass:'custom-fab-fix fa-solid fa-calculator',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://abmincodecreations.github.io/Calculator/"
   },
   {
     name: 'Markdown <br>Live Previewer‏‏‎‎‏‏‎',
-    logoClass:'fas ri-markdown-fill',
+    logoClass:'custom-fab-fix fa-brands fa-markdown',
     position: " ",
     btnLink:"https://abmincodecreations.github.io/Markdown-Live-Previewer/"
   },
   {
     name: '‎Drum-Machine',
-    logoClass:'fas  ri-sound-module-fill',
+    logoClass:'custom-fab-fix fa-solid fa-drum',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://abmincodecreations.github.io/Drum-Machine/"
   },
   {
     name: 'Random Quote<br>Machine',
-    logoClass:'fas ri-chat-quote-fill',
+    logoClass:'custom-fab-fix fa-solid fa-quote-left',
     position: " ",
     btnLink:"https://abmincodecreations.github.io/random_quote_generator-/"
   },
   {
     name: '‎Personal Portfolio<br>(CodePen Project)',
-    logoClass:'ri-user-heart-fill',
+    logoClass:' custom-fab-fix fa-solid fa-user',
     position: "‎‎‎‎‏‏‎ ",
     btnLink:"https://codepen.io/abhishek_mishra_codecreations/full/mdeLNRG"
   },
@@ -81,7 +81,7 @@ function servicesTemplate(data){
   <a href="${data.btnLink}" target="_blank">
     <div class="icon-boxx">
               <div class="chip">
-                  <div class="logodiv"><i class="${data.logoClass} ${' fab'}"></i></div>
+                  <div class="logodiv"><i class="${data.logoClass} custom-fab"></i></div>
                   <p class="nowrap">${data.name}</p>  
               </div>
      </div>
@@ -92,4 +92,3 @@ function servicesTemplate(data){
 document.getElementById("templateGenerator").innerHTML=`
 ${servicesData.map(servicesTemplate).join('')}
 `;
-

@@ -77,7 +77,7 @@ var TopSkillsDataTwo=[];
 function TopSkillsTemplate(data){
     return `
     <div class="progress">
-        <span class="skill"><i class="fab ${data.icon}"></i>${data.Skill} <!-- <i class="val">${data.percentage}${"%"}</i>--!></span>
+        <span class="skill"><i class="custom-fab ${data.icon}"></i>${data.Skill} <!-- <i class="val">${data.percentage}${"%"}</i>--!></span>
         <!-- 
         <div class="progress-bar-wrap">
             <div 
