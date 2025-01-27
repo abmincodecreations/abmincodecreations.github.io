@@ -2205,3 +2205,50 @@ height: 100%;
     border-color: #fff;
   }
 }
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.article {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+  transform: translateY(-5px);
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-content {
+  padding: 15px;
+}
+
+.article-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.article-title:hover {
+  color: #0073e6;
+}
+
+.article-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+}
