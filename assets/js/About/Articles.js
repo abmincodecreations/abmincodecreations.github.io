@@ -12,10 +12,10 @@ const articles = [
       link: "https://medium.com/design-bootcamp/where-logic-ends-and-creativity-begins-a-designers-perspective-524e18c7821c"
   },
   {
-      title: "Designing Enterprise UX with Enterprise Architecture (EA) for Scalable Solutions",
+      title: "Humanizing AI& Data Through UX Design: The Role of UX Research and Usability Testing in Reducing AI Risks",
       image: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Eu4S2Qf9jgLsOlD7cqfgAg.png",
       alt: "Designing Enterprise UX with Enterprise Architecture (EA) for Scalable Solutions image",
-      link: "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Eu4S2Qf9jgLsOlD7cqfgAg.png"
+      link: "https://medium.com/design-bootcamp/humanizing-ai-data-through-ux-design-the-role-of-ux-research-and-usability-testing-in-reducing-ai-da90348c975e?source=user_profile_page---------1-------------2f8980d524a---------------"
   }
 ];
 
