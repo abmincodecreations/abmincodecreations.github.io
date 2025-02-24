@@ -3,16 +3,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #040404;
+  color: #fff;
   position: relative;
-  background: #ffffff;
+  background: transparent;
 }
 
 .body::before {
   content: "";
   position: fixed;
-  background: #ffffff;
+  background: #000000;
   background-image: url("../img/bgh.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
@@ -25,7 +25,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #ffffff url("../img/bg.jpg") top right no-repeat;
+  background: #000000 url("../img/bg.jpg") top right no-repeat;
   background-size: auto 90vh;
   left: 0;
   right: 0;
@@ -38,7 +38,7 @@ body::before {
 
 @media (max-width: 995px) {
   body::before {
-    background: #ffffff url("../img/bgh.jpg") top right no-repeat;
+    background: #000000 url("../img/bgh.jpg") top right no-repeat;
   }
 }
 @media (min-width: 1024px) {
@@ -48,7 +48,7 @@ body::before {
 }
 
 a {
-  color: #002088;
+  color: #18d26e;
 }
 
 a:hover {
@@ -68,14 +68,14 @@ h6 {
 .page-btn {
   position: relative;
   margin: auto;
-  color: #000000;
+  color: #2c2c2c;
   width: fit-content;
   height: auto;
   border-color: #000000;
   border-width: 2px 8px;
   border-style: solid;
   background: var(--Skylight, linear-gradient(180deg, #F4FAFC 0%, rgba(191, 235, 254, 0.71) 100%));
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
    margin-top:0;
   cursor: default;
   font-size: smaller;
@@ -86,7 +86,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 28px; /* 140% */
-border-radius: 5px;
+border-radius: 15px;
 }
 
 @media (max-width: 992px) {
@@ -124,7 +124,7 @@ border-radius: 5px;
 .slider-btn-motion:hover {
   padding-bottom: 40px;
   transform: scale(1.2);
-  color:#002088;
+  color:#18d26e;
 }
 
 .slider-btn-motion:active{
@@ -182,7 +182,7 @@ Loading Page Style
   text-align: center;
   width: 100%;
   background: #fff;
-  color: #000000;
+  color: #0f2b17;
   display: flex;
   flex-direction: row;
 }
@@ -234,7 +234,7 @@ Loading Page Style
 }
 
 .content button .fa-whatsapp {
-  color: #002088;
+  color: #18d26e;
   margin-right: 5px;
 }
 .content button .fa-square-behance {
@@ -247,7 +247,7 @@ Loading Page Style
   margin-top: 5px;
 }
 .content em {
-  color:#002088 ;
+  color:#18d26e ;
 }
 .behance-text-select em{
   color: #0057FF;
@@ -315,7 +315,7 @@ Loading Page Style
     margin-top: 6px;
   }
   .content button .fa-whatsapp {
-    color: #002088;
+    color: #18d26e;
     margin-right: 5px;
   }
 }
@@ -376,7 +376,7 @@ Loading Page Style
 	height: 100vh;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(90deg, #dffeff, #ffd8f5,#f4f0ff,#ffffff, #ffffff,#faffc8, #ffffff,#d8d1fb, #fffdfd);
+  background: linear-gradient(90deg, #000000, #2d2835,#000000,#232f31, #000000,#3d233f, #000000,#0f2b17, #000000);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 13s ease-in-out infinite;
   -moz-animation: AnimationName 13s ease-in-out  infinite;
@@ -400,7 +400,7 @@ Loading Page Style
   position: absolute;
   top: 50%;
   left: 50%;
-  color: rgb(0, 0, 0);
+  color: rgb(236, 236, 236);
   width: 100px;
   height: 30px;
   margin: -7px 0 0 -45px;
@@ -425,7 +425,7 @@ main {
 }
 
 main h1 {
-  color: #000;
+  color: var(--text-color);
   font-family: Inconsolata;
   text-align: center;
   font-size: 3em;
@@ -488,7 +488,7 @@ main h1 {
   width: 180px;
   height: 180px;
   margin: -85px 0 0 -85px;
-  border: 3px solid rgb(0, 14, 66);
+  border: 3px solid #F00;
 }
 
 #loading-content:after {
@@ -513,8 +513,8 @@ main h1 {
 
 #loading-content {
   border: 3px solid transparent;
-  border-top-color: #3b004a;
-  border-bottom-color: #030021;
+  border-top-color: #D4CC6A;
+  border-bottom-color: #D4CC6A;
   border-radius: 50%;
   -webkit-animation: loader 2s linear infinite;
   -moz-animation: loader 2s linear infinite;
@@ -524,8 +524,8 @@ main h1 {
 
 #loading-content:before {
   border: 3px solid transparent;
-  border-top-color: #002088;
-  border-bottom-color: #002088;
+  border-top-color: #18d26e;
+  border-bottom-color: #18d26e;
   border-radius: 50%;
   -webkit-animation: loader 3s linear infinite;
     -moz-animation: loader 2s linear infinite;
@@ -571,7 +571,7 @@ main h1 {
 }
 
 #content-wrapper {
-  color: #000000;
+  color: #FFF;
   position: fixed;
   left: 0;
   top: 20px;
@@ -676,14 +676,14 @@ Loading Page Style
 
 #header h1 a,
 #header h1 a:hover {
-  color: #10000f;
+  color: #fff;
   line-height: 1;
   display: inline-block;
 }
 
 #header h2 {
   font-size: 24px;
-  color: rgb(27, 0, 19);
+  color: rgba(255, 255, 255, 0.8);
   margin-top: 2px;
 }
 @media (max-width: 995px) {
@@ -693,8 +693,8 @@ Loading Page Style
 }
 
 #header h2 span {
-  color: #140000;
-  border-bottom: 2px solid #002088;
+  color: #fff;
+  border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
 }
 
@@ -713,8 +713,8 @@ Loading Page Style
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(216, 216, 255);
-  color: #0c0002;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
   line-height: 1;
   margin-right: 8px;
   border-radius: 50%;
@@ -723,7 +723,7 @@ Loading Page Style
 }
 
 #header .social-links a:hover {
-  background: #002088;
+  background: #18d26e;
 }
 
 @media (max-width: 992px) {
@@ -778,8 +778,6 @@ Loading Page Style
   }
 }
 
-
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -802,7 +800,7 @@ Loading Page Style
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgb(5, 0, 21);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -815,7 +813,7 @@ Loading Page Style
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #0f0154;
+  background-color: #18d26e;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -831,7 +829,7 @@ Loading Page Style
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #001b72;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -852,7 +850,7 @@ Loading Page Style
 }
 
 .mobile-nav-toggle i {
-  color: #0d002e;
+  color: #fff;
 }
 
 .mobile-nav {
@@ -863,7 +861,7 @@ Loading Page Style
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: rgb(250, 250, 250);
+  background: rgba(0, 0, 0, 0.7);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -881,7 +879,7 @@ Loading Page Style
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #020020;
+  color: #fff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -890,7 +888,7 @@ Loading Page Style
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #042695;
+  color: #18d26e;
   text-decoration: none;
 }
 
@@ -901,7 +899,7 @@ Loading Page Style
   top: 0;
   left: 0;
   position: fixed;
-  background: rgb(255, 255, 255);
+  background: rgba(9, 9, 9, 0.6);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -917,7 +915,7 @@ Loading Page Style
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #15008d;
+  color: #fff;
 }
 
 /* Header Top */
@@ -927,7 +925,7 @@ Loading Page Style
   left: 0;
   top: 0;
   right: 0;
-  background: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 #header.header-top .social-links,
@@ -980,8 +978,7 @@ section.section-show {
 }
 
 section .container {
-  background: linear-gradient(180deg, rgb(255, 238, 253), rgb(232, 236, 255));
-  ;
+  background: rgba(0, 0, 0, 0.9);
   padding: 30px;
 }
 
@@ -1002,7 +999,7 @@ section .container {
   margin: 0 0 20px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #13000d;
+  color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1022,7 +1019,7 @@ section .container {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #08000d;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -1035,7 +1032,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #002088;
+  color: #18d26e;
 }
 
 .about-me .content ul {
@@ -1050,7 +1047,7 @@ section .container {
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #002088;
+  color: #18d26e;
 }
 
 .about-me .content p:last-child {
@@ -1069,7 +1066,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgb(255, 254, 254);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .counts .count-box i {
@@ -1078,9 +1075,9 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgb(132, 161, 255);
+  background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #002088;
+  color: #18d26e;
   border-radius: 50px;
 }
 
@@ -1088,7 +1085,7 @@ section .container {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #0c0000;
+  color: #fff;
 }
 
 .counts .count-box p {
@@ -1105,13 +1102,13 @@ section .container {
   margin:20px;
   margin-left: 10px;
   padding-left: 5px;
-  border: rgb(39, 39, 39) /* #002088*/;
+  border: rgb(39, 39, 39) /* #18d26e*/;
   border-style: groove;
   border-radius: 2px;
   border-width: 0.2px;
   height: 60px;
   display: block;
-  background:rgb(255, 255, 255);
+  background:rgba(255, 255, 255, 0.08);
 }
 
 .skills .progress .skill {
@@ -1121,7 +1118,7 @@ section .container {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #000000;
+  color: #fff;
 }
 
 .skills .progress .skill .val {
@@ -1130,14 +1127,14 @@ section .container {
 }
 
 .skills .progress-bar-wrap {
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ffffff;
+  background-color: #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -1147,7 +1144,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
 }
 
@@ -1163,11 +1160,11 @@ section .container {
   padding: 0;
   line-height: 1.5;
   font-size: 16px;
-  color: #000000;
+  color: #fff;
 }
 
 .interests .icon-box:hover {
-  background: rgb(209, 213, 234);
+  background: rgba(255, 255, 255, 0.12);
 }
 /*--------------------------------------------------------------
 # Resume
@@ -1190,7 +1187,7 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #000000;
+  color: #fff;
 }
 .resume .resume-title .flexer {
   width: 100%;
@@ -1199,7 +1196,7 @@ section .container {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgb(73, 73, 73);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
 
@@ -1209,13 +1206,13 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #002088;
+  color: #18d26e;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.15);
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -1242,8 +1239,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #002088;
-  border: 2px solid #002088;
+  background: #18d26e;
+  border: 2px solid #18d26e;
 }
 
 .resume-view{
@@ -1274,10 +1271,8 @@ section .container {
   justify-content: center;
   margin-left: -3vw;
   height: auto;
-  background-color: #ffffff;
+  background-color: #04040400;
   width: 100%;
-  border: #000;
-  border: 5px solid #3c3d3f;
 }
 .Buttons-container{
   text-align: center;
@@ -1293,8 +1288,8 @@ section .container {
  padding-right: 15px;
  height: 50px;
  border-radius: 10px;
- background:#000000;
- color: #ffffff ;
+ background: var(--Dove, #FFF);
+ color: var(--Dark-Blue, #2A3852);
 /* Large Text Bold */
 font-family: Open Sans;
 font-size: 20px;
@@ -1307,7 +1302,7 @@ border-width: 0;
 
 .Case-Study-Btns:hover{
 
-  background: #17001b;
+  background: var(--Skylight, linear-gradient(180deg, #F4FAFC 0%, rgba(191, 235, 254, 0.71) 100%));
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
    margin-top:0;
   margin-bottom: 20px;
@@ -1330,7 +1325,7 @@ border-width: 0;
     padding-left:15px;
     padding-right: 15px;
     height: 29px;
-    background: var(--Skylight, linear-gradient(180deg, #10011d 0%, rgba(0, 39, 56, 0.71) 100%));
+    background: var(--Skylight, linear-gradient(180deg, #F4FAFC 0%, rgba(191, 235, 254, 0.71) 100%));
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
      margin-top:0;
     margin-bottom: 20px;
@@ -1382,9 +1377,9 @@ border-width: 0;
   font-size: 16px;
   line-height: 18px;
   /*border-radius: 25px;*/
-  background-color: rgb(255, 255, 255); /*  rgb(0, 0, 0);*/
+  background-color: rgba(17, 15, 15, 0.925); /*  rgb(0, 0, 0);*/
   border-width: 4px;
-  border-color: rgb(19, 0, 21);
+  border-color: rgba(39, 38, 38, 0.637);
   border-style: ridge;
 }
 .chip:active {
@@ -1395,24 +1390,23 @@ border-width: 0;
   opacity: 0.8;
 }
 .chip:hover {
-  background-color: #ffffff;
+  background-color: rgb(2, 109, 10);
 }
 .chip .logodiv {
-  
   padding-left: 2px;
   float: left;
   margin: 4px 4px 0 5px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-color:#abbdff;
+  background-color:#18d26e;
 }
 .fab-1 {
-  color: #002088;
+  color: #18d26e;
   font-size: 35px;
 }
 .font-aw-icons {
-  color: #002088;
+  color: #18d26e;
   font-size: 25px;
 }
 .fab {
@@ -1423,16 +1417,16 @@ border-width: 0;
 .custom-fab-fix {
   margin-top: 20px;
   font-size: 30px;
-  color: #14000d;
+  color: #ffffff;
 }
 .custom-fab {
 
-  color: #0a0003;
+  color: #ffffff;
   font-size: 30px;
   font-size: 30px;
   margin-top: 10px; /* Avoid excessive spacing */
   vertical-align: middle;
-  color: #0d0006;
+  color: #ffffff;
 }
 .progress {
   display: flex;
@@ -1444,11 +1438,11 @@ border-width: 0;
 
 
 .services .icon-boxx {
-  color: #1b000d;
+  color: #fff;
   display: block;
   text-align: center;
-  background: rgb(255, 255, 255); /**/
-  background-color: #fff;
+  background: rgba(168, 13, 13, 0.1); /**/
+  background-color: transparent;
   transition: all ease-in-out 0.3s;
   width: fit-content;
   height: auto;
@@ -1588,7 +1582,7 @@ height: 100%;
   list-style-type:none;
 }
 .protoype-design-considerations li i{
-  color: #002088;
+  color: #18d26e;
   font-size: large;
 }
 .label-UXproject{
@@ -1603,25 +1597,20 @@ height: 100%;
   }
  }
  .portfolio-item{
-   background-color: #ffffff;
-   border: 0.2px solid #626364;
-   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
-   margin: 2px;
-  
+   background-color: #444444;
  }
  .view-prototype-btn{
-  color: #fff;
-   background-color: #150013;
-   border:#002088;
+   background-color: #18d26e;
+   border: #15bb62c7;
   border-style: solid;
   border-width: 5px;
   border-radius: 2px;
   font-weight:bold;
  }
  .view-prototype-btn:hover {
-  background-color: #150013;
+  background-color: #00ff62;
   font-weight: bolder;
-  border: #100077c7;
+  border: #15bb62c7;
   border-style: ridge;
   border-width: 5px;
 }
@@ -1686,29 +1675,28 @@ height: 100%;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #110006;
-  background: rgb(255, 255, 255);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #002088;
+  background: #18d26e;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
 .portfolio .portfolio-wrap {
-  border: 5px solid #151616;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.6);
 }
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(72, 72, 72, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1761,11 +1749,11 @@ height: 100%;
 }
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #0d0000;
+  color: #fff;
   font-weight: 600;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #130000;
+  color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -1776,14 +1764,14 @@ height: 100%;
   z-index: 4;
 }
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #000000;
+  color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #140024;
+  color: #63eda3;
 }
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
@@ -1809,7 +1797,7 @@ height: 100%;
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.8);
   position: fixed;
   left: 0;
   right: 0;
@@ -1859,10 +1847,10 @@ height: 100%;
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #002088;
+  background-color: #18d26e;
 }
 
 /*--------------------------------------------------------------
@@ -1886,11 +1874,11 @@ height: 100%;
   }
 }
 .link-color-disable:link {
-  color: #160018;
+  color: #ffffff;
   text-decoration: none;
 }
 .link-color-disable:hover {
-  color: #002088;
+  color: #18d26e;
 }
 .checkme {
   padding: 5px;
@@ -1901,31 +1889,31 @@ height: 100%;
   margin-top: 4px;
 }
 .contact .info-box {
-  color: #0f0000;
+  color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #002088;
+  color: #18d26e;
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgb(11, 0, 17);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
   padding: 0;
-  color: #04000a;
+  color: #fff;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
@@ -1939,19 +1927,19 @@ height: 100%;
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #2d0126;
+  color: #fff;
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
 }
 
 .contact .info-box .social-links a:hover {
-  color: #000d36;
+  color: #18d26e;
 }
 
 .contact .php-email-form {
   padding: 30px;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .contact .php-email-form .validate {
@@ -1978,7 +1966,7 @@ height: 100%;
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #002088;
+  background: #18d26e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1998,7 +1986,7 @@ height: 100%;
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #002088;
+  border: 3px solid #18d26e;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -2012,17 +2000,17 @@ height: 100%;
   background: rgba(255, 255, 255, 0.08);
   border: 0;
   transition: 0.3s;
-  color: #0b001a;
+  color: #fff;
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.11);
 }
 
 .contact .php-email-form input::-webkit-input-placeholder,
 .contact .php-email-form textarea::-webkit-input-placeholder {
-  color: rgba(15, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
@@ -2034,19 +2022,19 @@ height: 100%;
 
 .contact .php-email-form input:-ms-input-placeholder,
 .contact .php-email-form textarea:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
 .contact .php-email-form input::-ms-input-placeholder,
 .contact .php-email-form textarea::-ms-input-placeholder {
-  color: rgba(4, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
 .contact .php-email-form input::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: rgb(19, 0, 0);
+  color: rgba(255, 255, 255, 0.3);
   opacity: 1;
 }
 
@@ -2059,10 +2047,10 @@ height: 100%;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #002088;
+  background: #18d26e;
   border: 0;
   padding: 10px 30px;
-  color: #000000;
+  color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
@@ -2100,7 +2088,7 @@ height: 100%;
   padding: 15px;
   text-align: right;
   font-size: 13px;
-  color: #000000;
+  color: #fff;
   z-index: 1;
 }
 
@@ -2108,17 +2096,17 @@ height: 100%;
   .credits {
     text-align: center;
     padding: 10px;
-    background: rgb(208, 255, 255);
+    background: rgba(0, 0, 0, 0.8);
   }
 }
 
 .credits a {
-  color: #002088;
+  color: #18d26e;
   transition: 0.3s;
 }
 
 .credits a:hover {
-  color: #240021;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -2132,18 +2120,13 @@ height: 100%;
 }
 
 .portfolio-detail .portfolio-details-carousel {
-  padding: 5px;
-  background: #000;
   position: relative;
   z-index: 1;
-  border-radius: 9px;
 }
 
 .portfolio-detail .portfolio-details-carousel .owl-nav, .portfolio-detail .portfolio-details-carousel .owl-dots {
-  margin-left: 5px;
   margin-top: 5px;
   text-align: left;
-  border: #464646 2px;
 }
 
 .portfolio-detail .portfolio-details-carousel .owl-dot {
@@ -2152,13 +2135,11 @@ height: 100%;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #ffffff !important;
-  border: #464646 2px;
+  background-color: #ddd !important;
 }
 
 .portfolio-detail .portfolio-details-carousel .owl-dot.active {
-  background-color: #7d9eff !important;
-  border: #464646 2px;
+  background-color: #18d26e !important;
 }
 
 .portfolio-detail .portfolio-info {
@@ -2237,7 +2218,6 @@ height: 100%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s ease-in-out;
-  border: 0.2px solid #b4b4b4;
 }
 
 .article:hover {
@@ -2258,55 +2238,17 @@ height: 100%;
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #090000;
+  color: #333;
   text-decoration: none;
   display: block;
 }
 
 .article-title:hover {
-  color: #030126;
+  color: #0073e6;
 }
 
 .article-description {
   font-size: 0.9rem;
-  color: #0a001a;
+  color: #666;
   line-height: 1.4;
-}
-
-.googleBadge{
-  border: 7px solid #000715;
-  background-color: rgb(255, 255, 255);
-  width: fit-content;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
-}
-.toggle-btn {
-  width: 60px;
-  height: 30px;
-  background: #ccc;
-  border-radius: 15px;
-  position: relative;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.toggle-btn::before {
-  content: "";
-  width: 25px;
-  height: 25px;
-  background: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 2.5px;
-  left: 3px;
-  transition: 0.3s;
-}
-
-.toggle-on {
-  background: #4CAF50 !important;
-}
-
-.toggle-on::before {
-  left: 32px;
 }

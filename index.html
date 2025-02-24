@@ -9,7 +9,7 @@
     <!-- Favicons -->
     <link href="assets/img/favicon.ico" rel="icon" type="image/x-icon"  >
     <link href="abhishek-logo.png" rel="apple-touch-icon">
-    <link href="style.css" rel="stylesheet" media="all" />
+    <link id="themeStylesheet"  href="style.css" rel="stylesheet" media="all" />
     <link href="portrait.css" rel="stylesheet" media="(orientation:portrait)" />
     <link href="print.css" rel="stylesheet" media="print" />
 
@@ -92,6 +92,7 @@
           <li  onclick="slidergifVisibility()"><a href="#ux-projects" onClick="bg()" id="nav-ux-projects" tabindex="4" >UX-Works</a></li>
           <li  onclick="slidergifVisibility()"><a href="#services" onClick="bg()" id="nav-projects" tabindex="5" >Coding-Projects</a></li>
           <li  onclick="slidergifVisibility()"><a href="#contact" onClick="bg()" id="nav-contact" tabindex="6" >Contact</a></li>
+          <!--<li  onclick="slidergifVisibility()"> <div id="themeToggle" class="toggle-btn"></div> </li> -->
         </ul>
        
       </nav>
@@ -318,7 +319,7 @@
         <div Class="justify-content-center">
           <div class="resume-view">
             
-            <iframe  loading="lazy" width="100%" height="2500px" src="https://docs.google.com/document/d/e/2PACX-1vR53JeR5MCD2Za3A2ng5bGLytbR_YaROHnwT7c3T5tEZfLQ2N-gNXYV13wF5LonugF79vvqi7U-ZQo6/pub?embedded=true"></iframe>
+            <iframe  loading="lazy" width="100%" height="2700px" src="https://docs.google.com/document/d/e/2PACX-1vR53JeR5MCD2Za3A2ng5bGLytbR_YaROHnwT7c3T5tEZfLQ2N-gNXYV13wF5LonugF79vvqi7U-ZQo6/pub?embedded=true"></iframe>
 
             <a href="assets/Resume/UX Designer Abhishek Mishra.pdf" target="_blank">
               <Button class="col-12 col-lg-10 m-3 m-lg-4 view-prototype-btn" aria-label="Download My Resume Button" >Download My Resume</Button></a>
@@ -491,7 +492,7 @@
             <h4>Google UX Design Professional Certificate</h4>
             <h5>May,2021 - January,2022</h5>
             
-            <div  style="background-color: rgb(255, 255, 255); width: fit-content; margin: 10px; padding: 10px; border-radius:5px;">
+            <div  class="googleBadge">
               <img class="center" src="assets\img\google.svg" loading="lazy" class="img-fluid" width="150" height="75">
               <div>
               <div data-iframe-width="250" data-iframe-height="270" data-share-badge-id="b84f8400-1465-42fd-b509-67d7411efc4b" data-share-badge-host="https://www.credly.com"></div></div>
@@ -764,7 +765,7 @@
     </div>
     <div class="section-title m-4">
       <h2>Learning UX & Writting </h2>
-      <p>Sometimes I write What I learn & I learn when i write</p>
+      <div class="m-2">Sometimes I write What I learn & I learn when i write</div>
       <div class="articles" id="articles"></div>
   </div>
 <nav>

@@ -326,3 +326,29 @@ window.onload = function pageReloadUiManager(){
    
    }
 
+   document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("themeToggle");
+    const themeStylesheet = document.getElementById("themeStylesheet");
+
+    const lightTheme = "style.css";
+    const darkTheme = "styles-dark.css";
+
+    // Check localStorage for theme preference
+    if (localStorage.getItem("theme") === "dark") {
+        themeStylesheet.setAttribute("href", darkTheme);
+        toggleButton.classList.add("toggle-on");
+    }
+
+    // Toggle function
+    toggleButton.addEventListener("click", function () {
+        if (themeStylesheet.getAttribute("href") === lightTheme) {
+            themeStylesheet.setAttribute("href", darkTheme);
+            toggleButton.classList.add("toggle-on");
+            localStorage.setItem("theme", "dark"); // Save preference
+        } else {
+            themeStylesheet.setAttribute("href", lightTheme);
+            toggleButton.classList.remove("toggle-on");
+            localStorage.setItem("theme", "light"); // Save preference
+        }
+    });
+});
