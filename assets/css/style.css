@@ -38,7 +38,7 @@ body::before {
 
 @media (max-width: 995px) {
   body::before {
-    background: #ffffff url("../img/bgh.jpg") top right no-repeat;
+    background: #ffffff url("../img/bgh.png") top right no-repeat;
   }
 }
 @media (min-width: 1024px) {
