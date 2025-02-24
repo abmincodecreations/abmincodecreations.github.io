@@ -326,6 +326,7 @@ window.onload = function pageReloadUiManager(){
    
    }
 
+/**
    document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("themeToggle");
     const themeStylesheet = document.getElementById("themeStylesheet");
@@ -352,3 +353,4 @@ window.onload = function pageReloadUiManager(){
         }
     });
 });
+*/
