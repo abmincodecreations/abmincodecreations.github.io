@@ -40,7 +40,7 @@ const caseStudiesContainer = document.getElementById("caseStudiesContainer");
 // Populate Case Study Cards Dynamically
 caseStudies.forEach(study => {
   const colDiv = document.createElement("div");
-  colDiv.classList.add("col-lg-6", "col-md-6", "col-sm-12", "mb-4");
+  colDiv.classList.add("col-lg-6", "col-md-12", "col-sm-12", "mb-4");
 
   colDiv.innerHTML = `
       <div class="card case-card shadow-sm">

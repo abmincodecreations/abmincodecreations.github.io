@@ -317,7 +317,7 @@ window.onload = function pageReloadUiManager(){
   SetLodingPageModeOff();
   document.getElementsByTagName('h1')[0].focus();
   var currentUrl="hii"+window.location.href;
-  var homepage="hiihttp://127.0.0.1:5501/index.html";
+  var homepage="hiihttps://abmincodecreations.github.io/";
   if(currentUrl != homepage){
    bg();
    
