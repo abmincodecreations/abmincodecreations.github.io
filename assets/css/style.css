@@ -21,6 +21,7 @@ body {
   height: 100vh;
   width: 100vw;
   z-index: -1;
+  animation: slideIn 1.5s ease-out forwards;
 }
 body::before {
   content: "";
@@ -376,7 +377,7 @@ Loading Page Style
 	height: 100vh;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(90deg, #dffeff, #c9bbf0,#e9fbff,#ffffff, #ffffff,#faffc8, #ffffff,#d8d1fb, #fffdfd);
+  background: linear-gradient(90deg, #dffeff, #e9d0f0,#e9fbff,#ffffff, #ffffff,#faffc8, #ffffff,#d8d1fb, #fffdfd);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 13s ease-in-out infinite;
   -moz-animation: AnimationName 13s ease-in-out  infinite;
