@@ -235,7 +235,7 @@ Loading Page Style
 }
 
 .content button .fa-whatsapp {
-  color: #002088;
+  color: #ffffff;
   margin-right: 5px;
 }
 .content button .fa-square-behance {
@@ -377,14 +377,12 @@ Loading Page Style
 	height: 100vh;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(90deg, #dffeff, #e9d0f0,#e9fbff,#ffffff, #ffffff,#faffc8, #ffffff,#d8d1fb, #fffdfd);
+  background: linear-gradient(90deg, #ffffff , #ffffff, #faffc8, #ffffff, #dffeff, #fae7ff,#e9fbff,#ffffff, #ffffff);
   background-size: 600% 600%;
   -webkit-animation: AnimationName 13s ease-in-out infinite;
   -moz-animation: AnimationName 13s ease-in-out  infinite;
   animation: AnimationName 13s ease-in-out  infinite;
 }
-
-
 
 #loading-wrapper {
   transition: ease-in-out 5.2s;
@@ -489,13 +487,13 @@ main h1 {
   width: 180px;
   height: 180px;
   margin: -85px 0 0 -85px;
-  border: 3px solid rgb(0, 14, 66);
+  border: 10px solid rgb(0, 14, 66);
 }
 
 #loading-content:after {
   content: "";
   position: absolute;
-  border: 5px solid #D4CC6A;
+  border: 5px solid #dcd26c;
   left: 15px;
   right: 15px;
   top: 15px;
@@ -505,7 +503,7 @@ main h1 {
 #loading-content:before {
   content: "";
   position: absolute;
-  border: 3px solid #00F;
+  border: 3px solid rgb(3, 3, 255);
   left: 5px;
   right: 5px;
   top: 5px;
@@ -2380,3 +2378,4 @@ height: 100%;
   height: auto;              /* Auto height */
   padding: 15px;              /* Padding */
 }
+
