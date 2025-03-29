@@ -79,8 +79,8 @@ function servicesTemplate(data){
   return `
 <div class="${'col-sm-12  col-md-5 m-1 '} ${data.position}" >
   <a href="${data.btnLink}" target="_blank">
-    <div class="icon-boxx">
-              <div class="chip">
+    <div class="icon-boxx ">
+              <div class="chip mt-1">
                   <div class="logodiv"><i class="${data.logoClass} custom-fab"></i></div>
                   <p class="nowrap">${data.name}</p>  
               </div>
