@@ -1,5 +1,13 @@
 // Case study data with local images and function names
 const caseStudies = [
+    {
+        id: "case4",
+        title: "AI in Customer Support",
+        description: "Exploring how AI-driven chatbots reduced support costs by 30%.",
+        image: "assets/img/portfolio/portfolio-12.png",
+        url: "https://www.google.com/url?q=https://docs.google.com/presentation/d/e/2PACX-1vQ4cjaxe3MQxyqW8b40l58E6P2ciKUpp-S0NPTY8r8s2SA9qZXNrTI945DzUoonqhuCidNynuRTPhsA/pub?start%3Dfalse%26loop%3Dtrue%26delayms%3D10000&sa=D&source=editors&ust=1743509360089809&usg=AOvVaw2NG816tTaWSV21uNrBsjE5",
+        functionName: "gotoAboutMe"
+    },
   {
       id: "case1",
       title: "Revolutionizing E-commerce UI",
@@ -23,7 +31,7 @@ const caseStudies = [
       image: "assets/img/portfolio/portfolio-10.png",
       url: "https://docs.google.com/presentation/d/e/2PACX-1vTSBRdBnNzLZcR581TVxENYghgdfPY5aA3mDPcz76flmHMngIFc3BMRrKx5twoxaZsZETkTGmGknECd/pub?start=true&loop=true&delayms=5000",
       functionName: ""
-  },
+  } /* ,
   {
       id: "case4",
       title: "AI in Customer Support",
@@ -32,6 +40,7 @@ const caseStudies = [
       url: "https://docs.google.com/presentation/d/e/2PACX-1vQvtZ-7LJS7tOwhfDVTxoQPmsyZPhJ9nXAKUAUMBgXoYAAx7kCYVAY01eTtuPGbrcdyrhXA2u3FkFjx/pub?start=true&loop=true&delayms=3000",
       functionName: "gotoAboutMe"
   }
+      */
 ];
 
 // Get case studies container

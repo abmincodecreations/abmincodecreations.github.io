@@ -355,14 +355,3 @@ window.onload = function pageReloadUiManager(){
 });
 */
 
-function resizeIframe() {
-  var iframe = document.getElementById("google-form");
-  if (iframe) {
-      var newHeight = iframe.contentWindow.document.body.scrollHeight;
-      iframe.style.height = newHeight + "px";
-  }
-}
-
-document.getElementById("google-form").onload = function() {
-  setTimeout(resizeIframe, 500);
-};
