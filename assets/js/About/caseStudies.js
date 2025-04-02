@@ -54,7 +54,7 @@ caseStudies.forEach(study => {
   colDiv.innerHTML = `
       <div class="card case-card shadow-sm">
       <div class="tag">View Work</div>
-          <img src="${study.image}" class="card-img-top" alt="${study.title}">
+          <img src="${study.image}" class="card-img-top" alt="${study.title}" loading="lazy">
       </div>
   `;
 /*
