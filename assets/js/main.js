@@ -185,7 +185,6 @@ function slidergifVisibility(){
   if (window.matchMedia("(max-width: 993px)").matches) {
 //    SetLodingPageModeOff();
     document.getElementById("gif-hello").style.display="none";
-    sliderBtnVisibility();
     bg();
     anyclickonpage= true;
     if (window.matchMedia("(max-width: 409px)").matches) {
@@ -216,13 +215,35 @@ function gotoResume(){
   slidergifVisibility();
   anyclickonpage= true;
 }
-
+/**
 function gotoAboutMe(){
   document.getElementById("nav-about").click();
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
 }
+**/
+function gotoAboutMe() {
+  let navAbout = document.getElementById("nav-about");
+
+  function tryClick() {
+    if (navAbout) {
+      navAbout.click();
+      sliderBtnVisibility();
+      slidergifVisibility();
+      anyclickonpage = true;
+    } else {
+      // Retry until the element is available
+      setTimeout(() => {
+        navAbout = document.getElementById("nav-about");
+        tryClick();
+      }, 50); // Adjust delay as needed
+    }
+  }
+
+  tryClick();
+}
+
 function gotoUxProjects(){
   document.getElementById("nav-ux-projects").click();
   sliderBtnVisibility();
