@@ -241,13 +241,14 @@ function WindowSizeAdjustor(){
   }
 }
 
+/**
 
 function SetLodingPageModeOff(){
  document.getElementById("loading-box").style.display="none";
  
 }
 
-
+**/
     const text1 = "Hello,👋I'm";
     const text2 = "Abhishek";
     const text3 = "Mishra";
