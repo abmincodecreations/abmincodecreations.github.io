@@ -1,5 +1,12 @@
 let UXprojectsDatalist=[
   {
+    Index:12,
+    picture: 'assets/img/portfolio/portfolio-12.png',
+    headingOneInPicture:'TautMore Edison',
+    paraInPicture: "Product Suite Design",
+    labelText: "<b>Designing In Edtech Space </b> for B2B School Management Software & B2C Experience Along with Enterprise UX  "
+  },
+  {
     Index:7,
     picture: 'assets/img/portfolio/portfolio-7.png',
     headingOneInPicture:'MingleWise',
@@ -70,7 +77,14 @@ let UXprojectsDatalist=[
     headingOneInPicture:'MintWise',
     paraInPicture: "Responsive Website Design",
     labelText: "<b> Designing a Fintech Mobile app's <br> Product Landing </b>  Responsive Website Design  to  build a brand for  <br> Mintwise Users based in United Kingdom"
-  }
+  } , 
+  {
+    Index:11,
+    picture: 'assets/img/portfolio/portfolio-11.png',
+    headingOneInPicture:' BankOfIndia',
+    paraInPicture: "Mobile App Design",
+    labelText: "<b> Redesigning Bank Of india Mobile App </b> <br> With improved UX"
+  },
 ];
 
 
@@ -1200,7 +1214,12 @@ A simple easy to navigate and informative responsive website was been designed f
       case 9:
         window.open('https://docs.google.com/presentation/d/e/2PACX-1vTci9Gd6WDi7w2DoI6gqwgbkFZHgHQr5Qvvla_BtG7_t0tXJzjVQ1iH49QDF-IV19Z4q3EiIR1Ojtuc/pub?start=true&loop=true&delayms=60000&slide=id.p', '_blank');
         break;
-       
+        case 11:
+          window.open('https://docs.google.com/presentation/d/e/2PACX-1vQvtZ-7LJS7tOwhfDVTxoQPmsyZPhJ9nXAKUAUMBgXoYAAx7kCYVAY01eTtuPGbrcdyrhXA2u3FkFjx/pub?start=true&loop=true&delayms=3000', '_blank');
+          break; 
+      case 12:
+        window.open('https://www.google.com/url?q=https://docs.google.com/presentation/d/e/2PACX-1vQ4cjaxe3MQxyqW8b40l58E6P2ciKUpp-S0NPTY8r8s2SA9qZXNrTI945DzUoonqhuCidNynuRTPhsA/pub?start%3Dfalse%26loop%3Dtrue%26delayms%3D10000&sa=D&source=editors&ust=1743509360089809&usg=AOvVaw2NG816tTaWSV21uNrBsjE5', '_blank');
+        break;
   }
   function ExploreMoreprojectTemplate(data){
     return `
@@ -1229,4 +1248,3 @@ A simple easy to navigate and informative responsive website was been designed f
   `;
   gotoUxProjects();
 }
-

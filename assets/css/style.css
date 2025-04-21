@@ -1812,6 +1812,9 @@ height: 100%;
   right: 15px;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -2424,4 +2427,3 @@ iframe#google-form {
 iframe#google-form::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
-
