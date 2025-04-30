@@ -339,7 +339,7 @@ window.onload = function pageReloadUiManager(){
  // SetLodingPageModeOff();
   document.getElementsByTagName('h1')[0].focus();
   var currentUrl="hii"+window.location.href;
-  var homepage="hiihttps://abmincodecreations.github.io/";
+  var homepage="hiihttp://127.0.0.1:5501/index.html";
   if(currentUrl != homepage){
    bg();
    
@@ -376,4 +376,80 @@ window.onload = function pageReloadUiManager(){
     });
 });
 */
+console.log("Script is loaded and running!");
 
+(function () {
+  let hasInteracted = false;
+  let touchStartY = 0;
+  let lastScrollTop = 0;
+
+  // Function to trigger the button click
+  function triggerButtonClick() {
+    const button = document.getElementById('slider-btn');
+    if (button) {
+      console.log("Button click triggered!");
+      button.click();
+    } else {
+      console.log("Button not found.");
+    }
+  }
+
+  // Function to handle the first interaction (scroll up / swipe up)
+  function onFirstInteraction() {
+    if (!hasInteracted) {
+      hasInteracted = true;
+      console.log("First interaction detected!");
+      triggerButtonClick(); // Trigger the button click
+      removeListeners();
+    }
+  }
+
+  function handleScroll() {
+    console.log("Scroll event detected!");
+    const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScrollTop < lastScrollTop) {
+      console.log("Scroll up detected!");
+      onFirstInteraction(); // Trigger the interaction on scroll up
+    }
+    lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop;
+  }
+
+  function handleTouchStart(e) {
+    console.log("Touch start detected!");
+    if (e.touches && e.touches.length > 0) {
+      touchStartY = e.touches[0].clientY;
+    }
+  }
+
+  function handleTouchMove(e) {
+    console.log("Touch move detected!");
+    if (e.touches && e.touches.length > 0) {
+      const currentY = e.touches[0].clientY;
+      const deltaY = touchStartY - currentY;
+      if (deltaY > 30) {
+        console.log("Swipe up detected!");
+        onFirstInteraction(); // Trigger the interaction on swipe up
+      }
+    }
+  }
+
+  function removeListeners() {
+    console.log("Removing event listeners.");
+    window.removeEventListener('scroll', handleScroll);
+    window.removeEventListener('wheel', onFirstInteraction);
+    window.removeEventListener('touchstart', handleTouchStart);
+    window.removeEventListener('touchmove', handleTouchMove);
+  }
+
+  window.addEventListener('load', () => {
+    console.log("Page loaded, waiting 3 seconds before starting script...");
+    // Wait for 3 seconds after page load before activating the script
+    setTimeout(() => {
+      console.log("3 seconds passed, starting script!");
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      window.addEventListener('wheel', onFirstInteraction, { passive: true });
+      window.addEventListener('touchstart', handleTouchStart, { passive: true });
+      window.addEventListener('touchmove', handleTouchMove, { passive: true });
+    }, 5000); // Delay of 3 seconds
+  });
+})();
