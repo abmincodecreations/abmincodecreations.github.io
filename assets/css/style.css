@@ -1114,7 +1114,7 @@ section .container {
   margin:20px;
   margin-left: 10px;
   padding-left: 5px;
-  border: rgb(153, 152, 152) /* #002088*/;
+  border: rgb(255, 255, 255) /* #002088*/;
   border-style: groove;
   border-radius: 2px;
   border-width: 0.1px;
