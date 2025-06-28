@@ -249,7 +249,7 @@ function gotoAboutMe() {
   }
 
   tryClick();
-  document.querySelector('.blob').style.opacity = '1';
+  document.querySelector('.blob').style.opacity = '0';
 
 }
 
@@ -516,3 +516,10 @@ const iframe = document.getElementsByTagName('iframe');
     }
   });
 
+ window.addEventListener('touchmove', (e) => {
+    const touch = e.touches[0];
+    if (touch) {
+      mouseX = touch.clientX;
+      mouseY = touch.clientY;
+    }
+  }, { passive: true });
