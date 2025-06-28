@@ -173,6 +173,7 @@ function bg(){
   document.getElementById("myDIV").classList.add("body");
   sliderBtnVisibility();
   anyclickonpage= true;
+   document.querySelector('.blob').style.opacity = '0';
 }
 
 function sliderBtnVisibility(){
