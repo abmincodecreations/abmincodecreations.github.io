@@ -200,6 +200,8 @@ function gotoProjects(){
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
+  document.querySelector('.blob').style.opacity = '0';
+
 }
 
 function gotoContact(){
@@ -207,6 +209,8 @@ function gotoContact(){
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
+  document.querySelector('.blob').style.opacity = '0';
+
 }
 
 function gotoResume(){
@@ -214,6 +218,8 @@ function gotoResume(){
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
+  document.querySelector('.blob').style.opacity = '0';
+
 }
 /**
 function gotoAboutMe(){
@@ -242,6 +248,8 @@ function gotoAboutMe() {
   }
 
   tryClick();
+  document.querySelector('.blob').style.opacity = '1';
+
 }
 
 function gotoUxProjects(){
@@ -249,6 +257,8 @@ function gotoUxProjects(){
   sliderBtnVisibility();
   slidergifVisibility();
   anyclickonpage= true;
+  document.querySelector('.blob').style.opacity = '0';
+
 }
 
 
@@ -479,4 +489,29 @@ const blob = document.querySelector('.blob');
       requestAnimationFrame(animateBlob);
     }
 animateBlob();
+
+
+const iframe = document.getElementsByTagName('iframe');
+
+  let isHoveringIframe = false;
+
+  window.addEventListener('mousemove', (e) => {
+    const rect = iframe.getBoundingClientRect();
+    const x = e.clientX;
+    const y = e.clientY;
+
+    const insideIframe =
+      x >= rect.left &&
+      x <= rect.right &&
+      y >= rect.top &&
+      y <= rect.bottom;
+
+    if (insideIframe && !isHoveringIframe) {
+      isHoveringIframe = true;
+      blob.style.opacity = '0'; // hide blob
+    } else if (!insideIframe && isHoveringIframe) {
+      isHoveringIframe = false;
+      blob.style.opacity = '1'; // show blob again
+    }
+  });
 
