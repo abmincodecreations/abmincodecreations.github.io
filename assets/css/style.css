@@ -10,6 +10,7 @@ body {
   color: #000000;
   position: relative;
   background: #ffffff;
+  z-index: 1;
 }
 
 .body::before {
@@ -35,7 +36,7 @@ body::before {
   right: 0;
   top: 0;
   height: 100vh;
-  z-index: 0;
+  z-index: 1;
 }
 
 
@@ -50,6 +51,22 @@ body::before {
     background-attachment: fixed;
   }
 }
+
+    .blob {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #ffffff, #f3ecff);
+      filter: blur(0px);
+      mix-blend-mode: difference;
+      pointer-events: none;
+      opacity: 1;
+      z-index: 1513130;
+    }
+
 
 a {
   color: #002088;
@@ -1263,6 +1280,7 @@ section .container {
 .resume-view iframe{
   border: #15bb62 0px solid;
   text-align: center;
+  z-index: 1;
 }
 @media only screen and (max-width: 485px) {
   .resume-view{

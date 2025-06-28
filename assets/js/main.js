@@ -453,3 +453,30 @@ console.log("Script is loaded and running!");
     }, 5000); // Delay of 3 seconds
   });
 })();
+
+const blob = document.querySelector('.blob');
+
+    let mouseX = window.innerWidth / 2;
+    let mouseY = window.innerHeight / 2;
+    let blobX = mouseX;
+    let blobY = mouseY;
+
+    const speed = 1;
+
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+
+    function animateBlob() {
+      const dx = mouseX - blobX;
+      const dy = mouseY - blobY;
+      blobX += dx * speed;
+      blobY += dy * speed;
+
+      blob.style.transform = `translate(${blobX - 5}px, ${blobY +0}px)`;
+
+      requestAnimationFrame(animateBlob);
+    }
+animateBlob();
+
