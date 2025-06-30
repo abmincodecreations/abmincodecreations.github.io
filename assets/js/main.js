@@ -249,7 +249,7 @@ function gotoAboutMe() {
   }
 
   tryClick();
-  document.querySelector('.blob').style.opacity = '0';
+  document.querySelector('.blob').style.opacity = '1';
 
 }
 
@@ -465,14 +465,15 @@ console.log("Script is loaded and running!");
   });
 })();
 
-const blob = document.querySelector('.blob');
+
+   const blob = document.querySelector('.blob');
 
     let mouseX = window.innerWidth / 2;
     let mouseY = window.innerHeight / 2;
     let blobX = mouseX;
     let blobY = mouseY;
 
-    const speed = 1;
+    const speed = 0.12;
 
     window.addEventListener('mousemove', (e) => {
       mouseX = e.clientX;
@@ -485,41 +486,10 @@ const blob = document.querySelector('.blob');
       blobX += dx * speed;
       blobY += dy * speed;
 
-      blob.style.transform = `translate(${blobX - 5}px, ${blobY +0}px)`;
+      blob.style.transform = `translate(${blobX - 0}px, ${blobY - 0}px)`;
 
       requestAnimationFrame(animateBlob);
     }
-animateBlob();
 
+    animateBlob();
 
-const iframe = document.getElementsByTagName('iframe');
-
-  let isHoveringIframe = false;
-
-  window.addEventListener('mousemove', (e) => {
-    const rect = iframe.getBoundingClientRect();
-    const x = e.clientX;
-    const y = e.clientY;
-
-    const insideIframe =
-      x >= rect.left &&
-      x <= rect.right &&
-      y >= rect.top &&
-      y <= rect.bottom;
-
-    if (insideIframe && !isHoveringIframe) {
-      isHoveringIframe = true;
-      blob.style.opacity = '0'; // hide blob
-    } else if (!insideIframe && isHoveringIframe) {
-      isHoveringIframe = false;
-      blob.style.opacity = '1'; // show blob again
-    }
-  });
-
- window.addEventListener('touchmove', (e) => {
-    const touch = e.touches[0];
-    if (touch) {
-      mouseX = touch.clientX;
-      mouseY = touch.clientY;
-    }
-  }, { passive: true });
