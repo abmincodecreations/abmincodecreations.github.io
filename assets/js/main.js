@@ -249,7 +249,7 @@ function gotoAboutMe() {
   }
 
   tryClick();
-  document.querySelector('.blob').style.opacity = '1';
+  document.querySelector('.blob').style.opacity = '0';
 
 }
 
