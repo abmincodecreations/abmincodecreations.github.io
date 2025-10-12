@@ -286,7 +286,7 @@ function SetLodingPageModeOff(){
     const text3 = "Mishra";
     const text4 = "I'm a Computer Science Engineer";
     const text5 = "& Human Computer Interaction Designer";
-    const text6 = "I Develop & design Helpful & useful";
+    const text6 = "I Design & Develop Helpful & useful";
     const text7 = "Technology Interactions for people.";
     const maxRepeats = 1; // Set the number of times each animation should repeat
 
