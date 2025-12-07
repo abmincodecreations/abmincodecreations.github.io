@@ -285,9 +285,10 @@ function SetLodingPageModeOff(){
     const text2 = "Abhishek";
     const text3 = "Mishra";
     const text4 = "I'm a Computer Science Engineer";
-    const text5 = "& Human Computer Interaction Designer";
-    const text6 = "I Design & Develop Helpful & useful";
-    const text7 = "Technology Interactions for people.";
+    const text5 = "working on UX , Human factors as a Human";
+    const text6 = "Computer Interaction Designer";
+    const text7 = "I Design & Develop Helpful & useful";
+    const text8 = "Technology Interactions for people.";
     const maxRepeats = 1; // Set the number of times each animation should repeat
 
     // Function to handle typing animation
@@ -322,6 +323,8 @@ function SetLodingPageModeOff(){
         document.getElementById("typing-text-5").textContent = "";
         document.getElementById("typing-text-6").textContent = "";
         document.getElementById("typing-text-7").textContent = "";
+        document.getElementById("typing-text-8").textContent = "";
+
       for (let i = 0; i < maxRepeats; i++) {
         // Repeat both text animations one after another
         await typeText("typing-text-1", text1);
@@ -331,6 +334,7 @@ function SetLodingPageModeOff(){
         await typeText("typing-text-5", text5);
         await typeText("typing-text-6", text6);
         await typeText("typing-text-7", text7);
+        await typeText("typing-text-8", text8);
         
         // Clear the text after each complete round if more repeats remain
         if (i < maxRepeats - 1) {
@@ -341,6 +345,7 @@ function SetLodingPageModeOff(){
           document.getElementById("typing-text-5").textContent = "";
           document.getElementById("typing-text-6").textContent = "";
           document.getElementById("typing-text-7").textContent = "";
+          document.getElementById("typing-text-8").textContent = "";
         }
         
       }
