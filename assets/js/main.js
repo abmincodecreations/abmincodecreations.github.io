@@ -285,10 +285,11 @@ function SetLodingPageModeOff(){
     const text2 = "Abhishek";
     const text3 = "Mishra";
     const text4 = "I'm a Computer Science Engineer";
-    const text5 = "working on UX , Human factors as a Human";
-    const text6 = "Computer Interaction Designer";
-    const text7 = "I Design & Develop Helpful & useful";
-    const text8 = "Technology Interactions for people.";
+    const text5 = "working on Product Design,UX,";
+    const text6 = " Human factors & Human Centered AI design";
+    const text7 = "as Human Computer Interaction Designer";
+    const text8 = "I Design & Develop Impactful, Helpful & useful";
+    const text9 = "Technology Interactions for people.";
     const maxRepeats = 1; // Set the number of times each animation should repeat
 
     // Function to handle typing animation
@@ -324,6 +325,7 @@ function SetLodingPageModeOff(){
         document.getElementById("typing-text-6").textContent = "";
         document.getElementById("typing-text-7").textContent = "";
         document.getElementById("typing-text-8").textContent = "";
+        document.getElementById("typing-text-9").textContent = "";
 
       for (let i = 0; i < maxRepeats; i++) {
         // Repeat both text animations one after another
